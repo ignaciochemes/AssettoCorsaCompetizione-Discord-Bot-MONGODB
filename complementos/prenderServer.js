@@ -1,10 +1,10 @@
 const find = require("find-process");
 const { LeerJson } = require("./leerJson");
-const { spawn, exec } = require('child_process');
+const { spawn } = require('child_process');
+const { ChequeoRuta } = require("./chequearRutas");
+const { RutasFolder } = require("../constants/rutas.constants");
 const { TextConstants } = require("../constants/text.constants");
 const { GeneralConstants } = require("../constants/genera.constants");
-const { RutasFolder } = require("../constants/rutas.constants");
-const { ChequeoRuta } = require("./chequearRutas");
 
 class PrenderServer {
     constructor(){}
@@ -21,7 +21,6 @@ class PrenderServer {
         let buscar = await LeerJson.readConfigJson(getFolder);
         let getStartBash = await ChequeoRuta.chequeoRutaStart(ruta);
         let getStopBash = await ChequeoRuta.chequeoRutaStop(ruta)
-        console.log(getStartBash);
         await find('port', buscar.udpPort).then((list) => {
             if(!list.length) {
                 try {
