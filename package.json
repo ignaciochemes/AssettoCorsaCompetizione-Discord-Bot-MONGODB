@@ -14,7 +14,6 @@
     "ascii-table": "0.0.9",
     "common-tags": "^1.8.0",
     "discord.js": "^12.4.1",
-    "dotenv": "^8.2.0",
     "find-process": "^1.4.4",
     "mongoose": "^5.11.17",
     "ping": "^0.3.0"

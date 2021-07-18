@@ -1,11 +1,28 @@
-const mongoose = require('mongoose');
+const { connect } = require('mongoose');
+const configJson = require('../config.json');
 
-mongoose.connect('mongodb://localhost:27017/test', {
-    useNewUrlParser: true, 
-    useUnifiedTopology: true,
-    useFindAndModify: true
-}, () => {
-    console.log(`db conectada`);
-});
+class DatabaseConnection {
+    static _instancia;
+    constructor(){
+        this.dbConnection();
+    }
 
-module.exports = mongoose;
+    static getInstancia() {
+        if(DatabaseConnection._instancia) throw new Error('Ya existe una instancia de DatabaseConnection');
+        DatabaseConnection._instancia = new DatabaseConnection();
+        return DatabaseConnection._instancia;
+    }
+
+    async dbConnection() {
+        await connect(configJson.DB_URI, {
+            useCreateIndex: true,
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useFindAndModify: false
+        })
+        .then(() => { console.log('Base de datos conectada!') })
+        .catch(() => { console.log('Error al conectar con la base de datos!') })
+    };
+}
+
+module.exports = { DatabaseConnection };
