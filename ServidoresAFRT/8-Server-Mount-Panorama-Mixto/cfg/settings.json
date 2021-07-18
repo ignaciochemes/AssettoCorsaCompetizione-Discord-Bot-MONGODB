@@ -1,0 +1,20 @@
+{
+    "serverName": "AFRT | Practica | Mount Panorama",
+    "adminPassword": "",
+    "carGroup": "FreeForAll",
+    "trackMedalsRequirement": 0,
+    "safetyRatingRequirement": -1,
+    "racecraftRatingRequirement": -1,
+    "password": "afrt1234",
+    "spectatorPassword": "meshkan",
+	"maxCarSlots": 40,
+    "dumpLeaderboards": 1,
+    "dumpEntryList": 0,
+    "isRaceLocked": 1,
+    "shortFormationLap": 1,
+    "formationLapType": 3,
+    "doDriverSwapBroadcast": 1,
+    "centralEntryListPath": "",
+	"allowAutoDQ": 0,
+    "configVersion": 1
+}

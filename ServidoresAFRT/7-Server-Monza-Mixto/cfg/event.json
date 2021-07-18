@@ -1,0 +1,24 @@
+{
+    "track": "monza_2020",
+    "metaData": "monza_2020",
+    "preRaceWaitingTimeSeconds": 30,
+    "postQualySeconds": 15,
+    "postRaceSeconds": 15,
+    "sessionOverTimeSeconds": 30,
+	"isFixedConditionQualification": 1,
+    "ambientTemp": 18,
+    "cloudLevel": 0,
+    "rain": 0,
+    "weatherRandomness": 0,
+    "sessions": [
+		{
+			"hourOfDay": 16,
+            "dayOfWeekend": 3,
+            "timeMultiplier": 1,
+            "sessionType": "Q",
+            "sessionDurationMinutes": 1440
+        }
+    ],
+    "simracerWeatherConditions": 0,
+    "configVersion": 1
+}
