@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
-const tiempos = require("../../database/schemas/tiempos");
-const tiempoSchema = require('../../database/schemas/tiempos');
+const tiempos = require("../../database/schemas/usuarios.schema");
+const tiempoSchema = require('../../database/schemas/usuarios.schema');
 
 module.exports = {
     name: "tiempo",

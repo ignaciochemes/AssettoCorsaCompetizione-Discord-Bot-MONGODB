@@ -1,6 +1,6 @@
 const find = require("find-process");
 const { LeerJson } = require("./leerJson");
-const { spawn, exec } = require('child_process');
+const { spawn } = require('child_process');
 const { TextConstants } = require("../constants/text.constants");
 const { GeneralConstants } = require("../constants/genera.constants");
 const { RutasFolder } = require("../constants/rutas.constants");
