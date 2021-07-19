@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const tiempoSchema = require('../../database/schemas/tiempos');
+const tiempoSchema = require('../../database/schemas/usuarios.schema');
 
 module.exports = {
     name: "tablagt4",
