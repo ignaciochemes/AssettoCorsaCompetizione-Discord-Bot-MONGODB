@@ -4,6 +4,8 @@ class TextConstants {
     static TABLA_NO_ARGS = 'Introduce una pista para ver la tabla de tiempos';
     static TABLA_ERROR_PISTA = 'La pista elegida no se reconoce. Aqui te dejo una lista de las pistas que acepto.';
     static TABLA_NO_TIEMPOS = 'Aun no se registraron tiempos en esta pista';
+    static APAGAR_ERROR = 'El servidor seleccionado esta apagado. Esta seguro que introdujo el numero correcto?';
+    static APAGAR_DONE = 'El servidor seleccionado se apagara en 15 segundos';
 }
 
 module.exports = { TextConstants };

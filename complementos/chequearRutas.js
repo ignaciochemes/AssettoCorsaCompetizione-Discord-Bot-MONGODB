@@ -1,6 +1,5 @@
 const { RutasBash } = require("../constants/rutasBash");
 
-
 class ChequeoRuta {
     constructor(){}
 

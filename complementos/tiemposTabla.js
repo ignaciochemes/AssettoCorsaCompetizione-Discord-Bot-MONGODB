@@ -13,14 +13,9 @@ class TiemposTabla {
 
     static async getTablaGt4() {
         let res = Pistas.pistas.find(obj => obj === pista);
-        const emb = new messageEmbed();
-        if(!res) {
-            emb.setDescription(`La pista elegida no se reconoce. Aqui te dejo una lista de las pistas que acepto.`)
-            .addFields({ name: 'Pistas', value: '```' + `${Pistas.pistas}` + '```'})
-            return message.channel.send(emb);
-        }
+        if(!res) return false;
         let tiempos = await TiemposDao.getTiemposGt3(pista);
-        console.log(tiempos);
+        return tiempos;
     }
 }
 
