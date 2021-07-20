@@ -9,7 +9,7 @@ const { GeneralConstants } = require('../constants/genera.constants');
 class ApagarServer {
     constructor(){}
 
-    static async apagarServer(ruta) {
+    static async apagarServer(message, ruta) {
         let getFolder = await RutasFolder.rutasFolder(message, ruta);
         let buscar = await LeerJson.readConfigJson(getFolder);
         let getStopBash = await ChequeoRuta.chequeoRutaStop(ruta);

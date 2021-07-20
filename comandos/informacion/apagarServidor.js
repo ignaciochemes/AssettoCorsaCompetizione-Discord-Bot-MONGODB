@@ -1,6 +1,3 @@
-const { spawn } = require('child_process');
-const find = require('find-process');
-const rutas = require('../../comandos-bash/constantes');
 const { ApagarServer } = require('../../complementos/apagarServer');
 
 module.exports = {
