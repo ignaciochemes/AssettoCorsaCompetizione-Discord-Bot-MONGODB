@@ -1,0 +1,57 @@
+{
+	"entries": [
+		{
+		"drivers": [
+			{
+			"playerID": "S76561197968948364"
+			}
+		],  
+		"raceNumber": 29,
+		"forcedCarModel": -1,
+		"overrideCarModelForCustomCar": 0,
+		"overrideDriverInfo": 0,
+		"isServerAdmin": 1,
+		"customCar": ""
+		},
+		{
+		"drivers": [
+			{
+			"playerID": "S76561198177380874"
+			}
+		],
+		"raceNumber": 22,
+		"forcedCarModel": -1,
+		"overrideCarModelForCustomCar": 0,
+		"overrideDriverInfo": 0,
+		"isServerAdmin": 1,
+		"customCar": ""
+		},
+		{
+		"drivers": [
+			{
+			"playerID": "S76561198019088398"
+			}
+		],
+		"raceNumber": 51,
+		"forcedCarModel": -1,
+		"overrideCarModelForCustomCar": 0,
+		"overrideDriverInfo": 0,
+		"isServerAdmin": 1,
+		"customCar": ""
+		},
+		{
+		"drivers": [
+			{
+			"playerID": "S76561198067476264"
+			}
+		],
+		"raceNumber": 89,
+		"forcedCarModel": -1,
+		"overrideCarModelForCustomCar": 0,
+		"overrideDriverInfo": 0,
+		"isServerAdmin": 1,
+		"customCar": ""
+		}
+	],
+	"forceEntryList": 0
+}

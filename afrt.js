@@ -1,8 +1,9 @@
-const { Client, Collection } = require('discord.js');
-const { config } = require('dotenv');
 const fs = require('fs');
+const configJson = require('./config.json');
+const { Client, Collection } = require('discord.js');
+const { DatabaseConnection } = require('./database/db-connection');
 
-require('./database/db-connection');
+DatabaseConnection.getInstancia();
 
 const client = new Client();
 client.commands = new Collection();
@@ -14,11 +15,6 @@ client.categories = fs.readdirSync("./comandos/");
     require(`./indice/${indice}`)(client);
 });
 
-//Config Path .env
-config({
-    path: __dirname + "/.env"
-});
-
 client.on('ready', () => {
     console.log(`Logeado como ${client.user.tag}`);
     client.user.setActivity(`!afrt ayuda`, {type: "COMPETING"});
@@ -26,7 +22,7 @@ client.on('ready', () => {
 
 //Message configuration - Listener
 client.on("message", async message => {
-    const prefix = process.env.PREFIX;
+    const prefix = configJson.PREFIX;
     if (message.author.bot) return;
     if (!message.guild) return;
     if (!message.content.startsWith(prefix)) return;
@@ -44,4 +40,4 @@ client.on("message", async message => {
         command.run(client, message, args);
 });
 
-client.login(process.env.TOKEN);
+client.login(configJson.TOKEN);
