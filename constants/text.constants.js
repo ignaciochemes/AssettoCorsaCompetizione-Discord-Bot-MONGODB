@@ -6,6 +6,7 @@ class TextConstants {
     static TABLA_NO_TIEMPOS = 'Aun no se registraron tiempos en esta pista';
     static APAGAR_ERROR = 'El servidor seleccionado esta apagado. Esta seguro que introdujo el numero correcto?';
     static APAGAR_DONE = 'El servidor seleccionado se apagara en 15 segundos';
+    static SERVER_INFO_NO_ARGS = 'Por favor ingresa algun servidor para buscar informacion. Por ejemplo: \`!afrt informacion 3\`.';
 }
 
 module.exports = { TextConstants };
