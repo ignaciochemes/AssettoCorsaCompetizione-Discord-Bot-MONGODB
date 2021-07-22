@@ -1,20 +1,20 @@
-const { Pistas } = require("../constants/pistas.constants");
 const { TiemposDao } = require("../daos/tiempos");
+const { Pistas } = require("../constants/pistas.constants");
 
 class TiemposTabla {
     constructor(){}
 
-    static async getTablaGt3(pista) {
+    static async getTablaGt3(pista, clase) {
         let res = Pistas.pistas.find(obj => obj === pista);
-        if(!res) return false;
-        let tiempos = await TiemposDao.getTiemposGt3(pista);
+        if(res == undefined || res == null) return false;
+        let tiempos = await TiemposDao.getTiempos(pista, clase);
         return tiempos;
     }
 
-    static async getTablaGt4() {
+    static async getTablaGt4(pista, clase) {
         let res = Pistas.pistas.find(obj => obj === pista);
-        if(!res) return false;
-        let tiempos = await TiemposDao.getTiemposGt3(pista);
+        if(res == undefined || res == null) return false;
+        let tiempos = await TiemposDao.getTiempos(pista, clase);
         return tiempos;
     }
 }

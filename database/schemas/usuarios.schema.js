@@ -39,6 +39,12 @@ const UsuariosSchemaGt3 = new Schema({
     },
     pista: {
         type: String
+    },
+    clase: {
+        type: String
+    },
+    coche: {
+        type: String
     }
 });
 
