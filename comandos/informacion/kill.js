@@ -1,3 +1,5 @@
+const { GeneralConstants } = require("../../constants/genera.constants");
+
 let killed = [];
 
 module.exports = {
@@ -9,7 +11,7 @@ module.exports = {
     run: async (client, message, args) => {            
             const filter = m => m.author.id === message.author.id;
             message.reply(`A quien quieres matar?`);
-            await message.channel.awaitMessages(filter, { max: 1, time: 60000 }).then(collected => {
+            await message.channel.awaitMessages(filter, { max: 1, time: GeneralConstants.DEFAULT_TIMEOUT }).then(collected => {
                 killed = collected.first().content;
             });
             function responder() {
