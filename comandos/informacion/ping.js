@@ -1,6 +1,6 @@
 const ping = require('ping');
-const Discord = require('discord.js');
 const { MessageEmbed } = require("discord.js");
+const { GeneralConstants } = require('../../constants/genera.constants');
 
 module.exports = {
     name: "ping",
@@ -10,34 +10,20 @@ module.exports = {
     usage: "!afrt ping",
     run: async (client, message, args) => {
         let pwd = `${args}`;
-        let enviarEmbed = new Discord.MessageEmbed();
-        if (!args[0])
-            return message.reply(`Inserta cualquier IP para hacer Ping`)
-                .then(msg => {
-                    msg.delete({timeout: 25000})
-                });
-        if (args[0] === '127.0.0.1')
-            return message.reply('No se puede hacer Ping a esta IP')
-                .then(m => {
-                    m.delete({timeout: 15000})
-                });
+        let enviarEmbed = new MessageEmbed();
+        if (!args[0]) return message.reply(`Inserta cualquier IP para hacer Ping`).then(msg => { msg.delete({timeout: GeneralConstants.BASH_MSG_TIMEOUT})});
+        if (args[0] === '127.0.0.1') return message.reply('No se puede hacer Ping a esta IP').then(m => { m.delete({timeout: GeneralConstants.BASH_MSG_TIMEOUT}) });
         try {
-            let res = await ping.promise.probe(`${pwd}`, {
-                timeout: 2,
-            });
-            if (res.avg === 'unknown') {
-                return enviarEmbed.setDescription(`No es posible hacer Ping a esta IP`)
-                    .addField("Packet loss:", `% ${Math.floor(res.packetLoss)}`)
-            } else {
-                console.log(res);
-                enviarEmbed.setDescription(`Haciendo Ping a: ${res.host}`)
-                    .addField("Ping AVG:", `${Math.floor(res.avg)} ms`)
-                    .addField("Ubicacion del servidor", `Argentina`)
-            }
+            let res = await ping.promise.probe(`${pwd}`, { timeout: 2 });
+            if (res.avg === 'unknown') return enviarEmbed.setDescription(`No es posible hacer Ping a esta IP`)
+                .addField("Packet loss:", `% ${Math.floor(res.packetLoss)}`);
+            enviarEmbed.setDescription(`Haciendo Ping a: ${res.host}`)
+                .addField("Ping AVG:", `${Math.floor(res.avg)} ms`)
+                .addField("Ubicacion del servidor", `Argentina`)
         } catch (e) {
-            console.log(e)
+            return message.channel.send(e);
         } finally {
-            message.channel.send(enviarEmbed);
+            return message.channel.send(enviarEmbed);
         }
     }
 }
