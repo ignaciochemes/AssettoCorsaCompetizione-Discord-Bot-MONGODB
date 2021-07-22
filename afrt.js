@@ -4,12 +4,14 @@ const { Client, Collection } = require('discord.js');
 const { DatabaseConnection } = require('./database/db-connection');
 const { LeerAllFolders } = require('./utils/json/leerAllFolders.util');
 const { GuardarAllFolders } = require('./utils/json/guardarAllFolders.util');
+const { LeerJsonDb } = require('./utils/json/leerJsonDb.util');
 
 DatabaseConnection.getInstancia();
 
 async function main() {
     let carpetas = await LeerAllFolders.leerJson();
-    GuardarAllFolders.guardarAllFolders(carpetas);
+    await GuardarAllFolders.guardarAllFolders(carpetas);
+    await LeerJsonDb.leerJson(carpetas);
 }
 main();
 
