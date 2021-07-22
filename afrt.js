@@ -2,8 +2,17 @@ const fs = require('fs');
 const configJson = require('./config.json');
 const { Client, Collection } = require('discord.js');
 const { DatabaseConnection } = require('./database/db-connection');
+const { LeerAllFolders } = require('./utils/json/leerAllFolders.util');
+const { GuardarAllFolders } = require('./utils/json/guardarAllFolders.util');
 
 DatabaseConnection.getInstancia();
+
+async function main() {
+    let carpetas = await LeerAllFolders.leerJson();
+    GuardarAllFolders.guardarAllFolders(carpetas);
+}
+main();
+
 
 const client = new Client();
 client.commands = new Collection();
