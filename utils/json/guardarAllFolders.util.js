@@ -13,7 +13,7 @@ class GuardarAllFolders {
                 return files;
             });
             res.forEach((file) => {
-                if(!file.includes('entrylist')) return archivos.push(file);
+                if(!file.includes('entrylist') || !file.includes('R')) return archivos.push(file);
                 if(!file) return
             });
 
