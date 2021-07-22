@@ -1,9 +1,9 @@
-const find = require('find-process');
 const ping = require('ping');
-const { RutasFolder } = require('../constants/rutas.constants');
+const find = require('find-process');
 const { LeerJson } = require('./leerJson');
+const { RutasFolder } = require('../constants/rutas.constants');
 
-class GetServers { 
+class GetServers {
     constructor(){}
 
     static async getServers() {
