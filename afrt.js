@@ -5,6 +5,7 @@ const { DatabaseConnection } = require('./database/db-connection');
 const { LeerAllFolders } = require('./utils/json/leerAllFolders.util');
 const { GuardarAllFolders } = require('./utils/json/guardarAllFolders.util');
 const { LeerJsonDb } = require('./utils/json/leerJsonDb.util');
+const { MejoresVueltas } = require('./utils/resultados/mejoresVueltas');
 
 DatabaseConnection.getInstancia();
 
@@ -12,6 +13,8 @@ async function main() {
     let carpetas = await LeerAllFolders.leerJson();
     await GuardarAllFolders.guardarAllFolders(carpetas);
     await LeerJsonDb.leerJson(carpetas);
+    let vueltas = await MejoresVueltas.getMejoresVueltas(carpetas);
+    await MejoresVueltas.getDataMejorVuelta(vueltas);
 }
 main();
 
