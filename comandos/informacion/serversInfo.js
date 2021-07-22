@@ -1,6 +1,7 @@
 const { MessageEmbed } = require('discord.js');
 const { LeerJson } = require('../../complementos/leerJson');
 const { RutasFolder } = require('../../constants/rutas.constants');
+const { TextConstants } = require('../../constants/text.constants');
 
 module.exports = {
     name: "informacion",
@@ -10,9 +11,10 @@ module.exports = {
     usage: "!afrt informacion",
     run: async(client, message, args) => {
         let enviarMensaje = new MessageEmbed();
-        if(!args[0] || !args) return message.reply(`Por favor ingresa algun servidor para buscar informacion. Por ejemplo: \`!afrt informacion 3\`.`)
+        if(!args[0] || !args) return message.reply(TextConstants.SERVER_INFO_NO_ARGS);
         let ruta = await RutasFolder.rutasFolder(args[0]);
         let res = await LeerJson.readJson(ruta);
+
         if(res.settings.trackMedalsRequirement === 0) {
             res.settings.trackMedalsRequirement = "Ninguna"
         }
