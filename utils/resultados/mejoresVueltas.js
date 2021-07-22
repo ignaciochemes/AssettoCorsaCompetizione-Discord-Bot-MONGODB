@@ -10,6 +10,7 @@ class MejoresVueltas {
         for(let i = 0; i < folder.length; i++) {
             let data = { nombre: folder[i] };
             let res = await MejoresVueltasDao.getMejoresVueltasDao(data);
+            if(!res.archivos) break;
             for(let x in res.archivos) {
                 let data = { id: res.archivos[x] };
                 let find = await MejoresVueltasDao.findBestTimes(data);
