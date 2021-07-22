@@ -1,0 +1,22 @@
+{
+    "track": "paul_ricard_2020",
+    "preRaceWaitingTimeSeconds": 300,
+    "postQualySeconds": 120,
+    "postRaceSeconds": 15,
+    "sessionOverTimeSeconds": 150,
+    "ambientTemp": 18,
+    "cloudLevel": 0.0,
+    "rain": 0.0,
+    "weatherRandomness": 0,
+    "sessions": [
+        {
+            "hourOfDay": 15,
+            "dayOfWeekend": 3,
+            "timeMultiplier": 1,
+            "sessionType": "Q",
+            "sessionDurationMinutes": 30
+        }
+    ],
+    "isFixedConditionQualification": 1,
+    "configVersion": 1
+}

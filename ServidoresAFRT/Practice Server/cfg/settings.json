@@ -1,0 +1,21 @@
+{
+    "serverName": "AFRT Sprint Cup S3 | Practice Server",
+    "adminPassword": "",
+    "carGroup": "GT3",
+    "trackMedalsRequirement": 0,
+    "safetyRatingRequirement": -1,
+    "racecraftRatingRequirement": -1,
+    "password": "afrt1234",
+    "spectatorPassword": "meshkan",
+	"maxCarSlots": 36,
+    "dumpLeaderboards": 1,
+    "dumpEntryList": 1,
+    "isRaceLocked": 0,
+    "shortFormationLap": 0,
+    "formationLapType": 3,
+	"ignorePrematureDisconnects": 1,
+    "doDriverSwapBroadcast": 1,
+    "centralEntryListPath": "",
+	"allowAutoDQ": 0,
+    "configVersion": 1
+}

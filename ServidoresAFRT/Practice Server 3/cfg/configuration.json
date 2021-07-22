@@ -1,0 +1,7 @@
+{
+    "udpPort": 9602,
+    "tcpPort": 9602,
+    "maxConnections": 50,
+	"registerToLobby": 1,
+    "configVersion": 1
+}

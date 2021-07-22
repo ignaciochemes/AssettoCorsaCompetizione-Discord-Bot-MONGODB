@@ -1,0 +1,29 @@
+{
+	"entries": [
+		{
+			"drivers": [
+				{
+					"playerID": "S76561197968948364"
+				}
+			],
+			"isServerAdmin": 1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198177380874"
+				}
+			],
+			"isServerAdmin": 1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198133328493"
+				}
+			],
+			"isServerAdmin": 1
+		}
+	],
+	"forceEntryList": 0
+}

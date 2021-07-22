@@ -1,0 +1,867 @@
+{
+	"entries": [
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198068738385",
+					"firstName": "Diogo",
+					"lastName": "Paganini",
+					"shortName": "PAG",
+					"driverCategory": 2,
+					"nationality": 17
+				}
+			],
+			"raceNumber": 27,
+			"forcedCarModel": 24,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198068280549",
+					"firstName": "Nicolas",
+					"lastName": "Blache",
+					"shortName": "BLA",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 55,
+			"forcedCarModel": 8,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198027139748",
+					"firstName": "Devin",
+					"lastName": "Blakemore",
+					"shortName": "BLA",
+					"driverCategory": 2,
+					"nationality": 34
+				}
+			],
+			"raceNumber": 93,
+			"forcedCarModel": 20,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198139509874",
+					"firstName": "Pablo",
+					"lastName": "Cargnelutti",
+					"shortName": "CAR",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 6,
+			"forcedCarModel": 20,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198082813490",
+					"firstName": "Francisco",
+					"lastName": "Perez",
+					"shortName": "PER",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 86,
+			"forcedCarModel": 7,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561199123125120",
+					"firstName": "Ayrton",
+					"lastName": "Stuffano",
+					"shortName": "STU",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 98,
+			"forcedCarModel": 22,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198414906336",
+					"firstName": "Alejandro",
+					"lastName": "Bepi",
+					"shortName": "BEP",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 39,
+			"forcedCarModel": 7,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198195117866",
+					"firstName": "Alejandro",
+					"lastName": "Marcoff",
+					"shortName": "MAR",
+					"driverCategory": 2,
+					"nationality": 83
+				}
+			],
+			"raceNumber": 30,
+			"forcedCarModel": 8,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198015656372",
+					"firstName": "Tom",
+					"lastName": "Blackeye",
+					"shortName": "BLA",
+					"driverCategory": 2,
+					"nationality": 34
+				}
+			],
+			"raceNumber": 69,
+			"forcedCarModel": 20,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198063014733",
+					"firstName": "Matias",
+					"lastName": "Posada",
+					"shortName": "POS",
+					"driverCategory": 2,
+					"nationality": 83
+				}
+			],
+			"raceNumber": 79,
+			"forcedCarModel": 23,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198049818355",
+					"firstName": "Mauricio",
+					"lastName": "Ratti",
+					"shortName": "RAT",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 92,
+			"forcedCarModel": 23,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 1,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198168435792",
+					"firstName": "Mariano",
+					"lastName": "Knaap",
+					"shortName": "KNA",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 72,
+			"forcedCarModel": 22,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198213933028",
+					"firstName": "Jose",
+					"lastName": "Fernandez",
+					"shortName": "FER",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 7,
+			"forcedCarModel": 24,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198245127098",
+					"firstName": "Daniel",
+					"lastName": "Waridel",
+					"shortName": "WAR",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 35,
+			"forcedCarModel": 24,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198039634676",
+					"firstName": "Gabriel",
+					"lastName": "Esplugas",
+					"shortName": "ESP",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 44,
+			"forcedCarModel": 19,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198243627564",
+					"firstName": "Adrian",
+					"lastName": "Pedernera",
+					"shortName": "PED",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 15,
+			"forcedCarModel": 15,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198375912256",
+					"firstName": "Pedernera",
+					"lastName": "Andres",
+					"shortName": "PED",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 20,
+			"forcedCarModel": 23,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561199101749805",
+					"firstName": "Gabriel",
+					"lastName": "Moreno",
+					"shortName": "MOR",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 73,
+			"forcedCarModel": 24,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198127912043",
+					"firstName": "Andres",
+					"lastName": "Verdoljak",
+					"shortName": "VER",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 24,
+			"forcedCarModel": 25,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198090036631",
+					"firstName": "Patricio",
+					"lastName": "Silvestro",
+					"shortName": "SIL",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 66,
+			"forcedCarModel": 22,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198042708068",
+					"firstName": "Alessandro",
+					"lastName": "Smith",
+					"shortName": "SMI",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 12,
+			"forcedCarModel": 22,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198065471205",
+					"firstName": "Alejandro",
+					"lastName": "Encina",
+					"shortName": "ENC",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 18,
+			"forcedCarModel": 22,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198001296478",
+					"firstName": "Martin",
+					"lastName": "Laboratto",
+					"shortName": "LAB",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 420,
+			"forcedCarModel": 25,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198086489432",
+					"firstName": "Sebastian",
+					"lastName": "Larghero",
+					"shortName": "LAR",
+					"driverCategory": 2,
+					"nationality": 83
+				}
+			],
+			"raceNumber": 13,
+			"forcedCarModel": 25,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198867006253",
+					"firstName": "Mariano",
+					"lastName": "Rodriguez",
+					"shortName": "ROD",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 85,
+			"forcedCarModel": 16,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198073161387",
+					"firstName": "Jacinto",
+					"lastName": "Gonzalez",
+					"shortName": "GON",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 272,
+			"forcedCarModel": 16,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198347883296",
+					"firstName": "Maximiliano",
+					"lastName": "Pepe",
+					"shortName": "PEP",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 453,
+			"forcedCarModel": 19,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198129635829",
+					"firstName": "Franco",
+					"lastName": "Sanchez",
+					"shortName": "SAN",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 21,
+			"forcedCarModel": 8,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198395788943",
+					"firstName": "Esteban",
+					"lastName": "Fossati",
+					"shortName": "FOS",
+					"driverCategory": 2,
+					"nationality": 83
+				}
+			],
+			"raceNumber": 17,
+			"forcedCarModel": 22,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198196114128",
+					"firstName": "Martin",
+					"lastName": "Cabrera",
+					"shortName": "CAB",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 574,
+			"forcedCarModel": 24,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198195749105",
+					"firstName": "Lucas",
+					"lastName": "Ribkin",
+					"shortName": "RIB",
+					"driverCategory": 2,
+					"nationality": 17
+				}
+			],
+			"raceNumber": 19,
+			"forcedCarModel": 24,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561199040125048",
+					"firstName": "Matías",
+					"lastName": "Minicucci",
+					"shortName": "MIN",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 83,
+			"forcedCarModel": 20,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198101410191",
+					"firstName": "Nicolas",
+					"lastName": "Duran",
+					"shortName": "DUR",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 2,
+			"forcedCarModel": 21,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198133328493",
+					"firstName": "Damian",
+					"lastName": "Nery",
+					"shortName": "NER",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 26,
+			"forcedCarModel": 25,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 1,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198006389546",
+					"firstName": "Carlos",
+					"lastName": "Serrano",
+					"shortName": "SER",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 77,
+			"forcedCarModel": 19,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198044095270",
+					"firstName": "Eddie",
+					"lastName": "França",
+					"shortName": "FRA",
+					"driverCategory": 2,
+					"nationality": 17
+				}
+			],
+			"raceNumber": 28,
+			"forcedCarModel": 20,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198031503709",
+					"firstName": "Christian",
+					"lastName": "Mirasson",
+					"shortName": "MIR",
+					"driverCategory": 2,
+					"nationality": 83
+				}
+			],
+			"raceNumber": 10,
+			"forcedCarModel": 23,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561197994525405",
+					"firstName": "Marcos",
+					"lastName": "Ferrando",
+					"shortName": "FER",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 82,
+			"forcedCarModel": 24,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198035407975",
+					"firstName": "Marcelo",
+					"lastName": "Letelier",
+					"shortName": "LET",
+					"driverCategory": 2,
+					"nationality": 82
+				}
+			],
+			"raceNumber": 23,
+			"forcedCarModel": 6,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198038407800",
+					"firstName": "Diego",
+					"lastName": "Alonso",
+					"shortName": "ALO",
+					"driverCategory": 2,
+					"nationality": 4
+				}
+			],
+			"raceNumber": 247,
+			"forcedCarModel": 24,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198177380874",
+					"firstName": "Race",
+					"lastName": "Control"
+				}
+			],
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561197968948364",
+					"firstName": "Race",
+					"lastName": "Control"
+				}
+			],
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 1
+		}
+	],
+	"forceEntryList": 0
+}

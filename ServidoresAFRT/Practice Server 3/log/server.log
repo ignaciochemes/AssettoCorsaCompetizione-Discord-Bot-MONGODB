@@ -1,0 +1,625 @@
+0: Server starting with version 255
+0: Starting server AFRT Sprint Cup S3 | Pre-Qualifying Official
+0: 	EntryList entry: id 0, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 1, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 2, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 3, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 4, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 5, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 6, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 7, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 8, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 9, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 10, isAdmin 1, overrideDI 1
+0: 	EntryList entry: id 11, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 12, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 13, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 14, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 15, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 16, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 17, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 18, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 19, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 20, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 21, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 22, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 23, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 24, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 25, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 26, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 27, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 28, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 29, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 30, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 31, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 32, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 33, isAdmin 1, overrideDI 1
+0: 	EntryList entry: id 34, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 35, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 36, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 37, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 38, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 39, isAdmin 0, overrideDI 1
+0: 	EntryList entry: id 40, isAdmin 1, overrideDI 1
+0: 	EntryList entry: id 41, isAdmin 1, overrideDI 1
+0: Using entry list with 42 drivers
+0: Joining during race is allowed
+0: Translated realtime interval hzToMiliseconds(18)=54
+
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.905618
+0: Track paul_ricard_2020 was set and updated
+0: Event changed
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.927289
+0: Significant change detected, updating lobby (1|1)
+0: Resetting weekend to friday night
+0: Reset time to friday night: 0 -> 0
+0: Reset time to first session: 0 -> 226800
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.907363
+0: Listening to TCP 9602 | UDP 9602
+123: Trying to connect to lobby (0 times, interval 10000 s)
+123: Session changed: Qualifying -> Qualifying 0
+123: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Qualifying)
+21126: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+21129: Trying to connect to lobby (1 times, interval 13000 s)
+22371: RegisterToLobby succeeded
+22374: Sent lobby registration request for paul_ricard_2020
+22617: TCPQueue now: 4
+22617: New TCP incoming pakSizeMax, 0 => 2
+22617: Updated lobby with 0 drivers
+180357: Udp message count (0 clients): 23=2, 
+188898: New connection received 280
+188898: 1 client(s) online
+188898: TCPQueue now: 318
+188898: New TCP incoming pakSizeMax, 0 => 316
+188898: Located entryListId 5 for connection 0 S76561199123125120
+188898: rejecting new connection: wrong password
+188901: Removing dead connection 0  (last lastUdpPaketReceived 188901)
+188901: Alive connections: 0
+188901: 0 client(s) online
+211698: New connection received 280
+211698: 1 client(s) online
+211698: TCPQueue now: 318
+211698: New TCP incoming pakSizeMax, 0 => 316
+211698: Located entryListId 5 for connection 1 S76561199123125120
+211698: rejecting new connection: wrong password
+211701: Removing dead connection 1  (last lastUdpPaketReceived 211701)
+211701: Alive connections: 0
+211701: 0 client(s) online
+300596: Udp message count (0 clients): 23=1, 
+307064: New connection received 256
+307064: 1 client(s) online
+307064: TCPQueue now: 318
+307064: New TCP incoming pakSizeMax, 0 => 316
+307064: Located entryListId 5 for connection 2 S76561199123125120
+307064: rejecting new connection: wrong password
+307067: Removing dead connection 2  (last lastUdpPaketReceived 307067)
+307067: Alive connections: 0
+307067: 0 client(s) online
+360717: Udp message count (0 clients): 23=3, 
+382716: New connection received 260
+382716: 1 client(s) online
+382716: TCPQueue now: 322
+382716: New TCP incoming pakSizeMax, 0 => 320
+382716: Located entryListId 5 for connection 3 S76561199123125120
+382716: New connection request: id 3 Ayrton Stuffano S76561199123125120 on car model 22
+382716: Creating new car connection: carId 1001, carModel 22, raceNumber #98
+382716: Special Rules for carid 1001: 
+	max_total_driving_time is -1 (from -1), pitCount 0
+382716: startingTime is not set?
+382716: Starting stint for car 1001 driver 0 at 382716.029400
+382716: Updated lobby with 1 drivers
+382716: Assigning gridNumber 1 to new carId 1001
+382716: Sent handshake response for car 1001 connection 3 with 1103 bytes
+382716: 1 Driver(s) detected, starting session
+382716: SessionManager::randomizeGreenFlagTriggers: s:0.991412 e:0.999999 r:0.991423
+382716: Detected sessionPhase <waiting for drivers> -> <pre session> (Qualifying)
+382716: Sent session update to lobby
+382716: Updated leaderboard for 1 clients (Qualifying-<pre session> 30 min)
+385715: Detected sessionPhase <session> -> <session> (Qualifying)
+385715: Sent session update to lobby
+388073: Associated: connId 3, now 388073
+388115: Reset time offset for connection 3, new offset 388045, diff 5329
+392051: Receives driver stint reset for car 1001
+392051: Ending stint: new total time for car 1001 driver 0 is 9156.970600
+392051: List of Stints for car 1001 driver 0
+392051: Stint 1 car 1001 driver 0 started 382716.029400 ended 391873.000000
+392108: Receives driver stint reset for car 1001
+392108: startingTime is not set?
+392168: Updated 0 clients with new carSystem for car 1001 (0l)
+396650: Updated 0 clients with new carSystem for car 1001 (0l)
+412868: Updated 0 clients with new carSystem for car 1001 (16l)
+416399: Receives driver stint reset for car 1001
+416399: startingTime is not set?
+416399: Starting stint for car 1001 driver 0 at 416386.000000
+416816: Updated 0 clients with new carSystem for car 1001 (0l)
+420836: Tcp message count (1 clients): 46=4, 50=3, 61=2, 79=3, 
+420836: Udp message count (1 clients): 19=1, 22=33, 23=1, 30=537, 
+448539: New Split: 448511 for carId 1001 with lapstates: IsOutLap, IsInLap,  (raw 12)
+448539: CarID 1001 : new split on sector 0 (60466)
+448539: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 448511.000000, flags: %d12, S1 1:00:466, fuel 0.000000, InLap , OutLap 
+448539: Updated leaderboard for 1 clients (Qualifying-<session> 28 min)
+455568: New connection received 256
+455568: 2 client(s) online
+455568: TCPQueue now: 374
+455568: New TCP incoming pakSizeMax, 0 => 372
+455568: Located entryListId 40 for connection 4 S76561198177380874
+455568: Sending initData with -1 carIndex, meaning connectionId 4 enters as spectator
+455568: Assigning gridNumber 1 to new carId 1001
+455568: Sent handshake response for car -1 connection 4 with 1127 bytes
+467774: Associated: connId 4, now 467774
+467828: Connection 4 asks for carInfo 1001
+467828: Assigning gridNumber 1 to new carId 1001
+467831: Reset time offset for connection 4, new offset 467741, diff 12173
+480956: Tcp message count (2 clients): 32=1, 69=3, 
+480956: Udp message count (2 clients): 19=1, 22=74, 23=1, 30=1113, 34=1, 
+481145: New Split: 481121 for carId 1001 with lapstates: IsOutLap, IsInLap,  (raw 12)
+481145: CarID 1001 : new split on sector 1 (32610)
+481145: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 481121.000000, flags: %d12, S1 1:00:466, S2 0:32:610, fuel 0.000000, InLap , OutLap 
+481145: Updated leaderboard for 2 clients (Qualifying-<session> 28 min)
+533015: New Split: 532991 for carId 1001 with lapstates: IsOutLap, IsInLap,  (raw 12)
+533015: CarID 1001 : new split on sector 2 (51867)
+533015: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 532991.000000, flags: %d12, S1 1:00:466, S2 0:32:610, S3 0:51:867, fuel 0.000000, InLap , OutLap 
+533015: Updated leaderboard for 2 clients (Qualifying-<session> 27 min)
+533033: CarID 1001 : lap closed (144943)
+533033: Lap carId 1001, driverId 0, lapTime 2:24:943, timestampMS 532991.000000, flags: %d12, S1 1:00:466, S2 0:32:610, S3 0:51:867, fuel 46.000000, InLap , OutLap 
+533033: Sent laptime to kson: car 1001 lap 144943
+533033: New laptime: 144943 for carId 1001 with lapstates: IsOutLap, IsInLap,  (raw 12)
+533033: Updated leaderboard for 2 clients (Qualifying-<session> 27 min)
+541076: Tcp message count (2 clients): 32=2, 33=1, 69=2, 
+541076: Udp message count (2 clients): 22=120, 30=1113, 
+546092: Updated 1 clients with new carSystem for car 1001 (0l)
+546155: Updated 1 clients with new carSystem for car 1001 (0l)
+548180: Updated 1 clients with new carSystem for car 1001 (0l)
+548240: Updated 1 clients with new carSystem for car 1001 (0l)
+558354: Updated 1 clients with new carSystem for car 1001 (0l)
+558396: Updated 1 clients with new carSystem for car 1001 (0l)
+565454: New Split: 565436 for carId 1001 with lapstates: HasCut,  (raw 1)
+565454: CarID 1001 : new split on sector 0 (32445)
+565454: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 565436.000000, flags: %d1, S1 0:32:445, fuel 0.000000, hasCut 
+565454: Updated leaderboard for 2 clients (Qualifying-<session> 27 min)
+597707: New Split: 597689 for carId 1001 with lapstates: HasCut,  (raw 1)
+597707: CarID 1001 : new split on sector 1 (32250)
+597707: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 597689.000000, flags: %d1, S1 0:32:445, S2 0:32:250, fuel 0.000000, hasCut 
+597707: Updated leaderboard for 2 clients (Qualifying-<session> 26 min)
+601196: Tcp message count (2 clients): 32=2, 46=6, 61=2, 69=2, 
+601196: Udp message count (2 clients): 22=120, 30=1114, 
+648680: New Split: 648659 for carId 1001 with lapstates: HasCut,  (raw 1)
+648680: CarID 1001 : new split on sector 2 (50970)
+648680: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 648659.000000, flags: %d1, S1 0:32:445, S2 0:32:250, S3 0:50:970, fuel 0.000000, hasCut 
+648680: Updated leaderboard for 2 clients (Qualifying-<session> 25 min)
+648701: CarID 1001 : lap closed (115665)
+648701: Lap carId 1001, driverId 0, lapTime 1:55:665, timestampMS 648659.000000, flags: %d1, S1 0:32:445, S2 0:32:250, S3 0:50:970, fuel 43.000000, hasCut 
+648701: Sent laptime to kson: car 1001 lap 115665
+648701: New laptime: 115665 for carId 1001 with lapstates: HasCut,  (raw 1)
+648701: Updated leaderboard for 2 clients (Qualifying-<session> 25 min)
+656492: Updated 1 clients with new carSystem for car 1001 (0l)
+656549: Updated 1 clients with new carSystem for car 1001 (0l)
+661316: Tcp message count (2 clients): 32=1, 33=1, 46=2, 69=2, 
+661316: Udp message count (2 clients): 22=120, 30=1113, 
+680840: New Split: 680822 for carId 1001 with lapstates:  (raw 0)
+680840: CarID 1001 : new split on sector 0 (32163)
+680840: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 680822.000000, flags: %d0, S1 0:32:163, fuel 0.000000
+680840: Updated leaderboard for 2 clients (Qualifying-<session> 25 min)
+713117: New Split: 713093 for carId 1001 with lapstates:  (raw 0)
+713117: CarID 1001 : new split on sector 1 (32271)
+713117: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 713093.000000, flags: %d0, S1 0:32:163, S2 0:32:271, fuel 0.000000
+713117: Updated leaderboard for 2 clients (Qualifying-<session> 24 min)
+721429: Tcp message count (2 clients): 32=2, 69=2, 
+721429: Udp message count (2 clients): 22=120, 30=1113, 
+721733: Updated 1 clients with new carSystem for car 1001 (0l)
+721790: Updated 1 clients with new carSystem for car 1001 (0l)
+764267: New Split: 764237 for carId 1001 with lapstates:  (raw 0)
+764267: CarID 1001 : new split on sector 2 (51144)
+764267: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 764237.000000, flags: %d0, S1 0:32:163, S2 0:32:271, S3 0:51:144, fuel 0.000000
+764267: Updated leaderboard for 2 clients (Qualifying-<session> 23 min)
+764294: CarID 1001 : lap closed (115578)
+764294: Lap carId 1001, driverId 0, lapTime 1:55:578, timestampMS 764237.000000, flags: %d0, S1 0:32:163, S2 0:32:271, S3 0:51:144, fuel 40.000000
+764294: Sent laptime to kson: car 1001 lap 115578
+764294: New laptime: 115578 for carId 1001 with lapstates:  (raw 0)
+764294: Updated leaderboard for 2 clients (Qualifying-<session> 23 min)
+781550: Tcp message count (2 clients): 32=1, 33=1, 46=2, 69=1, 
+781550: Udp message count (2 clients): 22=120, 30=1114, 
+796250: New Split: 796223 for carId 1001 with lapstates:  (raw 0)
+796250: CarID 1001 : new split on sector 0 (31983)
+796250: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 796223.000000, flags: %d0, S1 0:31:983, fuel 0.000000
+796250: Updated leaderboard for 2 clients (Qualifying-<session> 23 min)
+798458: Received Ping spike from connectionId 4; 108 vs. avg 31 ms, is capped to 93
+828368: New Split: 828347 for carId 1001 with lapstates:  (raw 0)
+828368: CarID 1001 : new split on sector 1 (32124)
+828368: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 828347.000000, flags: %d0, S1 0:31:983, S2 0:32:124, fuel 0.000000
+828368: Updated leaderboard for 2 clients (Qualifying-<session> 22 min)
+841670: Tcp message count (2 clients): 32=2, 69=2, 
+841670: Udp message count (2 clients): 22=120, 30=1113, 
+879290: New Split: 879269 for carId 1001 with lapstates:  (raw 0)
+879290: CarID 1001 : new split on sector 2 (50922)
+879290: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 879269.000000, flags: %d0, S1 0:31:983, S2 0:32:124, S3 0:50:922, fuel 0.000000
+879290: Updated leaderboard for 2 clients (Qualifying-<session> 21 min)
+879308: CarID 1001 : lap closed (115029)
+879308: Lap carId 1001, driverId 0, lapTime 1:55:029, timestampMS 879269.000000, flags: %d0, S1 0:31:983, S2 0:32:124, S3 0:50:922, fuel 37.000000
+879308: Sent laptime to kson: car 1001 lap 115029
+879308: New laptime: 115029 for carId 1001 with lapstates:  (raw 0)
+879308: Updated leaderboard for 2 clients (Qualifying-<session> 21 min)
+901791: Tcp message count (2 clients): 32=1, 33=1, 69=1, 
+901791: Udp message count (2 clients): 22=120, 30=1113, 
+911183: New Split: 911158 for carId 1001 with lapstates:  (raw 0)
+911183: CarID 1001 : new split on sector 0 (31890)
+911183: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 911158.000000, flags: %d0, S1 0:31:890, fuel 0.000000
+911183: Updated leaderboard for 2 clients (Qualifying-<session> 21 min)
+943352: New Split: 943334 for carId 1001 with lapstates:  (raw 0)
+943352: CarID 1001 : new split on sector 1 (32172)
+943352: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 943334.000000, flags: %d0, S1 0:31:890, S2 0:32:172, fuel 0.000000
+943352: Updated leaderboard for 2 clients (Qualifying-<session> 20 min)
+961910: Tcp message count (2 clients): 32=2, 61=2, 69=2, 
+961910: Udp message count (2 clients): 22=120, 30=1114, 
+994851: New Split: 994825 for carId 1001 with lapstates: HasCut,  (raw 1)
+994851: CarID 1001 : new split on sector 2 (51492)
+994851: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 994825.000000, flags: %d1, S1 0:31:890, S2 0:32:172, S3 0:51:492, fuel 0.000000, hasCut 
+994851: Updated leaderboard for 2 clients (Qualifying-<session> 19 min)
+994869: CarID 1001 : lap closed (115554)
+994869: Lap carId 1001, driverId 0, lapTime 1:55:554, timestampMS 994825.000000, flags: %d1, S1 0:31:890, S2 0:32:172, S3 0:51:492, fuel 34.000000, hasCut 
+994869: Sent laptime to kson: car 1001 lap 115554
+994869: New laptime: 115554 for carId 1001 with lapstates: HasCut,  (raw 1)
+994869: Updated leaderboard for 2 clients (Qualifying-<session> 19 min)
+1002635: Updated 1 clients with new carSystem for car 1001 (0l)
+1002695: Updated 1 clients with new carSystem for car 1001 (0l)
+1019957: Updated 1 clients with new carSystem for car 1001 (0l)
+1020014: Updated 1 clients with new carSystem for car 1001 (0l)
+1022030: Tcp message count (2 clients): 32=1, 33=1, 46=4, 69=1, 
+1022030: Udp message count (2 clients): 22=120, 30=1113, 
+1026725: New Split: 1026703 for carId 1001 with lapstates:  (raw 0)
+1026725: CarID 1001 : new split on sector 0 (31878)
+1026725: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1026703.000000, flags: %d0, S1 0:31:878, fuel 0.000000
+1026725: Updated leaderboard for 2 clients (Qualifying-<session> 19 min)
+1058819: New Split: 1058795 for carId 1001 with lapstates:  (raw 0)
+1058819: CarID 1001 : new split on sector 1 (32088)
+1058819: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1058795.000000, flags: %d0, S1 0:31:878, S2 0:32:088, fuel 0.000000
+1058819: Updated leaderboard for 2 clients (Qualifying-<session> 18 min)
+1082150: Tcp message count (2 clients): 32=2, 69=1, 
+1082150: Udp message count (2 clients): 22=120, 30=1113, 
+1109936: New Split: 1109909 for carId 1001 with lapstates:  (raw 0)
+1109936: CarID 1001 : new split on sector 2 (51111)
+1109936: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1109909.000000, flags: %d0, S1 0:31:878, S2 0:32:088, S3 0:51:111, fuel 0.000000
+1109936: Updated leaderboard for 2 clients (Qualifying-<session> 17 min)
+1109957: CarID 1001 : lap closed (115077)
+1109957: Lap carId 1001, driverId 0, lapTime 1:55:077, timestampMS 1109909.000000, flags: %d0, S1 0:31:878, S2 0:32:088, S3 0:51:111, fuel 31.000000
+1109957: Sent laptime to kson: car 1001 lap 115077
+1109957: New laptime: 115077 for carId 1001 with lapstates:  (raw 0)
+1109957: Updated leaderboard for 2 clients (Qualifying-<session> 17 min)
+1141832: New Split: 1141813 for carId 1001 with lapstates:  (raw 0)
+1141832: CarID 1001 : new split on sector 0 (31905)
+1141832: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1141813.000000, flags: %d0, S1 0:31:905, fuel 0.000000
+1141832: Updated leaderboard for 2 clients (Qualifying-<session> 17 min)
+1142270: Tcp message count (2 clients): 32=2, 33=1, 69=1, 
+1142270: Udp message count (2 clients): 22=120, 30=1113, 
+1174256: New Split: 1174232 for carId 1001 with lapstates:  (raw 0)
+1174256: CarID 1001 : new split on sector 1 (32418)
+1174256: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1174232.000000, flags: %d0, S1 0:31:905, S2 0:32:418, fuel 0.000000
+1174256: Updated leaderboard for 2 clients (Qualifying-<session> 16 min)
+1202390: Tcp message count (2 clients): 32=1, 69=2, 
+1202390: Udp message count (2 clients): 22=120, 30=1114, 
+1211888: ==ERR: Couldn't locate current driver index for car 65535
+1211888: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1211888: ==ERR: Received TCP message 85 for non-car -1
+1212602: ==ERR: Couldn't locate current driver index for car 65535
+1212602: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1212602: ==ERR: Received TCP message 85 for non-car -1
+1213418: ==ERR: Couldn't locate current driver index for car 65535
+1213418: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1213418: ==ERR: Received TCP message 85 for non-car -1
+1213706: ==ERR: Couldn't locate current driver index for car 65535
+1213706: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1213706: ==ERR: Received TCP message 85 for non-car -1
+1213976: ==ERR: Couldn't locate current driver index for car 65535
+1213976: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1213976: ==ERR: Received TCP message 85 for non-car -1
+1214264: ==ERR: Couldn't locate current driver index for car 65535
+1214264: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1214264: ==ERR: Received TCP message 85 for non-car -1
+1218158: ==ERR: Couldn't locate current driver index for car 65535
+1218158: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1218158: ==ERR: Received TCP message 85 for non-car -1
+1218581: ==ERR: Couldn't locate current driver index for car 65535
+1218581: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1218581: ==ERR: Received TCP message 85 for non-car -1
+1218986: ==ERR: Couldn't locate current driver index for car 65535
+1218986: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+1218986: ==ERR: Received TCP message 85 for non-car -1
+1225061: New Split: 1225034 for carId 1001 with lapstates:  (raw 0)
+1225061: CarID 1001 : new split on sector 2 (50802)
+1225061: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1225034.000000, flags: %d0, S1 0:31:905, S2 0:32:418, S3 0:50:802, fuel 0.000000
+1225061: Updated leaderboard for 2 clients (Qualifying-<session> 16 min)
+1225082: CarID 1001 : lap closed (115125)
+1225082: Lap carId 1001, driverId 0, lapTime 1:55:125, timestampMS 1225034.000000, flags: %d0, S1 0:31:905, S2 0:32:418, S3 0:50:802, fuel 28.000000
+1225082: Sent laptime to kson: car 1001 lap 115125
+1225082: New laptime: 115125 for carId 1001 with lapstates:  (raw 0)
+1225082: Updated leaderboard for 2 clients (Qualifying-<session> 16 min)
+1256994: New Split: 1256976 for carId 1001 with lapstates:  (raw 0)
+1256994: CarID 1001 : new split on sector 0 (31938)
+1256994: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1256976.000000, flags: %d0, S1 0:31:938, fuel 0.000000
+1256994: Updated leaderboard for 2 clients (Qualifying-<session> 15 min)
+1262510: Tcp message count (2 clients): 32=2, 33=1, 69=1, 85=9, 
+1262510: Udp message count (2 clients): 22=120, 30=1113, 
+1267013: Updated 1 clients with new carSystem for car 1001 (0l)
+1267070: Updated 1 clients with new carSystem for car 1001 (0l)
+1289078: New Split: 1289057 for carId 1001 with lapstates:  (raw 0)
+1289078: CarID 1001 : new split on sector 1 (32082)
+1289078: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1289057.000000, flags: %d0, S1 0:31:938, S2 0:32:082, fuel 0.000000
+1289078: Updated leaderboard for 2 clients (Qualifying-<session> 14 min)
+1322630: Tcp message count (2 clients): 32=1, 46=2, 69=1, 
+1322630: Udp message count (2 clients): 22=120, 30=1113, 
+1340054: New Split: 1340024 for carId 1001 with lapstates:  (raw 0)
+1340054: CarID 1001 : new split on sector 2 (50967)
+1340054: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1340024.000000, flags: %d0, S1 0:31:938, S2 0:32:082, S3 0:50:967, fuel 0.000000
+1340054: Updated leaderboard for 2 clients (Qualifying-<session> 14 min)
+1340072: CarID 1001 : lap closed (114987)
+1340072: Lap carId 1001, driverId 0, lapTime 1:54:987, timestampMS 1340024.000000, flags: %d0, S1 0:31:938, S2 0:32:082, S3 0:50:967, fuel 25.000000
+1340072: Sent laptime to kson: car 1001 lap 114987
+1340072: New laptime: 114987 for carId 1001 with lapstates:  (raw 0)
+1340072: Updated leaderboard for 2 clients (Qualifying-<session> 14 min)
+1372085: New Split: 1372061 for carId 1001 with lapstates:  (raw 0)
+1372085: CarID 1001 : new split on sector 0 (32034)
+1372085: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1372061.000000, flags: %d0, S1 0:32:034, fuel 0.000000
+1372085: Updated leaderboard for 2 clients (Qualifying-<session> 13 min)
+1381637: Updated 1 clients with new carSystem for car 1001 (0l)
+1381700: Updated 1 clients with new carSystem for car 1001 (0l)
+1382751: Tcp message count (2 clients): 32=2, 33=1, 46=2, 69=1, 
+1382751: Udp message count (2 clients): 22=120, 30=1114, 
+1404266: New Split: 1404242 for carId 1001 with lapstates:  (raw 0)
+1404266: CarID 1001 : new split on sector 1 (32181)
+1404266: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1404242.000000, flags: %d0, S1 0:32:034, S2 0:32:181, fuel 0.000000
+1404266: Updated leaderboard for 2 clients (Qualifying-<session> 13 min)
+1442870: Tcp message count (2 clients): 32=1, 69=2, 
+1442870: Udp message count (2 clients): 22=120, 30=1113, 
+1454981: New Split: 1454951 for carId 1001 with lapstates:  (raw 0)
+1454981: CarID 1001 : new split on sector 2 (50709)
+1454981: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1454951.000000, flags: %d0, S1 0:32:034, S2 0:32:181, S3 0:50:709, fuel 0.000000
+1454981: Updated leaderboard for 2 clients (Qualifying-<session> 12 min)
+1454999: CarID 1001 : lap closed (114924)
+1454999: Lap carId 1001, driverId 0, lapTime 1:54:924, timestampMS 1454951.000000, flags: %d0, S1 0:32:034, S2 0:32:181, S3 0:50:709, fuel 21.000000
+1454999: Sent laptime to kson: car 1001 lap 114924
+1454999: New laptime: 114924 for carId 1001 with lapstates:  (raw 0)
+1454999: Updated leaderboard for 2 clients (Qualifying-<session> 12 min)
+1479812: Updated 1 clients with new carSystem for car 1001 (0l)
+1479872: Updated 1 clients with new carSystem for car 1001 (0l)
+1486895: New Split: 1486868 for carId 1001 with lapstates:  (raw 0)
+1486895: CarID 1001 : new split on sector 0 (31914)
+1486895: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1486868.000000, flags: %d0, S1 0:31:914, fuel 0.000000
+1486895: Updated leaderboard for 2 clients (Qualifying-<session> 11 min)
+1502990: Tcp message count (2 clients): 32=2, 33=1, 46=2, 
+1502990: Udp message count (2 clients): 22=121, 30=1113, 
+1519121: New Split: 1519094 for carId 1001 with lapstates:  (raw 0)
+1519121: CarID 1001 : new split on sector 1 (32226)
+1519121: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1519094.000000, flags: %d0, S1 0:31:914, S2 0:32:226, fuel 0.000000
+1519121: Updated leaderboard for 2 clients (Qualifying-<session> 11 min)
+1563110: Tcp message count (2 clients): 32=1, 69=2, 
+1563110: Udp message count (2 clients): 22=120, 30=1114, 
+1570151: New Split: 1570130 for carId 1001 with lapstates:  (raw 0)
+1570151: CarID 1001 : new split on sector 2 (51036)
+1570151: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1570130.000000, flags: %d0, S1 0:31:914, S2 0:32:226, S3 0:51:036, fuel 0.000000
+1570151: Updated leaderboard for 2 clients (Qualifying-<session> 10 min)
+1570172: CarID 1001 : lap closed (115176)
+1570172: Lap carId 1001, driverId 0, lapTime 1:55:176, timestampMS 1570130.000000, flags: %d0, S1 0:31:914, S2 0:32:226, S3 0:51:036, fuel 18.000000
+1570172: Sent laptime to kson: car 1001 lap 115176
+1570172: New laptime: 115176 for carId 1001 with lapstates:  (raw 0)
+1570172: Updated leaderboard for 2 clients (Qualifying-<session> 10 min)
+1602281: New Split: 1602260 for carId 1001 with lapstates:  (raw 0)
+1602281: CarID 1001 : new split on sector 0 (32130)
+1602281: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1602260.000000, flags: %d0, S1 0:32:130, fuel 0.000000
+1602281: Updated leaderboard for 2 clients (Qualifying-<session> 9 min)
+1623230: Tcp message count (2 clients): 32=2, 33=1, 69=1, 
+1623230: Udp message count (2 clients): 22=120, 30=1113, 
+1634489: New Split: 1634468 for carId 1001 with lapstates:  (raw 0)
+1634489: CarID 1001 : new split on sector 1 (32205)
+1634489: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1634468.000000, flags: %d0, S1 0:32:130, S2 0:32:205, fuel 0.000000
+1634489: Updated leaderboard for 2 clients (Qualifying-<session> 9 min)
+1683350: Tcp message count (2 clients): 32=1, 69=2, 
+1683350: Udp message count (2 clients): 22=120, 30=1113, 
+1685492: New Split: 1685466 for carId 1001 with lapstates:  (raw 0)
+1685492: CarID 1001 : new split on sector 2 (50997)
+1685492: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1685466.000000, flags: %d0, S1 0:32:130, S2 0:32:205, S3 0:50:997, fuel 0.000000
+1685492: Updated leaderboard for 2 clients (Qualifying-<session> 8 min)
+1685510: CarID 1001 : lap closed (115332)
+1685510: Lap carId 1001, driverId 0, lapTime 1:55:332, timestampMS 1685466.000000, flags: %d0, S1 0:32:130, S2 0:32:205, S3 0:50:997, fuel 15.000000
+1685510: Sent laptime to kson: car 1001 lap 115332
+1685510: New laptime: 115332 for carId 1001 with lapstates:  (raw 0)
+1685510: Updated leaderboard for 2 clients (Qualifying-<session> 8 min)
+1717382: New Split: 1717361 for carId 1001 with lapstates:  (raw 0)
+1717382: CarID 1001 : new split on sector 0 (31893)
+1717382: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1717361.000000, flags: %d0, S1 0:31:893, fuel 0.000000
+1717382: Updated leaderboard for 2 clients (Qualifying-<session> 7 min)
+1743470: Tcp message count (2 clients): 32=2, 33=1, 69=1, 
+1743470: Udp message count (2 clients): 22=120, 30=1113, 
+1749680: New Split: 1749656 for carId 1001 with lapstates:  (raw 0)
+1749680: CarID 1001 : new split on sector 1 (32295)
+1749680: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1749656.000000, flags: %d0, S1 0:31:893, S2 0:32:295, fuel 0.000000
+1749680: Updated leaderboard for 2 clients (Qualifying-<session> 7 min)
+1757867: Updated 1 clients with new carSystem for car 1001 (0l)
+1757924: Updated 1 clients with new carSystem for car 1001 (0l)
+1800962: New Split: 1800932 for carId 1001 with lapstates:  (raw 0)
+1800962: CarID 1001 : new split on sector 2 (51276)
+1800962: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1800932.000000, flags: %d0, S1 0:31:893, S2 0:32:295, S3 0:51:276, fuel 0.000000
+1800962: Updated leaderboard for 2 clients (Qualifying-<session> 6 min)
+1800980: CarID 1001 : lap closed (115464)
+1800980: Lap carId 1001, driverId 0, lapTime 1:55:464, timestampMS 1800932.000000, flags: %d0, S1 0:31:893, S2 0:32:295, S3 0:51:276, fuel 12.000000
+1800980: Sent laptime to kson: car 1001 lap 115464
+1800980: New laptime: 115464 for carId 1001 with lapstates:  (raw 0)
+1800980: Updated leaderboard for 2 clients (Qualifying-<session> 6 min)
+1803590: Tcp message count (2 clients): 32=2, 33=1, 46=2, 69=1, 
+1803590: Udp message count (2 clients): 22=120, 30=1114, 
+1832795: New Split: 1832768 for carId 1001 with lapstates:  (raw 0)
+1832795: CarID 1001 : new split on sector 0 (31836)
+1832795: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1832768.000000, flags: %d0, S1 0:31:836, fuel 0.000000
+1832795: Updated leaderboard for 2 clients (Qualifying-<session> 5 min)
+1842527: Updated 1 clients with new carSystem for car 1001 (0l)
+1842587: Updated 1 clients with new carSystem for car 1001 (0l)
+1863710: Tcp message count (2 clients): 32=1, 46=2, 69=2, 
+1863710: Udp message count (2 clients): 22=120, 30=1113, 
+1865156: New Split: 1865139 for carId 1001 with lapstates:  (raw 0)
+1865156: CarID 1001 : new split on sector 1 (32367)
+1865156: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1865139.000000, flags: %d0, S1 0:31:836, S2 0:32:367, fuel 0.000000
+1865156: Updated leaderboard for 2 clients (Qualifying-<session> 5 min)
+1916214: New Split: 1916184 for carId 1001 with lapstates:  (raw 0)
+1916214: CarID 1001 : new split on sector 2 (51045)
+1916214: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1916184.000000, flags: %d0, S1 0:31:836, S2 0:32:367, S3 0:51:045, fuel 0.000000
+1916214: Updated leaderboard for 2 clients (Qualifying-<session> 4 min)
+1916232: CarID 1001 : lap closed (115248)
+1916232: Lap carId 1001, driverId 0, lapTime 1:55:248, timestampMS 1916184.000000, flags: %d0, S1 0:31:836, S2 0:32:367, S3 0:51:045, fuel 9.000000
+1916232: Sent laptime to kson: car 1001 lap 115248
+1916232: New laptime: 115248 for carId 1001 with lapstates:  (raw 0)
+1916232: Updated leaderboard for 2 clients (Qualifying-<session> 4 min)
+1923831: Tcp message count (2 clients): 32=2, 33=1, 69=2, 
+1923831: Udp message count (2 clients): 22=120, 30=1113, 
+1948079: New Split: 1948061 for carId 1001 with lapstates:  (raw 0)
+1948079: CarID 1001 : new split on sector 0 (31878)
+1948079: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1948061.000000, flags: %d0, S1 0:31:878, fuel 0.000000
+1948079: Updated leaderboard for 2 clients (Qualifying-<session> 3 min)
+1980374: New Split: 1980351 for carId 1001 with lapstates:  (raw 0)
+1980374: CarID 1001 : new split on sector 1 (32289)
+1980374: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 1980351.000000, flags: %d0, S1 0:31:878, S2 0:32:289, fuel 0.000000
+1980374: Updated leaderboard for 2 clients (Qualifying-<session> 3 min)
+1983950: Tcp message count (2 clients): 32=2, 69=1, 
+1983950: Udp message count (2 clients): 22=120, 30=1114, 
+2031311: New Split: 2031287 for carId 1001 with lapstates:  (raw 0)
+2031311: CarID 1001 : new split on sector 2 (50934)
+2031311: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 2031287.000000, flags: %d0, S1 0:31:878, S2 0:32:289, S3 0:50:934, fuel 0.000000
+2031311: Updated leaderboard for 2 clients (Qualifying-<session> 2 min)
+2031329: CarID 1001 : lap closed (115101)
+2031329: Lap carId 1001, driverId 0, lapTime 1:55:101, timestampMS 2031287.000000, flags: %d0, S1 0:31:878, S2 0:32:289, S3 0:50:934, fuel 6.000000
+2031329: Sent laptime to kson: car 1001 lap 115101
+2031329: New laptime: 115101 for carId 1001 with lapstates:  (raw 0)
+2031329: Updated leaderboard for 2 clients (Qualifying-<session> 2 min)
+2044070: Tcp message count (2 clients): 32=1, 33=1, 
+2044070: Udp message count (2 clients): 22=120, 30=1113, 
+2063135: New Split: 2063108 for carId 1001 with lapstates:  (raw 0)
+2063135: CarID 1001 : new split on sector 0 (31821)
+2063135: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 2063108.000000, flags: %d0, S1 0:31:821, fuel 0.000000
+2063135: Updated leaderboard for 2 clients (Qualifying-<session> 2 min)
+2095478: New Split: 2095457 for carId 1001 with lapstates:  (raw 0)
+2095478: CarID 1001 : new split on sector 1 (32349)
+2095478: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 2095457.000000, flags: %d0, S1 0:31:821, S2 0:32:349, fuel 0.000000
+2095478: Updated leaderboard for 2 clients (Qualifying-<session> 1 min)
+2103509: Updated 1 clients with new carSystem for car 1001 (0l)
+2103566: Updated 1 clients with new carSystem for car 1001 (0l)
+2104190: Tcp message count (2 clients): 32=2, 46=2, 69=2, 
+2104190: Udp message count (2 clients): 22=120, 30=1113, 
+2147949: New Split: 2147921 for carId 1001 with lapstates: HasCut,  (raw 1)
+2147949: CarID 1001 : new split on sector 2 (52461)
+2147949: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 2147921.000000, flags: %d1, S1 0:31:821, S2 0:32:349, S3 0:52:461, fuel 0.000000, hasCut 
+2147949: Updated leaderboard for 2 clients (Qualifying-<session> 0 min)
+2147970: CarID 1001 : lap closed (116631)
+2147970: Lap carId 1001, driverId 0, lapTime 1:56:631, timestampMS 2147921.000000, flags: %d1, S1 0:31:821, S2 0:32:349, S3 0:52:461, fuel 3.000000, hasCut 
+2147970: Sent laptime to kson: car 1001 lap 116631
+2147970: New laptime: 116631 for carId 1001 with lapstates: HasCut,  (raw 1)
+2147970: Updated leaderboard for 2 clients (Qualifying-<session> 0 min)
+2164310: Tcp message count (2 clients): 32=1, 33=1, 61=2, 
+2164310: Udp message count (2 clients): 22=120, 30=1114, 
+2172548: Updated 1 clients with new carSystem for car 1001 (0l)
+2172605: Updated 1 clients with new carSystem for car 1001 (0l)
+2179656: New Split: 2179634 for carId 1001 with lapstates:  (raw 0)
+2179656: CarID 1001 : new split on sector 0 (31713)
+2179656: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 2179634.000000, flags: %d0, S1 0:31:713, fuel 0.000000
+2179656: Updated leaderboard for 2 clients (Qualifying-<session> 0 min)
+2185715: Detected sessionPhase <session overtime> -> <session overtime> (Qualifying)
+2185715: Sent session update to lobby
+2211896: New Split: 2211878 for carId 1001 with lapstates:  (raw 0)
+2211896: CarID 1001 : new split on sector 1 (32241)
+2211896: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 2211878.000000, flags: %d0, S1 0:31:713, S2 0:32:241, fuel 0.000000
+2211896: Updated leaderboard for 2 clients (Qualifying-<session overtime> 0 min)
+2217518: Detected sessionPhase <session overtime> -> <session completed> (Qualifying)
+2217518: Sent session update to lobby
+2217522: Session completed: Qualifying/<session completed> with 1 cars and 2 connections
+2217522: ==ERR: Car 1001 had no grid position assigned; fallback to 1
+2217522: Sending grid positions:
+2217522: Send grid positions to 2 clients (2 byte, 0 grid results)
+2217522: Send session results to 2 clients (238 byte)
+2217522: Session over, waiting 120 postQualySeconds
+2219918: Updated 1 clients with new carSystem for car 1001 (0l)
+2219978: Updated 1 clients with new carSystem for car 1001 (0l)
+2224430: Tcp message count (2 clients): 32=2, 46=4, 61=1, 69=3, 
+2224430: Udp message count (2 clients): 22=120, 30=1113, 
+2249240: Updated 1 clients with new carSystem for car 1001 (0l)
+2249456: Updated 1 clients with new carSystem for car 1001 (0l)
+2249687: Updated 1 clients with new carSystem for car 1001 (0l)
+2250164: Updated 1 clients with new carSystem for car 1001 (0l)
+2250323: Updated 1 clients with new carSystem for car 1001 (0l)
+2250506: Updated 1 clients with new carSystem for car 1001 (0l)
+2250677: Updated 1 clients with new carSystem for car 1001 (0l)
+2250824: Updated 1 clients with new carSystem for car 1001 (0l)
+2251176: Updated 1 clients with new carSystem for car 1001 (0l)
+2251374: Updated 1 clients with new carSystem for car 1001 (0l)
+2284550: Tcp message count (2 clients): 46=10, 69=2, 
+2284550: Udp message count (2 clients): 22=120, 30=1113, 
+2287136: Updated 1 clients with new carSystem for car 1001 (16l)
+2289497: Receives driver stint reset for car 1001
+2289497: Ending stint: new total time for car 1001 driver 0 is 1882258.970600
+2289497: List of Stints for car 1001 driver 0
+2289497: Stint 1 car 1001 driver 0 started 382716.029400 ended 391873.000000
+2289497: Stint 2 car 1001 driver 0 started 416386.000000 ended 2289488.000000
+2297477: Updated 1 clients with new carSystem for car 1001 (16l)
+2297936: Updated 1 clients with new carSystem for car 1001 (16l)
+2298989: Updated 1 clients with new carSystem for car 1001 (16l)
+2300462: New Split: 2300438 for carId 1001 with lapstates: HasCut, IsInLap,  (raw 9)
+2300462: CarID 1001 : new split on sector 2 (88560)
+2300462: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 2300438.000000, flags: %d9, S1 0:31:713, S2 0:32:241, S3 1:28:560, fuel 0.000000, hasCut , InLap 
+2300462: Updated leaderboard for 2 clients (Qualifying-<session completed> 0 min)
+2300483: CarID 1001 : lap closed (152514)
+2300483: Lap carId 1001, driverId 0, lapTime 2:32:514, timestampMS 2300438.000000, flags: %d1033, S1 0:31:713, S2 0:32:241, S3 1:28:560, fuel 0.000000, hasCut , InLap , SessionOver
+2300483: Sent laptime to kson: car 1001 lap 152514
+2300483: New laptime: 152514 for carId 1001 with lapstates: HasCut, IsInLap, IsSessionOver,  (raw 1033)
+2300483: Updated leaderboard for 2 clients (Qualifying-<session completed> 0 min)
+2337524: Session aftercare over, advancing to next session
+2337524: Resetting race weekend
+2337524: Weekend reset, clearing entry list with 1 entries
+2337524: Car_id 1001 is still connected, keeping the entry
+2337524: Special Rules for carid 1001: 
+	max_total_driving_time is -1 (from -1), pitCount 0
+2337524: Resetting weekend to friday night
+2337524: Reset time to friday night: 228754 -> 0
+2337524: Reset time to first session: 0 -> 226800
+2337524: SessionManager::randomizeGreenFlagTriggers: s:0.991412 e:0.999999 r:0.991423
+2337524: Detected sessionPhase <session completed> -> <waiting for drivers> (Qualifying)
+2337524: Sent session update to lobby
+2337524: Updated leaderboard for 2 clients (Qualifying-<waiting for drivers> 30 min)
+2337647: 1 Driver(s) detected, starting session
+2337647: SessionManager::randomizeGreenFlagTriggers: s:0.991412 e:0.999999 r:0.996251
+2337647: Detected sessionPhase <waiting for drivers> -> <pre session> (Qualifying)
+2337647: Sent session update to lobby
+2337695: Receives driver stint reset for car 1001
+2337695: startingTime is not set?
+2337755: Updated 1 clients with new carSystem for car 1001 (0l)
+2340648: Detected sessionPhase <session> -> <session> (Qualifying)
+2340648: Sent session update to lobby
+2344670: Tcp message count (2 clients): 32=1, 33=1, 46=5, 50=2, 61=1, 69=2, 79=2, 
+2344670: Udp message count (2 clients): 22=120, 30=1114, 
+2349680: Late lastUdpPaketReceived for connId 3: 2039 ms (Ayrton Stuffano)
+2350670: ==ERR: TCP socket error detected 10053 
+
+2350670: Client 3 closed the connection (10053)
+2350673: Removing dead connection 3  (last lastUdpPaketReceived 3032)
+2350673: Alive connections: 1
+2350673: car 1001 has no driving connection anymore, will remove it
+2350673: Sent car 1001 disco to connection 4
+2350673: ==ERR: getConnectedCarByCarIndex (65535) returned nullptr
+2350673: ==ERR: Couldn't send connected drivers to kson; no connectedCar for carId -1
+2350673: Alive cars: 0
+2350673: 1 client(s) online
+2350673: No drivers around, resetting session
+2350673: Resetting race weekend
+2350673: Weekend reset, clearing entry list with 1 entries
+2350673: Purging car_id 1001
+2350673: Resetting weekend to friday night
+2350673: Reset time to friday night: 226813 -> 0
+2350673: Reset time to first session: 0 -> 226800
+2350673: SessionManager::randomizeGreenFlagTriggers: s:0.991412 e:0.999999 r:0.993072
+2350673: Detected sessionPhase <session> -> <waiting for drivers> (Qualifying)
+2350673: Sent session update to lobby
+2350673: Updated leaderboard for 1 clients (Qualifying-<waiting for drivers> 30 min)
+2357801: Late lastUdpPaketReceived for connId 4: 2834 ms (Race Control)
+2358804: Late lastUdpPaketReceived for connId 4: 3836 ms (Race Control)
+2359805: Late lastUdpPaketReceived for connId 4: 4838 ms (Race Control)
+2360699: ==ERR: TCP socket error detected 10053 
+
+2360699: Client 4 closed the connection (10053)
+2360702: Removing dead connection 4  (last lastUdpPaketReceived 5735)
+2360702: Alive connections: 0
+2360702: 0 client(s) online
