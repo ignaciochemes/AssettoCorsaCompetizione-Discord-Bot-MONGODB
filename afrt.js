@@ -1,9 +1,25 @@
 const fs = require('fs');
+const cron = require('node-cron');
 const configJson = require('./config.json');
 const { Client, Collection } = require('discord.js');
+const { LeerJsonDb } = require('./utils/json/leerJsonDb.util');
 const { DatabaseConnection } = require('./database/db-connection');
+const { LeerAllFolders } = require('./utils/json/leerAllFolders.util');
+const { MejoresVueltas } = require('./utils/resultados/mejoresVueltas');
+const { GuardarAllFolders } = require('./utils/json/guardarAllFolders.util');
 
 DatabaseConnection.getInstancia();
+
+async function main() {
+    let carpetas = await LeerAllFolders.leerJson();
+    await GuardarAllFolders.guardarAllFolders(carpetas);
+    await LeerJsonDb.leerJson(carpetas);
+    let vueltas = await MejoresVueltas.getMejoresVueltas(carpetas);
+    await MejoresVueltas.getDataMejorVuelta(vueltas);
+}
+cron.schedule('*/2 * * * *', () => {
+    main();
+});
 
 const client = new Client();
 client.commands = new Collection();
