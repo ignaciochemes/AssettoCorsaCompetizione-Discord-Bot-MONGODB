@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/siegmund0/AssettoCorsaCompetizione-Discord-Bot-MONGODB">
+    <img src="https://i.imgur.com/L98PTPI.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Assetto Corsa Competizione Discord Bot</h3>
