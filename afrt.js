@@ -17,9 +17,10 @@ async function main() {
     let vueltas = await MejoresVueltas.getMejoresVueltas(carpetas);
     await MejoresVueltas.getDataMejorVuelta(vueltas);
 }
-cron.schedule('*/2 * * * *', () => {
-    main();
-});
+main();
+// cron.schedule('*/2 * * * *', () => {
+//     main();
+// });
 
 const client = new Client();
 client.commands = new Collection();

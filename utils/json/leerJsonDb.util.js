@@ -11,7 +11,7 @@ class LeerJsonDb {
             let chequeoDaoNombre = { nombre: json[i] };
             let chequeoDao = await JsonDao.chequearCarpetaDao(chequeoDaoNombre);
             chequeoDao = Object.values(chequeoDao.archivos);
-            if(!chequeoDao.length) return
+            if(!chequeoDao.length) continue;
             for(let x = 0; x < chequeoDao.length; x++) {
                 let data = { id: chequeoDao[x] };
                 let find = await JsonDao.findNewJson(data);
@@ -32,7 +32,6 @@ class LeerJsonDb {
                     }
                     await JsonDao.pushNewJson(dataReadyToPush);
                 }
-                return
             }
         }
     }
