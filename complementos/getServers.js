@@ -14,9 +14,9 @@ class GetServers {
             let leerJsonNombre = await LeerJson.readJson(obtenerRuta);
             await find('port', leerJson.udpPort).then((resultado) => {
                 if(!resultado[0]) {
-                    servers.push(leerJsonNombre.settings.serverName + " \`OFF\`");
+                    servers.push(i + ' ' + leerJsonNombre.settings.serverName + " \`OFF\`");
                 } else {
-                    servers.push(leerJsonNombre.settings.serverName + " \`ON\`");
+                    servers.push(i + ' ' + leerJsonNombre.settings.serverName + " \`ON\`");
                 }
             });
         }
