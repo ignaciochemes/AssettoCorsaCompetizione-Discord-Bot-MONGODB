@@ -4,8 +4,8 @@
   "description": "",
   "main": "afrt.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node afrt.js",
+    "dev": "nodemon afrt.js"
   },
   "keywords": [],
   "author": "",
