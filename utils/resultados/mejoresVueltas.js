@@ -6,6 +6,7 @@ class MejoresVueltas {
     constructor(){}
 
     static async getMejoresVueltas(folder) {
+        console.log(folder);
         let result = [];
         for(let i = 0; i < folder.length; i++) {
             let data = { nombre: folder[i] };
@@ -31,13 +32,13 @@ class MejoresVueltas {
             let pista = await find.pista;
             let rest = await find.resto;
             for(let x = 0; x < rest.length; x++) {
-                let calcularMs = await MsToSegundos.msToSegundos(rest[x].timing.bestLap);
+                let calcularMs = MsToSegundos.msToSegundos(rest[x].timing.bestLap);
                 let calcularMsNumber = calcularMs.replace(/:/gi, ".");
-                let splitUno = await MsToSegundos.msToSegundos(rest[x].timing.bestSplits[0]);
-                let splitDos = await MsToSegundos.msToSegundos(rest[x].timing.bestSplits[1]);
-                let splitTres = await MsToSegundos.msToSegundos(rest[x].timing.bestSplits[2]);
+                let splitUno = MsToSegundos.msToSegundos(rest[x].timing.bestSplits[0]);
+                let splitDos = MsToSegundos.msToSegundos(rest[x].timing.bestSplits[1]);
+                let splitTres = MsToSegundos.msToSegundos(rest[x].timing.bestSplits[2]);
                 let buscarUserData = {  playerId: rest[x].currentDriver.playerId, pista: pista }
-                let buscarUser = await MejoresVueltasDao.buscarUserPorPista(buscarUserData);
+                let buscarUser = MejoresVueltasDao.buscarUserPorPista(buscarUserData);
                 let buscarClase = rest[x].car.carModel;
                 
                 let data = {

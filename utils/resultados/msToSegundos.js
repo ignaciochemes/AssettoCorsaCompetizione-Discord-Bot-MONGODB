@@ -1,7 +1,7 @@
 class MsToSegundos {
     constructor(){}
 
-    static async msToSegundos(milliseconds) {
+    static msToSegundos(milliseconds) {
         let minutes = milliseconds / (1000 * 60);
         let absoluteMinutes = Math.floor(minutes);
         let min = absoluteMinutes > 9 ? absoluteMinutes : '0' + absoluteMinutes;
