@@ -39,6 +39,7 @@ const TiemposSchema = new Schema({
     },
     vueltas: {
         type: Number,
+        default: 0
     }
 });
 
