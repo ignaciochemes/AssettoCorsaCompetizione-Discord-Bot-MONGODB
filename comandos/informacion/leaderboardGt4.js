@@ -2,6 +2,7 @@ const { MessageEmbed } = require('discord.js');
 const { Pistas } = require('../../constants/pistas.constants');
 const { TiemposTabla } = require('../../complementos/tiemposTabla');
 const { TextConstants } = require('../../constants/text.constants');
+const { GeneralConstants} = require('../../constants/genera.constants');
 
 module.exports = {
     name: "tablagt4",

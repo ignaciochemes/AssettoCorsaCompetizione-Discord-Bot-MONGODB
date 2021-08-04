@@ -18,7 +18,7 @@ async function main() {
     await MejoresVueltas.getDataMejorVuelta(vueltas);
 }
 // main();
-cron.schedule('*/2 * * * *', () => {
+cron.schedule('*/30 * * * *', () => {
     main();
 });
 
