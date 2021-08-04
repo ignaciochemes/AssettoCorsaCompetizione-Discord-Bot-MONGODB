@@ -17,6 +17,7 @@ async function main() {
     let vueltas = await MejoresVueltas.getMejoresVueltas(carpetas);
     await MejoresVueltas.getDataMejorVuelta(vueltas);
 }
+
 cron.schedule('*/2 * * * *', () => {
     main();
 });

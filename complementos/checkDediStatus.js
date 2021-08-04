@@ -18,7 +18,7 @@ class DediStatus {
     };
 
     static async netUsage() {
-        let data = this._net.inOut();
+        let data = this._net.inOut().then(info => info)
         return data;
     };
 }
