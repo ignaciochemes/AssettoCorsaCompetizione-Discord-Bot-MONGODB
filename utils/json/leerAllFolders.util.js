@@ -11,7 +11,7 @@ class LeerAllFolders {
             if (err) throw new Error(`Error al obtener la carpeta ${this._path}`);
             return folders;
         });
-        await folders.forEach((folder) => { lista.push(folder) });
+        folders.forEach((folder) => { lista.push(folder) });
         return lista;
     };
 }
