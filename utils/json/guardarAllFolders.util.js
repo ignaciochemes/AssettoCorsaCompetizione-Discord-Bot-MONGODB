@@ -14,6 +14,7 @@ class GuardarAllFolders {
             });
             res.forEach((file) => {
                 if(file.includes('Q')) archivos.push(file);
+                if(file.includes('FP')) archivos.push(file);
                 if(!file) return
             });
 
