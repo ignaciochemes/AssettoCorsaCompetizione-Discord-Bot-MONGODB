@@ -59,7 +59,7 @@ class MejoresVueltas {
                 }
                 if(!buscarUser) {
                     await MejoresVueltasDao.guardarUsuarios(data);
-                } else {
+                } else if(rest[x].timing.bestLap < buscarUser.bestLapNum) {
                     let dataUpdate = {
                         bestLap: calcularMsNumber,
                         bestLapNum: rest[x].timing.bestLap,
