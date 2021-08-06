@@ -14,17 +14,15 @@ module.exports = {
         const canvas = new CanvasRenderService(width = 800, height = 400, chartCb);
         const data = {
             labels: [
-                'TOTAL',
                 'LIBRE',
                 'USADO',
             ],
             datasets: [{
                 label: 'RAM',
-                data: [ramUsage.totalMemMb, ramUsage.totalMemMb - ramUsage.usedMemMb ,ramUsage.usedMemMb],
+                data: [ramUsage.totalMemMb - ramUsage.usedMemMb ,ramUsage.usedMemMb],
                 backgroundColor: [
                     'rgb(255, 99, 132)',
                     'rgb(54, 162, 235)',
-                    'rgb(255, 206, 86)',
                 ],
                 hoverOffset: 4
             }]
