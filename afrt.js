@@ -20,11 +20,10 @@ async function main() {
     //await TotalLaps.setTotalLaps(vueltas);
 }
 
-main();
-
-// cron.schedule('*/2 * * * *', () => {
-//     main();
-// });
+// main();
+cron.schedule('*/45 * * * *', () => {
+    main();
+});
 
 const client = new Client();
 client.commands = new Collection();
