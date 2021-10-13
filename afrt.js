@@ -1,6 +1,5 @@
 const fs = require('fs');
 const cron = require('node-cron');
-const configJson = require('./config.json');
 const { Client, Collection } = require('discord.js');
 const { LeerJsonDb } = require('./utils/json/leerJsonDb.util');
 const { DatabaseConnection } = require('./database/db-connection');
@@ -8,7 +7,9 @@ const { LeerAllFolders } = require('./utils/json/leerAllFolders.util');
 const { MejoresVueltas } = require('./utils/resultados/mejoresVueltas');
 const { GuardarAllFolders } = require('./utils/json/guardarAllFolders.util');
 const { TotalLaps } = require('./utils/resultados/totalLaps');
+const { getEnvironment } = require('./configs/environment');
 
+getEnvironment()
 DatabaseConnection.getInstancia();
 
 async function main() {
@@ -20,7 +21,7 @@ async function main() {
     //await TotalLaps.setTotalLaps(vueltas);
 }
 
-// main();
+main();
 cron.schedule('*/45 * * * *', () => {
     main();
 });
@@ -42,7 +43,7 @@ client.on('ready', () => {
 
 //Message configuration - Listener
 client.on("message", async message => {
-    const prefix = configJson.PREFIX;
+    const prefix = process.env.PREFIX;
     if (message.author.bot) return;
     if (!message.guild) return;
     if (!message.content.startsWith(prefix)) return;
@@ -60,4 +61,4 @@ client.on("message", async message => {
         command.run(client, message, args);
 });
 
-client.login(configJson.TOKEN);
+client.login(process.env.TOKEN);
