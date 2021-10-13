@@ -12,20 +12,20 @@ class GetServers {
             let obtenerRuta = await RutasFolder.rutasFolder(i);
             let leerJson = await LeerJson.readConfigJson(obtenerRuta);
             let leerJsonNombre = await LeerJson.readJson(obtenerRuta);
-            await find('port', leerJson.udpPort).then((resultado) => {
+            await find('port', leerJson.udpPort).then(async(resultado) => {
                 if(!resultado[0]) {
-                    servers.push(leerJsonNombre.settings.serverName + " \`OFF\`");
+                    servers.push(`${i} - ${leerJsonNombre.settings.serverName} \`OFF\``);
                 } else {
-                    servers.push(leerJsonNombre.settings.serverName + " \`ON\`");
+                    servers.push(`${i} - ${leerJsonNombre.settings.serverName} \`ON\` - Ping: \`${await this.getPing()} Ms\``);
                 }
             });
         }
         return servers;
     }
 
-    async getPing() {
-        let res = await ping.promise.probe('google.com', { timeout: 2 } );
-        return res;
+    static async getPing() {
+        let res = await ping.promise.probe('google.com', { timeout: 2 } ); 
+        return res.time;
     }
 }
 
