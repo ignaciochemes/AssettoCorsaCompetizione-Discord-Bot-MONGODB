@@ -10,7 +10,7 @@ class ApagarServer {
     constructor(){}
 
     static async apagarServer(message, ruta) {
-        let getFolder = await RutasFolder.rutasFolder(message, ruta);
+        let getFolder = await RutasFolder.rutasFolder(ruta);
         let buscar = await LeerJson.readConfigJson(getFolder);
         let getStopBash = await ChequeoRuta.chequeoRutaStop(ruta);
         await find('port', buscar.udpPort).then((list) => {
