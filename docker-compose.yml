@@ -1,0 +1,15 @@
+version: "3"
+services:
+    node:
+        container_name: afrt-core-node
+        image: "node:14.17-buster"
+        user: node
+        volumes:
+            - ./:/var/www/html/
+        working_dir: /var/www/html
+        ports:
+            #docker execution port
+            - "3310:3310"
+            #docker debbug port
+            - "9662:9662"
+        command: sh -c "npm install && npm run start:prod"
