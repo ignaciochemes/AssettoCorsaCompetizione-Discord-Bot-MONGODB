@@ -1,13 +1,13 @@
 const fs = require('fs');
 const cron = require('node-cron');
 const { Client, Collection } = require('discord.js');
-const { LeerJsonDb } = require('./utils/json/leerJsonDb.util');
-const { DatabaseConnection } = require('./database/db-connection');
-const { LeerAllFolders } = require('./utils/json/leerAllFolders.util');
-const { MejoresVueltas } = require('./utils/resultados/mejoresVueltas');
-const { GuardarAllFolders } = require('./utils/json/guardarAllFolders.util');
-const { TotalLaps } = require('./utils/resultados/totalLaps');
-const { getEnvironment } = require('./configs/environment');
+const { LeerJsonDb } = require('./src/Utils/Json/LeerJsonDb');
+const { DatabaseConnection } = require('./src/Database/DbConnection');
+const { LeerAllFolders } = require('./src/Utils/Json/LeerAllFolders');
+const { MejoresVueltas } = require('./src/Utils/Resultados/MejoresVueltas');
+const { GuardarAllFolders } = require('./src/Utils/Json/GuardarAllFolders');
+const { TotalLaps } = require('./src/Utils/Resultados/TotalLaps');
+const { getEnvironment } = require('./src/Configs/Environment');
 
 getEnvironment()
 DatabaseConnection.getInstancia();
@@ -29,11 +29,11 @@ cron.schedule('*/45 * * * *', () => {
 const client = new Client();
 client.commands = new Collection();
 client.aliases = new Collection();
-client.categories = fs.readdirSync("./comandos/");
+client.categories = fs.readdirSync("./src/Comandos/");
 
 //Indice
-["indice"].forEach(indice => {
-    require(`./indice/${indice}`)(client);
+["Indice"].forEach(indice => {
+    require(`./src/Indice/${indice}`)(client);
 });
 
 client.on('ready', () => {
