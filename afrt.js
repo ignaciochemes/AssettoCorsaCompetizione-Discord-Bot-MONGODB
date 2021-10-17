@@ -1,13 +1,15 @@
 const fs = require('fs');
 const cron = require('node-cron');
-const configJson = require('./config.json');
 const { Client, Collection } = require('discord.js');
-const { LeerJsonDb } = require('./utils/json/leerJsonDb.util');
-const { DatabaseConnection } = require('./database/db-connection');
-const { LeerAllFolders } = require('./utils/json/leerAllFolders.util');
-const { MejoresVueltas } = require('./utils/resultados/mejoresVueltas');
-const { GuardarAllFolders } = require('./utils/json/guardarAllFolders.util');
+const { LeerJsonDb } = require('./src/Utils/Json/LeerJsonDb');
+const { DatabaseConnection } = require('./src/Database/DbConnection');
+const { LeerAllFolders } = require('./src/Utils/Json/LeerAllFolders');
+const { MejoresVueltas } = require('./src/Utils/Resultados/MejoresVueltas');
+const { GuardarAllFolders } = require('./src/Utils/Json/GuardarAllFolders');
+const { TotalLaps } = require('./src/Utils/Resultados/TotalLaps');
+const { getEnvironment } = require('./src/Configs/Environment');
 
+getEnvironment()
 DatabaseConnection.getInstancia();
 
 async function main() {
@@ -16,20 +18,22 @@ async function main() {
     await LeerJsonDb.leerJson(carpetas);
     let vueltas = await MejoresVueltas.getMejoresVueltas(carpetas);
     await MejoresVueltas.getDataMejorVuelta(vueltas);
+    //await TotalLaps.setTotalLaps(vueltas);
 }
-// main();
-cron.schedule('*/2 * * * *', () => {
+
+main();
+cron.schedule('*/45 * * * *', () => {
     main();
 });
 
 const client = new Client();
 client.commands = new Collection();
 client.aliases = new Collection();
-client.categories = fs.readdirSync("./comandos/");
+client.categories = fs.readdirSync("./src/Comandos/");
 
 //Indice
-["indice"].forEach(indice => {
-    require(`./indice/${indice}`)(client);
+["Indice"].forEach(indice => {
+    require(`./src/Indice/${indice}`)(client);
 });
 
 client.on('ready', () => {
@@ -39,7 +43,7 @@ client.on('ready', () => {
 
 //Message configuration - Listener
 client.on("message", async message => {
-    const prefix = configJson.PREFIX;
+    const prefix = process.env.PREFIX;
     if (message.author.bot) return;
     if (!message.guild) return;
     if (!message.content.startsWith(prefix)) return;
@@ -57,4 +61,4 @@ client.on("message", async message => {
         command.run(client, message, args);
 });
 
-client.login(configJson.TOKEN);
+client.login(process.env.TOKEN);
