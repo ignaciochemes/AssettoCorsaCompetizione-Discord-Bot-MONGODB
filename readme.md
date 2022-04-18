@@ -79,11 +79,9 @@ Instale LOCALMENTE MongoDB. Tenga en cuenta que la conexion se ralizara de maner
    ```sh
    npm install
    ```
-3. Ingrese sus datos en `config.js`
-   ```JSON
-   {
+3. Ingrese sus datos en `.env`
+   ```
         "TOKEN": "YOUR-DISCORD-BOT-TOKEN-HERE",
         "PREFIX": "!",
         "DB_URI": "YOUR-MONGODB-URL-HERE"
-   }
    ```
