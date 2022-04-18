@@ -13,3 +13,14 @@ services:
             #docker debbug port
             - "9662:9662"
         command: sh -c "npm install && npm run start:prod"
+    mongo:
+        container_name: afrt-core-mongo
+        image: mongo:4.2.8
+        ports:
+            - "27017:27017"
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=afrt
+            - MONGO_INITDB_ROOT_PASSWORD=afrt
+            - MONGO_INITDB_DATABASE=afrt
+        volumes:
+            - ./mongo:/data/db
