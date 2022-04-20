@@ -1,6 +1,6 @@
 const { MessageAttachment } = require('discord.js');
 const { CanvasRenderService } = require('chartjs-node-canvas');
-const { DediStatus } = require('../../complementos/checkDediStatus');
+const { DediStatus } = require('../../Complementos/CheckDediStatus');
 
 module.exports = {
     name: "cpu",
@@ -8,9 +8,9 @@ module.exports = {
     category: "charts",
     description: "Con este comando puedes ver el uso de cpu",
     usage: "!afrt cpu",
-    run: async(client, message, args) => {
+    run: async (client, message, args) => {
         let cpuUsage = await DediStatus.cpuUsage();
-        const chartCb = (ChartJs) => {};
+        const chartCb = (ChartJs) => { };
         const canvas = new CanvasRenderService(width = 800, height = 400, chartCb);
         const data = {
             labels: [
@@ -22,7 +22,7 @@ module.exports = {
                 data: [cpuUsage, 100 - cpuUsage],
                 backgroundColor: [
                     'rgb(255, 99, 132)',
-                    'rgb(54, 162, 235)'                ],
+                    'rgb(54, 162, 235)'],
                 hoverOffset: 4
             }]
         };

@@ -1,6 +1,6 @@
 const { MessageAttachment } = require('discord.js');
 const { CanvasRenderService } = require('chartjs-node-canvas');
-const { DediStatus } = require('../../complementos/checkDediStatus');
+const { DediStatus } = require('../../Complementos/CheckDediStatus');
 
 module.exports = {
     name: "netstatNOFUNCIONA",
@@ -8,7 +8,7 @@ module.exports = {
     category: "chartsNOFUNCIONA",
     description: "Con este comando puedes ver el uso de network",
     usage: "!afrt netstat",
-    run: async(client, message, args) => {
+    run: async (client, message, args) => {
         try {
             let netUsage = await DediStatus.netUsage();
             console.log(netUsage);

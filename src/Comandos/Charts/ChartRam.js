@@ -1,6 +1,6 @@
 const { MessageAttachment } = require('discord.js');
 const { CanvasRenderService } = require('chartjs-node-canvas');
-const { DediStatus } = require('../../complementos/checkDediStatus');
+const { DediStatus } = require('../../Complementos/CheckDediStatus');
 
 module.exports = {
     name: "ram",
@@ -8,9 +8,9 @@ module.exports = {
     category: "charts",
     description: "Con este comando puedes ver el uso de ram",
     usage: "!afrt ram",
-    run: async(client, message, args) => {
+    run: async (client, message, args) => {
         let ramUsage = await DediStatus.ramUsage();
-        const chartCb = (ChartJs) => {};
+        const chartCb = (ChartJs) => { };
         const canvas = new CanvasRenderService(width = 800, height = 400, chartCb);
         const data = {
             labels: [

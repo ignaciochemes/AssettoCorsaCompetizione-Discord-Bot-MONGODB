@@ -1,4 +1,4 @@
-const { PrenderServer } = require("../../complementos/prenderServer");
+const { PrenderServer } = require("../../Complementos/PrenderServer");
 
 module.exports = {
     name: "levantar",
@@ -6,7 +6,7 @@ module.exports = {
     category: "information",
     description: "Retorna todos los servidores disponibles (presets)",
     usage: "!afrt borrar",
-    run: async(client, message, args) => {
+    run: async (client, message, args) => {
         await PrenderServer.prenderServer(process, message, args);
     }
 }
