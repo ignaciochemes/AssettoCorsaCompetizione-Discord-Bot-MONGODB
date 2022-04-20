@@ -3,7 +3,6 @@ const client = require('../../afrt.js');
 const prefix = process.env.PREFIX;
 
 client.on('messageCreate', async message => {
-    console.log('pedro');
     if (message.author.bot) return;
     if (!message.guild) return;
     if (!message.content.startsWith(prefix)) return;
