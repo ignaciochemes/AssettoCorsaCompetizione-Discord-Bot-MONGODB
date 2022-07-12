@@ -1,0 +1,87 @@
+{
+	"entries": [
+		{
+			"drivers": [
+				{
+					"playerID": "S76561197968948364",
+					"firstName": "Agustin",
+					"lastName": "Lavia",
+					"shortName": "LAV",
+					"driverCategory": 2,
+					"nationality": 14
+				},
+				{
+					"playerID": "S76561198177380874",
+					"firstName": "Ignacio",
+					"lastName": "Prieto",
+					"shortName": "PRI",
+					"driverCategory": 2,
+					"nationality": 83
+				},
+				{
+					"playerID": "S76561198027336465",
+					"firstName": "Alexis",
+					"lastName": "Murgan",
+					"shortName": "MUR",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 922,
+			"forcedCarModel": 23,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 1,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		},
+		{
+			"drivers": [
+				{
+					"playerID": "S76561198120289934",
+					"firstName": "Ignacio",
+					"lastName": "Chemes",
+					"shortName": "CHE",
+					"driverCategory": 2,
+					"nationality": 14
+				},
+				{
+					"playerID": "S76561198170162177",
+					"firstName": "Leandro",
+					"lastName": "Oscar",
+					"shortName": "OSC",
+					"driverCategory": 2,
+					"nationality": 14
+				},
+				{
+					"playerID": "S76561198243627564",
+					"firstName": "Adrian",
+					"lastName": "Pedernera",
+					"shortName": "PED",
+					"driverCategory": 2,
+					"nationality": 14
+				},
+				{
+					"playerID": "S76561198414906336",
+					"firstName": "Alejandro",
+					"lastName": "Bepi",
+					"shortName": "BEP",
+					"driverCategory": 2,
+					"nationality": 14
+				}
+			],
+			"raceNumber": 57,
+			"forcedCarModel": 25,
+			"overrideDriverInfo": 1,
+			"isServerAdmin": 0,
+			"defaultGridPosition": 0,
+			"ballastKg": 0,
+			"restrictor": 0,
+			"customCar": "",
+			"overrideCarModelForCustomCar": -1
+		}
+	],
+	"forceEntryList": 1
+}

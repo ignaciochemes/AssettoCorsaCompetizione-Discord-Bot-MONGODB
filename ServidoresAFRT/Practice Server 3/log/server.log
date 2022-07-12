@@ -1,0 +1,187 @@
+0: Server starting with version 255
+0: Starting server AFRT British Challenge | Free Practice
+0: 	EntryList entry: id 0, isAdmin 1, overrideDI 1
+0: 	EntryList entry: id 1, isAdmin 0, overrideDI 1
+0: Using entry list with 2 drivers
+0: Joining during race is allowed
+0: Translated realtime interval hzToMiliseconds(18)=54
+
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.931383
+0: Track brands_hatch_2020 was set and updated
+0: Event changed
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.927968
+0: Significant change detected, updating lobby (1|1)
+0: Resetting weekend to friday night
+0: Reset time to friday night: 0 -> 0
+0: Reset time to first session: 0 -> 226800
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.896453
+0: Listening to TCP 9654 | UDP 9654
+148: Trying to connect to lobby (0 times, interval 10000 s)
+148: Session changed: Qualifying -> Qualifying 0
+148: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Qualifying)
+6747: Replied to network discovery request
+9882: New connection received 276
+9882: 1 client(s) online
+9882: TCPQueue now: 302
+9882: New TCP incoming pakSizeMax, 0 => 300
+9882: Located entryListId 1 for connection 0 S76561198120289934
+9882: rejecting new connection: wrong password
+9885: Removing dead connection 0  (last lastUdpPaketReceived 9885)
+9885: Alive connections: 0
+9885: 0 client(s) online
+17083: New connection received 276
+17083: 1 client(s) online
+17083: TCPQueue now: 334
+17083: New TCP incoming pakSizeMax, 0 => 332
+17083: Located entryListId 1 for connection 1 S76561198120289934
+17083: New connection request: id 1 Ignacio Chemes S76561198120289934 on car model 7
+17083: ==ERR: Player has entry list item with forced car model 25, but chose 7 and is rejected
+17086: Removing dead connection 1  (last lastUdpPaketReceived 17086)
+17086: Alive connections: 0
+17086: 0 client(s) online
+20617: New connection received 276
+20617: 1 client(s) online
+20617: TCPQueue now: 334
+20617: New TCP incoming pakSizeMax, 0 => 332
+20617: Located entryListId 1 for connection 2 S76561198120289934
+20617: New connection request: id 2 Ignacio Chemes S76561198120289934 on car model 7
+20617: ==ERR: Player has entry list item with forced car model 25, but chose 7 and is rejected
+20620: Removing dead connection 2  (last lastUdpPaketReceived 20620)
+20620: Alive connections: 0
+20620: 0 client(s) online
+21148: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+21151: Trying to connect to lobby (1 times, interval 13000 s)
+22407: RegisterToLobby succeeded
+22410: Sent lobby registration request for brands_hatch_2020
+22668: TCPQueue now: 4
+22668: New TCP incoming pakSizeMax, 0 => 2
+22668: Updated lobby with 0 drivers
+28785: Replied to network discovery request
+30499: New connection received 272
+30499: 1 client(s) online
+30499: TCPQueue now: 414
+30499: New TCP incoming pakSizeMax, 0 => 412
+30499: Located entryListId 0 for connection 3 S76561198177380874
+30499: New connection request: id 3 Ignacio Prieto S76561198177380874 on car model 23
+30499: Creating new car connection: carId 1001, carModel 23, raceNumber #922
+30499: Special Rules for carid 1001: 
+	max_total_driving_time is -1 (from -1), pitCount 0
+30499: startingTime is not set?
+30499: startingTime is not set?
+30499: Starting stint for car 1001 driver 1 at 30499.101900
+30499: startingTime is not set?
+30499: Updated lobby with 1 drivers
+30499: Assigning gridNumber 1 to new carId 1001
+30499: Sent handshake response for car 1001 connection 3 with 1854 bytes
+30499: 1 Driver(s) detected, starting session
+30499: SessionManager::randomizeGreenFlagTriggers: s:0.976505 e:0.999999 r:0.981046
+30499: Detected sessionPhase <waiting for drivers> -> <pre session> (Qualifying)
+30499: Sent session update to lobby
+30499: Updated leaderboard for 1 clients (Qualifying-<pre session> 45 min)
+33499: Detected sessionPhase <session> -> <session> (Qualifying)
+33499: Sent session update to lobby
+38644: Replied to network discovery request
+42465: Associated: connId 3, now 42465
+42537: Reset time offset for connection 3, new offset 42434, diff 11935
+43477: New connection received 276
+43477: 2 client(s) online
+43477: TCPQueue now: 430
+43477: New TCP incoming pakSizeMax, 0 => 428
+43477: Located entryListId 1 for connection 4 S76561198120289934
+43477: New connection request: id 4 Ignacio Chemes S76561198120289934 on car model 25
+43477: Creating new car connection: carId 1002, carModel 25, raceNumber #57
+43477: Special Rules for carid 1002: 
+	max_total_driving_time is -1 (from -1), pitCount 0
+43477: startingTime is not set?
+43477: Starting stint for car 1002 driver 0 at 43477.152300
+43477: startingTime is not set?
+43477: startingTime is not set?
+43477: startingTime is not set?
+43477: Updated lobby with 2 drivers
+43477: Assigning gridNumber 1 to new carId 1001
+43477: Assigning gridNumber 2 to new carId 1002
+43477: Sent handshake response for car 1002 connection 4 with 3457 bytes
+43477: Updated leaderboard for 2 clients (Qualifying-<session> 44 min)
+43999: Receives driver stint reset for car 1001
+43999: startingTime is not set?
+43999: Ending stint: new total time for car 1001 driver 1 is 12455.898100
+43999: List of Stints for car 1001 driver 1
+43999: Stint 1 car 1001 driver 1 started 30499.101900 ended 42955.000000
+43999: startingTime is not set?
+44061: Receives driver stint reset for car 1001
+44061: startingTime is not set?
+44061: startingTime is not set?
+44061: startingTime is not set?
+44128: Updated 1 clients with new carSystem for car 1001 (469762048l)
+45976: Associated: connId 4, now 45976
+46006: Reset time offset for connection 4, new offset 45960, diff 2483
+46020: Connection 4 asks for carInfo 1001
+46020: Assigning gridNumber 1 to new carId 1001
+46249: Connection 3 asks for carInfo 1002
+46249: Assigning gridNumber 2 to new carId 1002
+46483: Updated 1 clients with new carSystem for car 1002 (0l)
+46525: Receives driver stint reset for car 1002
+46525: Ending stint: new total time for car 1002 driver 0 is 3043.847700
+46525: List of Stints for car 1002 driver 0
+46525: Stint 1 car 1002 driver 0 started 43477.152300 ended 46521.000000
+46525: startingTime is not set?
+46525: startingTime is not set?
+46525: startingTime is not set?
+47209: Receives driver stint reset for car 1002
+47209: startingTime is not set?
+47209: startingTime is not set?
+47209: startingTime is not set?
+47209: startingTime is not set?
+47230: Updated 1 clients with new carSystem for car 1002 (67108864l)
+47245: Updated 1 clients with new carSystem for car 1002 (67108880l)
+60118: Tcp message count (2 clients): 46=4, 50=2, 79=4, 
+60118: Udp message count (2 clients): 19=2, 22=33, 23=1, 30=574, 34=2, 
+61834: ==ERR: onCarUpdate (1001): timestamp is 5 ms in the future: 61840 (now: 61834 offset: 42454)
+61891: ==ERR: onCarUpdate (1001): timestamp is 5 ms in the future: 61897 (now: 61891 offset: 42457)
+61945: ==ERR: onCarUpdate (1001): timestamp is 8 ms in the future: 61954 (now: 61945 offset: 42460)
+61999: ==ERR: onCarUpdate (1001): timestamp is 11 ms in the future: 62011 (now: 61999 offset: 42463)
+62053: ==ERR: onCarUpdate (1001): timestamp is 14 ms in the future: 62068 (now: 62053 offset: 42466)
+62107: ==ERR: onCarUpdate (1001): timestamp is 17 ms in the future: 62125 (now: 62107 offset: 42469)
+62140: Updated 1 clients with new carSystem for car 1002 (67174416l)
+62161: ==ERR: onCarUpdate (1001): timestamp is 17 ms in the future: 62179 (now: 62161 offset: 42469)
+62215: ==ERR: onCarUpdate (1001): timestamp is 17 ms in the future: 62233 (now: 62215 offset: 42469)
+62268: ==ERR: onCarUpdate (1001): timestamp is 18 ms in the future: 62287 (now: 62268 offset: 42469)
+62323: ==ERR: onCarUpdate (1001): timestamp is 17 ms in the future: 62341 (now: 62323 offset: 42469)
+62377: ==ERR: onCarUpdate (1001): timestamp is 17 ms in the future: 62395 (now: 62377 offset: 42469)
+62431: ==ERR: onCarUpdate (1001): timestamp is 17 ms in the future: 62449 (now: 62431 offset: 42469)
+62485: ==ERR: onCarUpdate (1001): timestamp is 17 ms in the future: 62503 (now: 62485 offset: 42469)
+62542: ==ERR: onCarUpdate (1001): timestamp is 11 ms in the future: 62554 (now: 62542 offset: 42466)
+62593: ==ERR: onCarUpdate (1001): timestamp is 11 ms in the future: 62605 (now: 62593 offset: 42463)
+62647: ==ERR: onCarUpdate (1001): timestamp is 8 ms in the future: 62656 (now: 62647 offset: 42460)
+62701: ==ERR: onCarUpdate (1001): timestamp is 5 ms in the future: 62707 (now: 62701 offset: 42457)
+68134: Late lastUdpPaketReceived for connId 4: 2445 ms (Ignacio Chemes)
+68508: ==ERR: TCP socket error detected 10053 
+
+68508: Client 4 closed the connection (10053)
+68511: Removing dead connection 4  (last lastUdpPaketReceived 2822)
+68511: Alive connections: 1
+68511: car 1002 has no driving connection anymore, will remove it
+68511: Sent car 1002 disco to connection 3
+68511: Updated lobby with 1 drivers
+68511: Alive cars: 1
+68511: 1 client(s) online
+68511: Updated leaderboard for 1 clients (Qualifying-<session> 44 min)
+77151: Late lastUdpPaketReceived for connId 3: 2678 ms (Ignacio Prieto)
+78154: Late lastUdpPaketReceived for connId 3: 3680 ms (Ignacio Prieto)
+78531: ==ERR: TCP socket error detected 10053 
+
+78531: Client 3 closed the connection (10053)
+78534: Removing dead connection 3  (last lastUdpPaketReceived 4061)
+78534: Alive connections: 0
+78534: car 1001 has no driving connection anymore, will remove it
+78534: Updated lobby with 0 drivers
+78534: Alive cars: 0
+78534: 0 client(s) online
+78534: No drivers around, resetting session
+78534: Resetting race weekend
+78534: Resetting weekend to friday night
+78534: Reset time to friday night: 226848 -> 0
+78534: Reset time to first session: 0 -> 226800
+78534: SessionManager::randomizeGreenFlagTriggers: s:0.976505 e:0.999999 r:0.995506
+78534: Detected sessionPhase <session> -> <waiting for drivers> (Qualifying)
+78534: Sent session update to lobby

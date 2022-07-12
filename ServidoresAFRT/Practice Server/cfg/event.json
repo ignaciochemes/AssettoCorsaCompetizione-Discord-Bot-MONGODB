@@ -1,0 +1,22 @@
+{
+    "track": "kyalami",
+    "preRaceWaitingTimeSeconds": 300,
+    "postQualySeconds": 15,
+    "postRaceSeconds": 15,
+    "sessionOverTimeSeconds": 150,
+    "ambientTemp": 22,
+    "cloudLevel": 0.0,
+    "rain": 0.0,
+    "weatherRandomness": 1,
+	"simracerWeatherConditions": 1,
+    "sessions": [
+        {
+            "hourOfDay": 15,
+            "dayOfWeekend": 3,
+            "timeMultiplier": 1,
+            "sessionType": "Q",
+            "sessionDurationMinutes": 60
+        }
+    ],
+    "configVersion": 1
+}

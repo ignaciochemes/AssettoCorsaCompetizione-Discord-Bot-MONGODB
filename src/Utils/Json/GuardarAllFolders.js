@@ -13,9 +13,9 @@ class GuardarAllFolders {
                 return files;
             });
             res.forEach((file) => {
-                if(file.includes('Q')) archivos.push(file);
-                if(file.includes('FP')) archivos.push(file);
-                if(!file) return
+                if(!file.includes('entrylist')) {
+                    archivos.push(file);
+                }
             });
 
             const dataCheck = { nombre: data[i] };
