@@ -1,20 +1,20 @@
 {
-    "track": "hungaroring_2020",
+    "track": "kyalami",
     "preRaceWaitingTimeSeconds": 300,
-    "postQualySeconds": 60,
-    "postRaceSeconds": 120,
+    "postQualySeconds": 15,
+    "postRaceSeconds": 15,
     "sessionOverTimeSeconds": 150,
-    "ambientTemp": 20,
-    "cloudLevel": 0.2,
-    "rain": 0.1,
-    "weatherRandomness": 2,
+    "ambientTemp": 22,
+    "cloudLevel": 0.0,
+    "rain": 0.0,
+    "weatherRandomness": 1,
 	"simracerWeatherConditions": 1,
     "sessions": [
         {
-            "hourOfDay": 14,
+            "hourOfDay": 15,
             "dayOfWeekend": 3,
             "timeMultiplier": 1,
-            "sessionType": "P",
+            "sessionType": "Q",
             "sessionDurationMinutes": 60
         }
     ],

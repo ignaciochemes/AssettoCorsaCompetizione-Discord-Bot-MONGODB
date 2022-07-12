@@ -1,7 +1,7 @@
 {
-    "track": "paul_ricard_2020",
+    "track": "brands_hatch_2020",
     "preRaceWaitingTimeSeconds": 300,
-    "postQualySeconds": 120,
+    "postQualySeconds": 15,
     "postRaceSeconds": 15,
     "sessionOverTimeSeconds": 150,
     "ambientTemp": 18,
@@ -14,7 +14,7 @@
             "dayOfWeekend": 3,
             "timeMultiplier": 1,
             "sessionType": "Q",
-            "sessionDurationMinutes": 30
+            "sessionDurationMinutes": 45
         }
     ],
     "isFixedConditionQualification": 1,

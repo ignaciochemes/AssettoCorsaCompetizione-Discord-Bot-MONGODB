@@ -1,5 +1,5 @@
 {
-    "track": "misano_2020",
+    "track": "monza",
     "preRaceWaitingTimeSeconds": 300,
     "postQualySeconds": 15,
     "postRaceSeconds": 15,
@@ -7,16 +7,17 @@
     "ambientTemp": 18,
     "cloudLevel": 0.0,
     "rain": 0.0,
-    "weatherRandomness": 1,
+    "weatherRandomness": 0,
+	"simracerWeatherConditions": 1,
+	"isFixedConditionQualification": 1,
     "sessions": [
         {
-            "hourOfDay": 14,
+            "hourOfDay": 15,
             "dayOfWeekend": 3,
             "timeMultiplier": 1,
-            "sessionType": "Q",
+            "sessionType": "P",
             "sessionDurationMinutes": 60
         }
     ],
-    "isFixedConditionQualification": 1,
     "configVersion": 1
 }

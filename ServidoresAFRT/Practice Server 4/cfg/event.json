@@ -1,5 +1,5 @@
 {
-    "track": "zolder_2020",
+    "track": "donington_2019",
     "preRaceWaitingTimeSeconds": 300,
     "postQualySeconds": 15,
     "postRaceSeconds": 15,
@@ -10,7 +10,7 @@
     "weatherRandomness": 0,
     "sessions": [
         {
-            "hourOfDay": 14,
+            "hourOfDay": 15,
             "dayOfWeekend": 3,
             "timeMultiplier": 1,
             "sessionType": "Q",
