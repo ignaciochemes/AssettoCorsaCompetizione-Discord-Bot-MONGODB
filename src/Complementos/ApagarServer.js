@@ -19,7 +19,9 @@ class ApagarServer {
             setTimeout(() => {
                 const stopServer = spawn(getStopBash);
                 stopServer.stdout.on('data', (data) => {
-                    return message.channel.send(`${data}`).then(m => m.delete({ timeout: GeneralConstants.BASH_MSG_TIMEOUT }))
+                    if (data.toString().length == 1) return;
+                    const messageToSend = data.toString();
+                    return message.channel.send(`${messageToSend}`).then(m => m.delete({ timeout: GeneralConstants.BASH_MSG_TIMEOUT }))
                 })
             }, GeneralConstants.BASH_MSG_TIMEOUT);
             return message.reply(TextConstants.APAGAR_DONE);
