@@ -21,7 +21,7 @@ async function main() {
     //await TotalLaps.setTotalLaps(vueltas);
 }
 
-main();
+//main();
 cron.schedule('*/45 * * * *', () => {
     main();
 });
@@ -38,7 +38,7 @@ client.categories = fs.readdirSync("./src/Comandos/");
 
 client.on('ready', () => {
     console.log(`Logeado como ${client.user.tag}`);
-    client.user.setActivity(`!afrt ayuda`, {type: "COMPETING"});
+    client.user.setActivity(`!afrt ayuda`, { type: "COMPETING" });
 });
 
 //Message configuration - Listener

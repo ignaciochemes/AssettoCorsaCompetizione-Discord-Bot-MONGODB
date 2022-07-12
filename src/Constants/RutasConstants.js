@@ -22,7 +22,10 @@ class RutasFolder {
             '15': path.join(__dirname, '../../ServidoresAFRT/Server-Zolder-Mixto'),
             '16': path.join(__dirname, '../../ServidoresAFRT/Server-Donington-Mixto'),
             '17': path.join(__dirname, '../../ServidoresAFRT/Server-Oulton-Mixto'),
-            '18': path.join(__dirname, '../../ServidoresAFRT/Server-Snetterton-Mixto')
+            '18': path.join(__dirname, '../../ServidoresAFRT/Server-Snetterton-Mixto'),
+            '19': path.join(__dirname, '../../ServidoresAFRT/Server-Cota-Mixto'),
+            '20': path.join(__dirname, '../../ServidoresAFRT/Server-Indianapolis-Mixto'),
+            '21': path.join(__dirname, '../../ServidoresAFRT/Server-WatkinsGlen-Mixto'),
         }
         return RUTAS_FOLDER[ruta]
     }
