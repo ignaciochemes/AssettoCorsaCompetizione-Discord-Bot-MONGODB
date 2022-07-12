@@ -22,8 +22,8 @@ async function main() {
 }
 
 //main();
-cron.schedule('*/2 * * * *', () => {
-  main();
+cron.schedule('*/45 * * * *', () => {
+    main();
 });
 
 const client = new Client();
@@ -38,7 +38,7 @@ client.categories = fs.readdirSync("./src/Comandos/");
 
 client.on('ready', () => {
     console.log(`Logeado como ${client.user.tag}`);
-    client.user.setActivity(`!afrt ayuda`, {type: "COMPETING"});
+    client.user.setActivity(`!afrt ayuda`, { type: "COMPETING" });
 });
 
 //Message configuration - Listener
