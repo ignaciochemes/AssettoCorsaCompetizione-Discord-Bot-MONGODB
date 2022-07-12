@@ -18,7 +18,10 @@ class Pistas {
         "kyalami",
         "mount_panorama",
         "suzuka",
-        "laguna_seca"
+        "laguna_seca",
+        "cota",
+        "indianapolis",
+        "watkins_glen"
     ]
 }
 

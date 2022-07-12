@@ -24,6 +24,9 @@ class ChequeoRuta {
             '16': RutasBash.START_RUTA_SERVER_16,
             '17': RutasBash.START_RUTA_SERVER_17,
             '18': RutasBash.START_RUTA_SERVER_18,
+            '19': RutasBash.START_RUTA_SERVER_19,
+            '20': RutasBash.START_RUTA_SERVER_20,
+            '21': RutasBash.START_RUTA_SERVER_21,
         }
         return RUTAS_BASH_START[ruta]
     }
@@ -49,6 +52,9 @@ class ChequeoRuta {
             '16': RutasBash.STOP_RUTA_SERVER_16,
             '17': RutasBash.STOP_RUTA_SERVER_17,
             '18': RutasBash.STOP_RUTA_SERVER_18,
+            '19': RutasBash.STOP_RUTA_SERVER_19,
+            '20': RutasBash.STOP_RUTA_SERVER_20,
+            '21': RutasBash.STOP_RUTA_SERVER_21,
         }
         return RUTAS_BASH_STOP[ruta]
     }

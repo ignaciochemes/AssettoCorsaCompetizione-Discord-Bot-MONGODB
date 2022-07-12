@@ -26,6 +26,8 @@ class Coches {
             '6': "Nissan GT-R Nismo GT3 2018",
             '0': "Porsche 991 GT3",
             '23': "Porsche 991 II GT3 R 2019",
+            '30': "BMW M4 GT3",
+            '31': "Audi R8 LMS GT3 evo II",
             '50': "Alpine A110 GT4",
             '51': "Aston Martin Vantage GT4",
             '52': "Audi R8 LMS GT4",
@@ -36,6 +38,7 @@ class Coches {
             '58': "Maserati MC GT4",
             '59': "McLaren 570S GT4",
             '60': "Mercedes AMG GT4",
+            '61': "Porsche 718 Cayman GT4",
             '18': "Lamborghini Huracan SuperTrofeo",
             '9': "Porsche 991 II GT3 Cup",
         };
@@ -67,6 +70,8 @@ class Coches {
             '6': "GT3",
             '0': "GT3",
             '23': "GT3",
+            '30': "GT3",
+            '31': "GT3",
             '50': "GT4",
             '51': "GT4",
             '52': "GT4",
@@ -77,6 +82,7 @@ class Coches {
             '58': "GT4",
             '59': "GT4",
             '60': "GT4",
+            '61': "GT4",
             '18': "ST",
             '9': "CUP",
         };
