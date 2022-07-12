@@ -1,0 +1,22 @@
+0: Server starting with version 255
+0: Starting server AFRT British Challenge | Free Practice
+0: 	EntryList entry: id 0, isAdmin 1, overrideDI 0
+0: 	EntryList entry: id 1, isAdmin 1, overrideDI 0
+0: 	EntryList entry: id 2, isAdmin 1, overrideDI 0
+0: Using entry list with 3 drivers
+0: Joining during race is allowed
+0: Translated realtime interval hzToMiliseconds(18)=54
+
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.897619
+0: Track donington was set and updated
+0: Event changed
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.923354
+0: Significant change detected, updating lobby (1|1)
+0: Resetting weekend to friday night
+0: Reset time to friday night: 0 -> 0
+0: Reset time to first session: 0 -> 226800
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.906628
+0: Listening to TCP 9655 | UDP 9655
+141: Trying to connect to lobby (0 times, interval 10000 s)
+141: Session changed: Qualifying -> Qualifying 0
+141: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Qualifying)
