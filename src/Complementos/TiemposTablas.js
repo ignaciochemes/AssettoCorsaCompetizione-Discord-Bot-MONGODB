@@ -2,7 +2,6 @@ const { TiemposDao } = require("../Dao/TiemposDao");
 const { Pistas } = require("../Constants/PistasConstants");
 
 class TiemposTabla {
-    constructor(){}
 
     static async getTablaGt3(pista, clase) {
         let res = Pistas.pistas.find(obj => obj === pista);

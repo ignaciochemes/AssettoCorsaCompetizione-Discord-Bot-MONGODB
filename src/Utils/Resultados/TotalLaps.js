@@ -1,7 +1,6 @@
 const { LapsDao } = require("../../Dao/LapsDao");
 
 class TotalLaps {
-    constructor(){}
 
     static async setTotalLaps() {
         const data = await LapsDao.getFolders();

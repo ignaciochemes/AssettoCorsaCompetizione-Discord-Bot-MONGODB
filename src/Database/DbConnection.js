@@ -2,6 +2,7 @@ const { connect } = require('mongoose');
 
 class DatabaseConnection {
     static _instancia;
+    
     constructor(){
         this.dbConnection();
     }

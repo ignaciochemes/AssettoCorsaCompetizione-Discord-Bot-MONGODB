@@ -4,14 +4,13 @@ const { LeerJson } = require('./LeerJson');
 const { RutasFolder } = require('../Constants/RutasConstants');
 
 class GetServers {
-    constructor(){}
-
+    
     static async getServers() {
         let servers = [];
         for(let i = 0; i < 22; i++) {
-            let obtenerRuta = await RutasFolder.rutasFolder(i);
-            let leerJson = await LeerJson.readConfigJson(obtenerRuta);
-            let leerJsonNombre = await LeerJson.readJson(obtenerRuta);
+            const obtenerRuta = await RutasFolder.rutasFolder(i);
+            const leerJson = await LeerJson.readConfigJson(obtenerRuta);
+            const leerJsonNombre = await LeerJson.readJson(obtenerRuta);
             await find('port', leerJson.udpPort).then(async(resultado) => {
                 if(!resultado[0]) {
                     servers.push(`${i} - ${leerJsonNombre.settings.serverName} \`OFF\``);
@@ -24,7 +23,7 @@ class GetServers {
     }
 
     static async getPing() {
-        let res = await ping.promise.probe('google.com', { timeout: 2 } ); 
+        const res = await ping.promise.probe('google.com', { timeout: 2 } ); 
         return res.time;
     }
 }

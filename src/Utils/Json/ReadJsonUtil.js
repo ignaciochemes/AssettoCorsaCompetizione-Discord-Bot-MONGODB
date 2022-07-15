@@ -1,5 +1,4 @@
 class ReadJson {
-    constructor() {}
 
     static readJson(file) {
         let obj = file.toString();

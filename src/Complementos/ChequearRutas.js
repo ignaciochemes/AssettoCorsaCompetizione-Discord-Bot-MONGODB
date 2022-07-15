@@ -1,8 +1,7 @@
 const { RutasBash } = require("../Constants/RutasBashConstants");
 
 class ChequeoRuta {
-    constructor(){}
-
+    
     static chequeoRutaStart(ruta) {
         const RUTAS_BASH_START = {
             '0': RutasBash.START_RUTA_SERVER_0,

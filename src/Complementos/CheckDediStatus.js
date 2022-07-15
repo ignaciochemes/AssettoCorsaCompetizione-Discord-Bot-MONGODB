@@ -5,8 +5,6 @@ class DediStatus {
     static _ram = os.mem;
     static _net = os.netstat;
 
-    constructor(){}
-
     static async cpuUsage() {
         let data = this._cpu.usage();
         return data;

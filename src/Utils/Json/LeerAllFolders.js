@@ -3,7 +3,6 @@ const { GeneralConstants } = require('../../Constants/GeneralConstants');
 
 class LeerAllFolders {
     static _path = GeneralConstants.DEFAULT_SERVER_FOLDER;
-    constructor() {}
 
     static async leerJson() {
         let lista = [];

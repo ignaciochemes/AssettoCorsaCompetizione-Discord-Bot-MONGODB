@@ -1,5 +1,4 @@
 class MsToSegundos {
-    constructor(){}
 
     static msToSegundos(milliseconds) {
         let minutes = milliseconds / (1000 * 60);

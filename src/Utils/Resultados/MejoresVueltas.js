@@ -3,7 +3,6 @@ const { Coches } = require("../../Constants/CochesConstants");
 const { MejoresVueltasDao } = require("../../Dao/MejorVueltaDao");
 
 class MejoresVueltas {
-    constructor(){}
 
     static async getMejoresVueltas(folder) {
         let result = [];

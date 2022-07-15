@@ -1,7 +1,7 @@
 const path = require('path');
 
 class RutasFolder {
-    constructor(){}
+
     static rutasFolder(ruta) {
         const RUTAS_FOLDER = {
             '0': path.join(__dirname, '../../ServidoresAFRT/Server-Barcelona-Mixto'),

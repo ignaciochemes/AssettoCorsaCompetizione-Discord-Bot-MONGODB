@@ -7,6 +7,7 @@ const { RutasFolder } = require("../Constants/RutasConstants");
 const { ChequeoRuta } = require("./ChequearRutas");
 
 class PrenderServer {
+    
     static async prenderServer(process, message, ruta) {
         let minutos;
         const filter = m => m.author.id === message.author.id;
