@@ -5,27 +5,27 @@ const usuariosSchema = require('../Database/Schemas/UsuariosSchema');
 class MejoresVueltasDao {
 
     static async getMejoresVueltasDao(data) {
-        let result = await folderSchema.findOne(data);
+        const result = await folderSchema.findOne(data);
         return result;
     }
 
     static async findBestTimes(data) {
-        let result = await resultSchema.findOne(data);
+        const result = await resultSchema.findOne(data);
         return result;
     }
 
     static async buscarUserPorPista(data) {
-        let result = await usuariosSchema.findOne(data);
+        const result = await usuariosSchema.findOne(data);
         return result;
     }
 
     static async guardarUsuarios(data) {
-        let result = new usuariosSchema(data);
+        const result = new usuariosSchema(data);
         await result.save();
     }
 
     static async updatearUsuarios(filter, data) {
-        let result = await usuariosSchema.findOneAndUpdate(filter, data);
+        const result = await usuariosSchema.findOneAndUpdate(filter, data);
         return result;
     }
 }

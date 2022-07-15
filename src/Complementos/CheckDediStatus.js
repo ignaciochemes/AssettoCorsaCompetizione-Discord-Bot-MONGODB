@@ -6,17 +6,17 @@ class DediStatus {
     static _net = os.netstat;
 
     static async cpuUsage() {
-        let data = this._cpu.usage();
+        const data = this._cpu.usage();
         return data;
     };
 
     static async ramUsage() {
-        let data = this._ram.used();
+        const data = this._ram.used();
         return data;
     };
 
     static async netUsage() {
-        let data = this._net.inOut().then(info => info)
+        const data = this._net.inOut().then(info => info)
         return data;
     };
 }

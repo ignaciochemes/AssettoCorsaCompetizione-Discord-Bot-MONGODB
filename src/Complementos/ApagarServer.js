@@ -14,8 +14,8 @@ class ApagarServer {
         const getStopBash = await ChequeoRuta.chequeoRutaStop(ruta);
 
         await find('port', buscar.udpPort).then((list) => {
-            if(!list.length) return message.reply(TextConstants.APAGAR_ERROR)
-            .then(m => m.delete({ timeout: GeneralConstants.DEFAULT_TIMEOUT }));
+            if (!list.length) return message.reply(TextConstants.APAGAR_ERROR)
+                .then(m => m.delete({ timeout: GeneralConstants.DEFAULT_TIMEOUT }));
             setTimeout(() => {
                 const stopServer = spawn(getStopBash);
                 stopServer.stdout.on('data', (data) => {
