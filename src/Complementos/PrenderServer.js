@@ -1,26 +1,27 @@
 const find = require("find-process");
 const { LeerJson } = require("./LeerJson");
-const { spawn } = require('child_process');
+const { spawn } = require("child_process");
 const { TextConstants } = require("../Constants/TextConstants");
 const { GeneralConstants } = require("../Constants/GeneralConstants");
 const { RutasFolder } = require("../Constants/RutasConstants");
 const { ChequeoRuta } = require("./ChequearRutas");
 
 class PrenderServer {
-    constructor(){}
-
     static async prenderServer(process, message, ruta) {
         let minutos;
         const filter = m => m.author.id === message.author.id;
         message.reply(TextConstants.PRENDER_MINUTOS).then(r => r.delete({ timeout: GeneralConstants.DEFAULT_TIMEOUT }));
-        let res = await message.channel.awaitMessages(filter, { max: 1, time: GeneralConstants.DEFAULT_TIMEOUT })
+        const res = await message.channel.awaitMessages(filter, { max: 1, time: GeneralConstants.DEFAULT_TIMEOUT })
             .then(colectado => { return minutos = colectado.first().content });
         if(res === 'cancelar') return message.reply('Cancelado!');
         if(res > 300) return message.reply(TextConstants.MAX_MINUTOS);
-        let getFolder = await RutasFolder.rutasFolder(ruta);
-        let buscar = await LeerJson.readConfigJson(getFolder);
-        let getStartBash = await ChequeoRuta.chequeoRutaStart(ruta);
-        let getStopBash = await ChequeoRuta.chequeoRutaStop(ruta)
+        if(res < 1) return message.reply(TextConstants.MIN_MINUTOS);
+
+        const getFolder = await RutasFolder.rutasFolder(ruta);
+        const buscar = await LeerJson.readConfigJson(getFolder);
+        const getStartBash = await ChequeoRuta.chequeoRutaStart(ruta);
+        const getStopBash = await ChequeoRuta.chequeoRutaStop(ruta)
+
         await find('port', buscar.udpPort).then((list) => {
             if(!list.length) {
                 try {
