@@ -27,7 +27,9 @@ class PrenderServer {
                 try {
                     const startServer = spawn(getStartBash);
                     startServer.stdout.on('data', (data) => {
-                        return message.channel.send(`${data}`).then(m => m.delete({ timeout: GeneralConstants.BASH_MSG_TIMEOUT }));
+                        if (data.toString().length == 1) return;
+                        const messageToSend = data.toString();
+                        return message.channel.send(`${messageToSend}`).then(m => m.delete({ timeout: GeneralConstants.BASH_MSG_TIMEOUT }));
                     });
                     setTimeout(() => { message.reply(`El servidor \`${buscar.udpPort}\` se levanto perfectamente con una duracion de \`${minutos}\` minutos. 
                     \nPuede corroborarlo con el comando \`!afrt servers\``) }, 5000);
