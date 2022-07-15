@@ -1,5 +1,4 @@
 class Coches {
-    constructor(){}
 
     static getCoche(id) {
         const COCHES = {

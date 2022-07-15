@@ -4,7 +4,6 @@ const { JsonDao } = require("../../Dao/JsonDao");
 const { GeneralConstants } = require('../../Constants/GeneralConstants');
 
 class LeerJsonDb {
-    constructor(){}
 
     static async leerJson(json) {
         for(let i = 0; i < json.length; i++) {

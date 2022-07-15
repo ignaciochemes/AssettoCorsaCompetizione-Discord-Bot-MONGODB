@@ -3,7 +3,6 @@ const { JsonDao } = require('../../Dao/JsonDao');
 const { GeneralConstants } = require('../../Constants/GeneralConstants');
 
 class GuardarAllFolders {
-    constructor(){}
 
     static async guardarAllFolders(data) {
         for(let i = 0; i < data.length; i++) {

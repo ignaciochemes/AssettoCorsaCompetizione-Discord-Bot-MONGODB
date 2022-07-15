@@ -7,12 +7,12 @@ const { TextConstants } = require('../Constants/TextConstants');
 const { GeneralConstants } = require('../Constants/GeneralConstants');
 
 class ApagarServer {
-    constructor(){}
 
     static async apagarServer(message, ruta) {
-        let getFolder = await RutasFolder.rutasFolder(ruta);
-        let buscar = await LeerJson.readConfigJson(getFolder);
-        let getStopBash = await ChequeoRuta.chequeoRutaStop(ruta);
+        const getFolder = await RutasFolder.rutasFolder(ruta);
+        const buscar = await LeerJson.readConfigJson(getFolder);
+        const getStopBash = await ChequeoRuta.chequeoRutaStop(ruta);
+
         await find('port', buscar.udpPort).then((list) => {
             if(!list.length) return message.reply(TextConstants.APAGAR_ERROR)
             .then(m => m.delete({ timeout: GeneralConstants.DEFAULT_TIMEOUT }));

@@ -5,7 +5,7 @@ const { TextConstants } = require('../Constants/TextConstants');
 
 class HelpCommand {
     static _message = new MessageEmbed();
-    constructor(){}
+    
     static getAll(client, message) {
         const emb = this._message.setTitle(TextConstants.HELP_LIST_COMMANDS)
         .setColor(GeneralConstants.DEFAULT_COLOR)

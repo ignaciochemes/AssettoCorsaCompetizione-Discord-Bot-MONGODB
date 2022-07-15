@@ -3,7 +3,6 @@ const resultSchema = require('../Database/Schemas/ResultsSchema');
 const usuariosSchema = require('../Database/Schemas/UsuariosSchema');
 
 class MejoresVueltasDao {
-    constructor(){}
 
     static async getMejoresVueltasDao(data) {
         let result = await folderSchema.findOne(data);
