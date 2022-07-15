@@ -24,7 +24,7 @@ class PrenderServer {
         const getStopBash = await ChequeoRuta.chequeoRutaStop(ruta)
 
         await find('port', buscar.udpPort).then((list) => {
-            if(!list.length) {
+            if (!list.length) {
                 try {
                     const startServer = spawn(getStartBash);
                     startServer.stdout.on('data', (data) => {
@@ -35,13 +35,13 @@ class PrenderServer {
                     setTimeout(() => { message.reply(`El servidor \`${buscar.udpPort}\` se levanto perfectamente con una duracion de \`${minutos}\` minutos. 
                     \nPuede corroborarlo con el comando \`!afrt servers\``) }, 5000);
                 } catch (e) {
-                    if(e) {
+                    if (e) {
                         return message.reply(`Por algun motivo el servidor elegido no se puede iniciar \n${e}`)
                         .then(m => m.delete({timeout: GeneralConstants.DEFAULT_TIMEOUT}, client.destroy()));
                     }
                 }
-                let mcs1r = Math.floor(minutos*60000);
-                let cincoM = Math.floor(5*60000);
+                let mcs1r = Math.floor(minutos * 60000);
+                let cincoM = Math.floor(5 * 60000);
                 setTimeout(() => { return message.reply('El servidor se apagara en \`5 minutos\`') }, Math.floor(mcs1r-cincoM));
                 setTimeout(() => {
                     const stopServer = spawn(getStopBash, ['-lh', '/usr']);

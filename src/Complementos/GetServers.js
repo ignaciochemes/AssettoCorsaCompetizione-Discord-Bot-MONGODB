@@ -7,12 +7,12 @@ class GetServers {
     
     static async getServers() {
         let servers = [];
-        for(let i = 0; i < 22; i++) {
+        for (let i = 0; i < 22; i++) {
             const obtenerRuta = await RutasFolder.rutasFolder(i);
             const leerJson = await LeerJson.readConfigJson(obtenerRuta);
             const leerJsonNombre = await LeerJson.readJson(obtenerRuta);
-            await find('port', leerJson.udpPort).then(async(resultado) => {
-                if(!resultado[0]) {
+            await find('port', leerJson.udpPort).then(async (resultado) => {
+                if (!resultado[0]) {
                     servers.push(`${i} - ${leerJsonNombre.settings.serverName} \`OFF\``);
                 } else {
                     servers.push(`${i} - ${leerJsonNombre.settings.serverName} \`ON\` - Ping: \`${await this.getPing()} Ms\``);
