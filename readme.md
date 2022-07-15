@@ -8,9 +8,7 @@
   <h3 align="center">Assetto Corsa Competizione Discord Bot</h3>
 
   <p align="center">
-    Desarrollado para AFRT con amor. By Tato
-    <br />
-    <a href="https://github.com/siegmund0/AssettoCorsaCompetizione-Discord-Bot-MONGODB"><strong>Explore the docs »</strong></a>
+    Developed for AFRT Community. By Tato
     <br />
     <br />
     <a href="https://www.afondoracingteam.com/">AFRT Web</a>
@@ -21,41 +19,29 @@
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+    <img src="https://i.imgur.com/ulipmvt.png"/>
+</p>
 
 Con este bot para discord usted podra controlar sus servidores de ACC mediante comandos, donde existe un preset de configuraciones para todas las pistas. Puede editarlas y configurarlas a su gusto.
 
 Este bot esta desarrollado para la comunidad AFRT (A fondo racing team)
 
+<p align="center">
+    <img src="https://i.imgur.com/ByQpFbg.png"/>
+</p>
+<br>
+<p align="center">
+    <img src="https://i.imgur.com/1rfarA2.png"/>
+</p>
+
+## Lap Time & Best Lap Time
+<p align="center">
+    <img src="https://i.imgur.com/jQq5L9n.png"/>
+</p>
 
 ### Built With
 
