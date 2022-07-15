@@ -7,6 +7,6 @@ module.exports = {
     description: "Retorna todos los servidores disponibles (presets)",
     usage: "!afrt borrar",
     run: async(client, message, args) => {
-        await PrenderServer.prenderServer(process, message, args);
+        await PrenderServer.prenderServer(message, args);
     }
 }

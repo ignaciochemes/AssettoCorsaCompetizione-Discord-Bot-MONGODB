@@ -8,7 +8,7 @@ const { ChequeoRuta } = require("./ChequearRutas");
 
 class PrenderServer {
     
-    static async prenderServer(process, message, ruta) {
+    static async prenderServer(message, ruta) {
         let minutos;
         const filter = m => m.author.id === message.author.id;
         message.reply(TextConstants.PRENDER_MINUTOS).then(r => r.delete({ timeout: GeneralConstants.DEFAULT_TIMEOUT }));
