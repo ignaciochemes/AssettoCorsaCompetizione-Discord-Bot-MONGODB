@@ -7,16 +7,18 @@ const { RutasFolder } = require("../Constants/RutasConstants");
 const { ChequeoRuta } = require("./ChequearRutas");
 
 class PrenderServer {
+
+    static _minutos;
     
     static async prenderServer(message, ruta) {
-        let minutos;
         const filter = m => m.author.id === message.author.id;
         message.reply(TextConstants.PRENDER_MINUTOS).then(r => r.delete({ timeout: GeneralConstants.DEFAULT_TIMEOUT }));
         const res = await message.channel.awaitMessages(filter, { max: 1, time: GeneralConstants.DEFAULT_TIMEOUT })
-            .then(colectado => { return minutos = colectado.first().content });
+            .then(colectado => { return this._minutos = colectado.first().content });
+
         if(res === 'cancelar') return message.reply('Cancelado!');
-        if(res > 300) return message.reply(TextConstants.MAX_MINUTOS);
-        if(res < 1) return message.reply(TextConstants.MIN_MINUTOS);
+        if(parseInt(res, 10) > 300) return message.reply(TextConstants.MAX_MINUTOS);
+        if(parseInt(res, 10) < 1) return message.reply(TextConstants.MIN_MINUTOS);
 
         const getFolder = await RutasFolder.rutasFolder(ruta);
         const buscar = await LeerJson.readConfigJson(getFolder);
@@ -32,7 +34,7 @@ class PrenderServer {
                         const messageToSend = data.toString();
                         return message.channel.send(`${messageToSend}`).then(m => m.delete({ timeout: GeneralConstants.BASH_MSG_TIMEOUT }));
                     });
-                    setTimeout(() => { message.reply(`El servidor \`${buscar.udpPort}\` se levanto perfectamente con una duracion de \`${minutos}\` minutos. 
+                    setTimeout(() => { message.reply(`El servidor \`${ruta}\` se levanto perfectamente con una duracion de \`${minutos}\` minutos. 
                     \nPuede corroborarlo con el comando \`!afrt servers\``) }, 5000);
                 } catch (e) {
                     if (e) {
@@ -40,7 +42,7 @@ class PrenderServer {
                         .then(m => m.delete({timeout: GeneralConstants.DEFAULT_TIMEOUT}, client.destroy()));
                     }
                 }
-                let mcs1r = Math.floor(minutos * 60000);
+                let mcs1r = Math.floor(this._minutos * 60000);
                 let cincoM = Math.floor(5 * 60000);
                 setTimeout(() => { return message.reply('El servidor se apagara en \`5 minutos\`') }, Math.floor(mcs1r-cincoM));
                 setTimeout(() => {
