@@ -5,6 +5,7 @@ const { TextConstants } = require("../Constants/TextConstants");
 const { GeneralConstants } = require("../Constants/GeneralConstants");
 const { RutasFolder } = require("../Constants/RutasConstants");
 const { ChequeoRuta } = require("./ChequearRutas");
+const { ConfigurationServer } = require("../Utils/Json/ConfigurationServer");
 
 class PrenderServer {
 
@@ -16,14 +17,16 @@ class PrenderServer {
         const res = await message.channel.awaitMessages(filter, { max: 1, time: GeneralConstants.DEFAULT_TIMEOUT })
             .then(colectado => { return this._minutos = colectado.first().content });
 
-        if(res === 'cancelar') return message.reply('Cancelado!');
-        if(parseInt(res, 10) > 300) return message.reply(TextConstants.MAX_MINUTOS);
-        if(parseInt(res, 10) < 1) return message.reply(TextConstants.MIN_MINUTOS);
+        if (res === 'cancelar') return message.reply('Cancelado!');
+        if (parseInt(res, 10) > 300) return message.reply(TextConstants.MAX_MINUTOS);
+        if (parseInt(res, 10) < 1) return message.reply(TextConstants.MIN_MINUTOS);
 
         const getFolder = await RutasFolder.rutasFolder(ruta);
         const buscar = await LeerJson.readConfigJson(getFolder);
         const getStartBash = await ChequeoRuta.chequeoRutaStart(ruta);
-        const getStopBash = await ChequeoRuta.chequeoRutaStop(ruta)
+        const getStopBash = await ChequeoRuta.chequeoRutaStop(ruta);
+
+        ConfigurationServer.editSessionDuration(res, getFolder);
 
         await find('port', buscar.udpPort).then((list) => {
             if (!list.length) {
