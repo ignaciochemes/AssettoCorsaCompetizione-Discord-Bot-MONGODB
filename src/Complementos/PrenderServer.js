@@ -19,7 +19,7 @@ class PrenderServer {
 
         if (res === 'cancelar') return message.reply('Cancelado!');
         if (parseInt(res, 10) > 300) return message.reply(TextConstants.MAX_MINUTOS);
-        if (parseInt(res, 10) < 1) return message.reply(TextConstants.MIN_MINUTOS);
+        if (parseInt(res, 10) < 5) return message.reply(TextConstants.MIN_MINUTOS);
 
         const getFolder = await RutasFolder.rutasFolder(ruta);
         const buscar = await LeerJson.readConfigJson(getFolder);
@@ -37,7 +37,7 @@ class PrenderServer {
                         const messageToSend = data.toString();
                         return message.channel.send(`${messageToSend}`).then(m => m.delete({ timeout: GeneralConstants.BASH_MSG_TIMEOUT }));
                     });
-                    setTimeout(() => { message.reply(`El servidor \`${ruta}\` se levanto perfectamente con una duracion de \`${minutos}\` minutos. 
+                    setTimeout(() => { message.reply(`El servidor \`${ruta}\` se levanto perfectamente con una duracion de \`${this._minutos}\` minutos. 
                     \nPuede corroborarlo con el comando \`!afrt servers\``) }, 5000);
                 } catch (e) {
                     if (e) {

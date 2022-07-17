@@ -16,7 +16,7 @@
       "dayOfWeekend": 3,
       "timeMultiplier": 1,
       "sessionType": "Q",
-      "sessionDurationMinutes": 120
+      "sessionDurationMinutes": 8
     }
   ],
   "simracerWeatherConditions": 0,
