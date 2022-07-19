@@ -4,3 +4,4 @@ config.json
 /ServidoresAFRT/Practice*
 /ServidoresAFRT/Server*/results
 /ServidoresAFRT/Server*/log
+/ServidoresAFRT/Server*/cfg/event.json
