@@ -4,8 +4,10 @@
   "description": "",
   "main": "afrt.js",
   "scripts": {
-    "start": "node afrt.js",
-    "start:dev": "nodemon afrt.js"
+    "start:win": "SET AFRT_ENV=production && node afrt.js",
+    "start": "AFRT_ENV=production node afrt.js",
+    "start:dev:win": "SET AFRT_ENV=development && nodemon afrt.js",
+    "start:dev": "AFRT_ENV=development nodemon afrt.js"
   },
   "keywords": [],
   "author": "",

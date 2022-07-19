@@ -65,9 +65,16 @@ Instale LOCALMENTE MongoDB. Tenga en cuenta que la conexion se ralizara de maner
    ```sh
    npm install
    ```
-3. Ingrese sus datos en `.env`
+3. Ingrese sus datos en `.env` - Renombrar .env.example a .env
    ```
         "TOKEN": "YOUR-DISCORD-BOT-TOKEN-HERE",
         "PREFIX": "!",
         "DB_URI": "YOUR-MONGODB-URL-HERE"
+   ```
+4. Ingrese en el terminal y ejecute el comando `npm run start` si esta en Linux o `npm run start:win` si    esta en Windows
+   ```sh
+   npm run start
+   ```
+   ```sh
+   npm run start:win
    ```
