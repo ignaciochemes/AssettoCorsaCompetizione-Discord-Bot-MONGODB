@@ -1,21 +1,20 @@
 {
-    "track": "monza",
+    "track": "cota",
     "preRaceWaitingTimeSeconds": 300,
     "postQualySeconds": 15,
     "postRaceSeconds": 15,
     "sessionOverTimeSeconds": 150,
-    "ambientTemp": 18,
+    "ambientTemp": 22,
     "cloudLevel": 0.0,
     "rain": 0.0,
-    "weatherRandomness": 0,
+    "weatherRandomness": 1,
 	"simracerWeatherConditions": 1,
-	"isFixedConditionQualification": 1,
     "sessions": [
         {
             "hourOfDay": 15,
             "dayOfWeekend": 3,
             "timeMultiplier": 1,
-            "sessionType": "P",
+            "sessionType": "Q",
             "sessionDurationMinutes": 60
         }
     ],
