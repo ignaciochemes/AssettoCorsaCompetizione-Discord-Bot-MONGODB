@@ -15,13 +15,11 @@ class DatabaseConnection {
 
     async dbConnection() {
         await connect(`${process.env.DB_URI}`, {
-            useCreateIndex: true,
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            useFindAndModify: false
         })
         .then(() => { console.log('Base de datos conectada!') })
-        .catch(() => { console.log('Error al conectar con la base de datos!') })
+        .catch((e) => { console.log('Error al conectar con la base de datos!', e) })
     };
 }
 

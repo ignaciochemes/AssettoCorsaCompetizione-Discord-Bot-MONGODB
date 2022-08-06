@@ -1,10 +1,10 @@
 const { stripIndent } = require('common-tags');
-const { MessageEmbed } = require('discord.js');
+const { EmbedBuilder } = require('discord.js');
 const { GeneralConstants } = require('../Constants/GeneralConstants');
 const { TextConstants } = require('../Constants/TextConstants');
 
 class HelpCommand {
-    static _message = new MessageEmbed();
+    static _message = new EmbedBuilder();
     
     static getAll(client, message) {
         const emb = this._message.setTitle(TextConstants.HELP_LIST_COMMANDS)

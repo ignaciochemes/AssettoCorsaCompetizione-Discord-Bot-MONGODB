@@ -1,5 +1,5 @@
 const ping = require('ping');
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 const { GeneralConstants } = require('../../Constants/GeneralConstants');
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
     usage: "!afrt ping",
     run: async (client, message, args) => {
         let pwd = `${args}`;
-        let enviarEmbed = new MessageEmbed();
+        let enviarEmbed = new EmbedBuilder();
         if (!args[0]) return message.reply(`Inserta cualquier IP para hacer Ping`).then(msg => { msg.delete({timeout: GeneralConstants.BASH_MSG_TIMEOUT})});
         if (args[0] === '127.0.0.1') return message.reply('No se puede hacer Ping a esta IP').then(m => { m.delete({timeout: GeneralConstants.BASH_MSG_TIMEOUT}) });
         try {
