@@ -42,7 +42,8 @@ client.on('ready', () => {
 });
 
 //Message configuration - Listener
-client.on("message", async message => {
+client.on("interactionCreate", async message => {
+    console.log(message.content);
     const prefix = process.env.PREFIX;
     if (message.author.bot) return;
     if (!message.guild) return;

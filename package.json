@@ -4,17 +4,18 @@
   "description": "",
   "main": "afrt.js",
   "scripts": {
-    "start:win": "SET AFRT_ENV=production && node afrt.js",
-    "start:win:pm2": "SET AFRT_ENV=production && pm2 start afrt.js --name afrtbot --interpreter node",
+    "start:win": "set AFRT_ENV=production&&node afrt.js",
+    "start:win:pm2": "set AFRT_ENV=production&&pm2 start afrt.js --name afrtbot --interpreter node",
     "start": "AFRT_ENV=production node afrt.js",
     "start:pm2": "AFRT_ENV=production pm2 start afrt.js --name afrtbot --interpreter node",
-    "start:dev:win": "SET AFRT_ENV=development && nodemon afrt.js",
+    "start:dev:win": "set AFRT_ENV=development&&nodemon afrt.js",
     "start:dev": "AFRT_ENV=development nodemon afrt.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/rest": "^1.0.1",
     "ascii-table": "0.0.9",
     "common-tags": "^1.8.2",
     "discord.js": "^14.1.2",
