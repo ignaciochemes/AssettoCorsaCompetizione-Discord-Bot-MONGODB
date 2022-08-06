@@ -1,4 +1,4 @@
-const { MessageEmbed } = require('discord.js');
+const { EmbedBuilder } = require('discord.js');
 const { Pistas } = require('../../Constants/PistasConstants');
 const { TiemposTabla } = require('../../Complementos/TiemposTablas');
 const { TextConstants } = require('../../Constants/TextConstants');
@@ -12,7 +12,7 @@ module.exports = {
     description: "Muestra una tabla de tiempos en una pista",
     usage: "!afrt tablagt3",
     run: async(client, message, args) => {
-        const emb = new MessageEmbed();
+        const emb = new EmbedBuilder();
         if (!args[0]) return message.reply(TextConstants.TABLA_NO_ARGS)
         let res = await TiemposTabla.getTablaGt3(args[0], "GT3");
         if(res === false) {

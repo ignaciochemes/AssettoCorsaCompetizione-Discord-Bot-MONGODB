@@ -1,4 +1,4 @@
-const { MessageEmbed } = require('discord.js');
+const { EmbedBuilder } = require('discord.js');
 const { LeerJson } = require('../../Complementos/LeerJson');
 const { RutasFolder } = require('../../Constants/RutasConstants');
 const { TextConstants } = require('../../Constants/TextConstants');
@@ -10,7 +10,7 @@ module.exports = {
     description: "Retorna informacion de algun servidor (preset)",
     usage: "!afrt informacion",
     run: async(client, message, args) => {
-        let enviarMensaje = new MessageEmbed();
+        let enviarMensaje = new EmbedBuilder();
         if(!args[0] || !args) return message.reply(TextConstants.SERVER_INFO_NO_ARGS);
         let ruta = await RutasFolder.rutasFolder(args[0]);
         let res = await LeerJson.readJson(ruta);

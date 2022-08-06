@@ -1,6 +1,6 @@
 const fs = require('fs');
 const cron = require('node-cron');
-const { Client, Collection } = require('discord.js');
+const { Client, Collection, Inten, GatewayIntentBits } = require('discord.js');
 const { LeerJsonDb } = require('./src/Utils/Json/LeerJsonDb');
 const { DatabaseConnection } = require('./src/Database/DbConnection');
 const { LeerAllFolders } = require('./src/Utils/Json/LeerAllFolders');
@@ -26,7 +26,7 @@ cron.schedule('*/45 * * * *', () => {
     main();
 });
 
-const client = new Client();
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
 client.commands = new Collection();
 client.aliases = new Collection();
 client.categories = fs.readdirSync("./src/Comandos/");
