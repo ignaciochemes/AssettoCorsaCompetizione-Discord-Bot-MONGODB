@@ -1,239 +1,2186 @@
 0: Server starting with version 255
-0: Starting server AFRT GT AMERICA TOUR 2 / Free Practice Server // afondoracingteam.com
+0: Starting server AFRT GT AMERICA TOUR 4 / Free Practice Server // afondoracingteam.com
 0: Joining during race is allowed
 0: Translated realtime interval hzToMiliseconds(18)=54
 
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.913662
-0: Track cota was set and updated
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.945776
+0: Track laguna_seca was set and updated
 0: Event changed
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.937576
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.937307
 0: Significant change detected, updating lobby (1|1)
 0: Resetting weekend to friday night
 0: Reset time to friday night: 0 -> 0
 0: Reset time to first session: 0 -> 226800
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.907886
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.895063
 0: Listening to TCP 9653 | UDP 9653
-286: Trying to connect to lobby (0 times, interval 10000 s)
-286: Session changed: Qualifying -> Qualifying 0
-286: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Qualifying)
-21290: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
-21293: Trying to connect to lobby (1 times, interval 10000 s)
-22562: RegisterToLobby succeeded
-22565: Sent lobby registration request for cota
-22838: TCPQueue now: 4
-22838: New TCP incoming pakSizeMax, 0 => 2
-22838: Updated lobby with 0 drivers
-3366711: Udp message count (0 clients): 23=2, 
-14188280: Udp message count (0 clients): 23=2, 
-20981838: Udp message count (0 clients): 23=1, 
-21462798: Udp message count (0 clients): 23=1, 
-22905678: Udp message count (0 clients): 23=1, 
-23687238: Udp message count (0 clients): 23=1, 
-23987838: Udp message count (0 clients): 23=1, 
-27595032: Udp message count (0 clients): 23=1, 
-27835512: Udp message count (0 clients): 23=1, 
-28797434: Udp message count (0 clients): 23=1, 
-29158154: Udp message count (0 clients): 23=1, 
-29218274: Udp message count (0 clients): 23=1, 
-29278392: Udp message count (0 clients): 23=2, 
-29819472: Udp message count (0 clients): 23=1, 
-29999831: Udp message count (0 clients): 23=3, 
-30059952: Udp message count (0 clients): 23=1, 
-30180192: Udp message count (0 clients): 23=2, 
-30420672: Udp message count (0 clients): 23=1, 
-30480791: Udp message count (0 clients): 23=1, 
-31021872: Udp message count (0 clients): 23=1, 
-31502826: Udp message count (0 clients): 23=2, 
-33186179: Udp message count (0 clients): 23=3, 
-35410614: Udp message count (0 clients): 23=1, 
-37394571: Udp message count (0 clients): 23=1, 
-37454691: Udp message count (0 clients): 23=1, 
-37995767: Udp message count (0 clients): 23=1, 
-39558887: Udp message count (0 clients): 23=1, 
-39619008: Udp message count (0 clients): 23=2, 
-40701168: Udp message count (0 clients): 23=1, 
-41001762: Udp message count (0 clients): 23=1, 
-41362478: Udp message count (0 clients): 23=1, 
-41602948: Udp message count (0 clients): 23=1, 
-41843424: Udp message count (0 clients): 23=2, 
-42305663: Server was running late for 1 step(s), not enough CPU power
-42330203: Server was running late for 1 step(s), not enough CPU power
-42338378: Server was running late for 1 step(s), not enough CPU power
-43707120: Udp message count (0 clients): 23=1, 
-43827360: Udp message count (0 clients): 23=1, 
-47434523: Udp message count (0 clients): 200=1, 
-48216075: Udp message count (0 clients): 200=1, 
-52101149: Server was running late for 1 step(s), not enough CPU power
-52202231: Server was running late for 1 step(s), not enough CPU power
-53626800: Udp message count (0 clients): 23=1, 
-53867271: Udp message count (0 clients): 23=1, 
-54261741: New connection received 316
-54261741: 1 client(s) online
-54261744: TCPQueue now: 302
-54261744: New TCP incoming pakSizeMax, 0 => 300
-54261744: Located entryListId -1 for connection 0 S76561198361733457
-54261744: New connection request: id 0 Guillermo Paret S76561198361733457 on car model 61
-54261744: Creating new car connection: carId 1001, carModel 61, raceNumber #1
-54261744: Special Rules for carid 1001: 
-	max_total_driving_time is -1 (from -1), pitCount 0
-54261744: startingTime is not set?
-54261744: Starting stint for car 1001 driver 0 at 54261744.405900
-54261744: Updated lobby with 1 drivers
-54261744: Assigning gridNumber 1 to new carId 1001
-54261744: Sent handshake response for car 1001 connection 0 with 1100 bytes
-54261744: 1 Driver(s) detected, starting session
-54261744: SessionManager::randomizeGreenFlagTriggers: s:0.045404 e:0.060588 r:0.045423
-54261744: Detected sessionPhase <waiting for drivers> -> <pre session> (Qualifying)
-54261744: Sent session update to lobby
-54261744: Updated leaderboard for 1 clients (Qualifying-<pre session> 60 min)
-54264744: Detected sessionPhase <session> -> <session> (Qualifying)
-54264744: Sent session update to lobby
-54268941: Associated: connId 0, now 54268941
-54268983: Reset time offset for connection 0, new offset 54268925, diff 7181
-54272373: Receives driver stint reset for car 1001
-54272373: Ending stint: new total time for car 1001 driver 0 is 10357.094100
-54272373: List of Stints for car 1001 driver 0
-54272373: Stint 1 car 1001 driver 0 started 54261744.405900 ended 54272101.500000
-54272431: Receives driver stint reset for car 1001
-54272431: startingTime is not set?
-54272431: Updated 0 clients with new carSystem for car 1001 (0l)
-54272490: Updated 0 clients with new carSystem for car 1001 (16l)
-54288102: Tcp message count (1 clients): 46=2, 50=1, 61=1, 79=2, 
-54288102: Udp message count (1 clients): 19=1, 22=20, 23=1, 30=296, 
-54291471: Receives driver stint reset for car 1001
-54291471: startingTime is not set?
-54318927: Receives driver stint reset for car 1001
-54318927: startingTime is not set?
-54318927: Starting stint for car 1001 driver 0 at 54318917.500000
-54318987: Updated 0 clients with new carSystem for car 1001 (0l)
-54348222: Tcp message count (1 clients): 46=1, 50=2, 61=1, 79=2, 
-54348222: Udp message count (1 clients): 22=60, 30=1112, 
-54350476: New Split: 54350458 for carId 1001 with lapstates: IsOutLap, IsInLap,  (raw 12)
-54350476: CarID 1001 : new split on sector 0 (81533)
-54350476: Lap carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 54350458.000000, flags: %d12, S1 1:21:533, fuel 0.000000, InLap , OutLap 
-54350476: Updated leaderboard for 1 clients (Qualifying-<session> 58 min)
-54408342: Tcp message count (1 clients): 32=1, 61=2, 69=1, 
-54408342: Udp message count (1 clients): 22=60, 30=1113, 
-54408684: New Split: 54408654 for carId 1001 with lapstates: HasCut, IsOutLap, IsInLap,  (raw 13)
-54408684: CarID 1001 : new split on sector 1 (58197)
-54408684: Lap  carId 1001, driverId 0, lapTime 35791:23:647, timestampMS 54408654.000000, flags: %d13, S1 1:21:533, S2 0:58:197, fuel 0.000000, hasCut , InLap , OutLap 
-54408684: Updated leaderboard for 1 clients (Qualifying-<session> 57 min)
-54439401: Late lastUdpPaketReceived for connId 0: 2531 ms (Guillermo Paret)
-54439800: ==ERR: TCP socket error detected 10053 
+281: Trying to connect to lobby (0 times, interval 10000 s)
+281: Session changed: Qualifying -> Qualifying 0
+281: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Qualifying)
+21280: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+21283: Trying to connect to lobby (1 times, interval 13000 s)
+22547: RegisterToLobby succeeded
+22550: Sent lobby registration request for laguna_seca
+22817: TCPQueue now: 4
+22817: New TCP incoming pakSizeMax, 0 => 2
+22817: Updated lobby with 0 drivers
+60118: Udp message count (0 clients): 23=2, 
+180358: Udp message count (0 clients): 23=3, 
+300598: Udp message count (0 clients): 23=8, 
+360718: Udp message count (0 clients): 23=5, 
+480959: Udp message count (0 clients): 23=1, 
+1082158: Udp message count (0 clients): 23=1, 
+1202398: Udp message count (0 clients): 23=2, 
+1322638: Udp message count (0 clients): 23=3, 
+1382758: Udp message count (0 clients): 23=1, 
+1442878: Udp message count (0 clients): 23=1, 
+1563118: Udp message count (0 clients): 23=1, 
+1743478: Udp message count (0 clients): 23=1, 
+1983958: Udp message count (0 clients): 23=1, 
+2044078: Udp message count (0 clients): 23=1, 
+2224439: Udp message count (0 clients): 23=1, 
+2344679: Udp message count (0 clients): 23=2, 
+2585159: Udp message count (0 clients): 23=2, 
+2705398: Udp message count (0 clients): 23=1, 
+2765518: Udp message count (0 clients): 23=1, 
+3306595: Udp message count (0 clients): 23=2, 
+3426836: Udp message count (0 clients): 23=1, 
+3486955: Udp message count (0 clients): 23=1, 
+4689355: Udp message count (0 clients): 23=1, 
+5831635: Udp message count (0 clients): 23=1, 
+6192355: Udp message count (0 clients): 23=1, 
+6312595: Udp message count (0 clients): 23=1, 
+6613195: Udp message count (0 clients): 23=1, 
+8056075: Udp message count (0 clients): 23=10, 
+8116196: Udp message count (0 clients): 23=1, 
+8176316: Udp message count (0 clients): 23=1, 
+8236436: Udp message count (0 clients): 23=2, 
+10160275: Udp message count (0 clients): 23=1, 
+15390713: Udp message count (0 clients): 23=1, 
+15450832: Udp message count (0 clients): 23=1, 
+15510952: Udp message count (0 clients): 23=2, 
+15931792: Udp message count (0 clients): 23=2, 
+16052033: Udp message count (0 clients): 23=1, 
+17615152: Udp message count (0 clients): 23=3, 
+32705266: Udp message count (0 clients): 23=1, 
+33847546: Udp message count (0 clients): 23=1, 
+36552946: Udp message count (0 clients): 23=1, 
+39799426: Udp message count (0 clients): 23=1, 
+45510823: Udp message count (0 clients): 23=1, 
+46833464: Udp message count (0 clients): 23=1, 
+47194184: Udp message count (0 clients): 23=1, 
+48456703: Udp message count (0 clients): 23=3, 
+48516823: Udp message count (0 clients): 23=1, 
+54408580: Udp message count (0 clients): 23=1, 
+54528820: Udp message count (0 clients): 23=1, 
+55310380: Udp message count (0 clients): 23=1, 
+56091941: Udp message count (0 clients): 23=1, 
+60901534: Udp message count (0 clients): 23=1, 
+61081894: Udp message count (0 clients): 23=1, 
+61923572: Udp message count (0 clients): 23=1, 
+62344411: Udp message count (0 clients): 23=1, 
+62464652: Udp message count (0 clients): 23=1, 
+62705131: Udp message count (0 clients): 23=1, 
+62765251: Udp message count (0 clients): 23=1, 
+62945612: Udp message count (0 clients): 23=1, 
+63125971: Udp message count (0 clients): 23=2, 
+63246211: Udp message count (0 clients): 23=1, 
+63546811: Udp message count (0 clients): 23=1, 
+63606931: Udp message count (0 clients): 23=1, 
+64628975: Udp message count (0 clients): 23=1, 
+65170054: Udp message count (0 clients): 23=1, 
+65831375: Udp message count (0 clients): 23=1, 
+65951614: Udp message count (0 clients): 23=2, 
+66673055: Udp message count (0 clients): 23=1, 
+67214134: Udp message count (0 clients): 23=1, 
+67394494: Udp message count (0 clients): 23=1, 
+69258212: Udp message count (0 clients): 23=1, 
+69438571: Udp message count (0 clients): 23=1, 
+69739171: Udp message count (0 clients): 23=1, 
+69859411: Udp message count (0 clients): 23=2, 
+70941571: Udp message count (0 clients): 23=1, 
+72204091: Udp message count (0 clients): 23=1, 
+72264212: Udp message count (0 clients): 23=2, 
+73166011: Udp message count (0 clients): 23=1, 
+75630932: Udp message count (0 clients): 23=1, 
+77073811: Udp message count (0 clients): 23=1, 
+79418488: Udp message count (0 clients): 23=1, 
+82244125: Udp message count (0 clients): 23=2, 
+82424486: Udp message count (0 clients): 23=1, 
+84047725: Udp message count (0 clients): 23=1, 
+104969473: Udp message count (0 clients): 23=1, 
+114167839: Udp message count (0 clients): 23=1, 
+114227959: Udp message count (0 clients): 23=1, 
+117955400: Udp message count (0 clients): 23=1, 
+121622714: Udp message count (0 clients): 23=1, 
+122885234: Udp message count (0 clients): 23=1, 
+123907273: Udp message count (0 clients): 23=1, 
+124328113: Udp message count (0 clients): 23=1, 
+127574594: Udp message count (0 clients): 23=1, 
+136352113: Udp message count (0 clients): 23=2, 
+136412233: Udp message count (0 clients): 23=2, 
+136712834: Udp message count (0 clients): 23=1, 
+136772953: Udp message count (0 clients): 23=1, 
+137013433: Udp message count (0 clients): 23=1, 
+137073553: Udp message count (0 clients): 23=1, 
+137796787: Server was running late for 1 step(s), not enough CPU power
+137796787: Server was running late for 2 step(s), not enough CPU power
+138576581: Udp message count (0 clients): 23=1, 
+139418299: Udp message count (0 clients): 23=2, 
+141642733: Udp message count (0 clients): 23=1, 
+143265973: Udp message count (0 clients): 23=1, 
+143987413: Udp message count (0 clients): 23=1, 
+146753020: Udp message count (0 clients): 23=1, 
+156312103: Udp message count (0 clients): 23=1, 
+156552583: Udp message count (0 clients): 23=1, 
+156732943: Udp message count (0 clients): 23=1, 
+157153783: Udp message count (0 clients): 23=1, 
+157213903: Udp message count (0 clients): 23=1, 
+158716900: Udp message count (0 clients): 23=3, 
+159979417: Udp message count (0 clients): 23=1, 
+160159777: Udp message count (0 clients): 23=1, 
+160400254: Udp message count (0 clients): 23=1, 
+160640734: Udp message count (0 clients): 23=1, 
+160941334: Udp message count (0 clients): 23=1, 
+163225892: Udp message count (0 clients): 23=1, 
+165450331: Udp message count (0 clients): 23=1, 
+167314048: Udp message count (0 clients): 23=1, 
+169478362: Udp message count (0 clients): 23=1, 
+169538482: Udp message count (0 clients): 23=1, 
+170560522: Udp message count (0 clients): 23=1, 
+170620642: Udp message count (0 clients): 23=1, 
+170801002: Udp message count (0 clients): 23=1, 
+171943283: Udp message count (0 clients): 23=1, 
+172183762: Udp message count (0 clients): 23=1, 
+174348082: Udp message count (0 clients): 23=1, 
+178917217: Udp message count (0 clients): 23=1, 
+178977337: Udp message count (0 clients): 23=1, 
+180420217: Udp message count (0 clients): 23=1, 
+180600577: Udp message count (0 clients): 23=1, 
+182043457: Udp message count (0 clients): 23=1, 
+183366097: Udp message count (0 clients): 23=1, 
+183606577: Udp message count (0 clients): 23=1, 
+188356054: Udp message count (0 clients): 23=1, 
+188536415: Udp message count (0 clients): 23=1, 
+192444214: Udp message count (0 clients): 23=1, 
+194247815: Udp message count (0 clients): 23=1, 
+196592494: Udp message count (0 clients): 23=2, 
+201221728: Udp message count (0 clients): 23=1, 
+203566408: Udp message count (0 clients): 23=1, 
+210359968: Udp message count (0 clients): 23=1, 
+213606448: Udp message count (0 clients): 23=1, 
+213786808: Udp message count (0 clients): 23=1, 
+214267769: Udp message count (0 clients): 23=1, 
+214448128: Udp message count (0 clients): 23=1, 
+214508248: Udp message count (0 clients): 23=2, 
+217033283: Udp message count (0 clients): 23=1, 
+224488162: Udp message count (0 clients): 23=2, 
+228876919: Udp message count (0 clients): 23=1, 
+228997159: Udp message count (0 clients): 23=1, 
+232063276: Udp message count (0 clients): 23=1, 
+233746633: Udp message count (0 clients): 23=1, 
+236752639: Udp message count (0 clients): 23=1, 
+237413960: Udp message count (0 clients): 23=1, 
+241562236: Udp message count (0 clients): 23=1, 
+246071237: Udp message count (0 clients): 23=1, 
+247995070: Udp message count (0 clients): 23=1, 
+248175430: Udp message count (0 clients): 23=2, 
+249077230: Udp message count (0 clients): 23=1, 
+251982886: ==ERR: connection to lobby timed out
+251982889: Trying to connect to lobby (0 times, interval 10000 s)
+252003889: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252003892: Trying to connect to lobby (1 times, interval 13000 s)
+252024895: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252024898: Trying to connect to lobby (2 times, interval 11000 s)
+252045898: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252055900: Trying to connect to lobby (3 times, interval 35000 s)
+252076900: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252090901: Trying to connect to lobby (4 times, interval 34000 s)
+252111901: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252124903: Trying to connect to lobby (5 times, interval 33000 s)
+252145906: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252157906: Trying to connect to lobby (6 times, interval 32000 s)
+252178906: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252189907: Trying to connect to lobby (7 times, interval 36000 s)
+252210910: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252225907: Trying to connect to lobby (8 times, interval 35000 s)
+252246910: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252260908: Trying to connect to lobby (9 times, interval 35000 s)
+252281912: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252295910: Trying to connect to lobby (10 times, interval 31000 s)
+252316913: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252326911: Trying to connect to lobby (11 times, interval 36000 s)
+252347914: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252362911: Trying to connect to lobby (12 times, interval 34000 s)
+252383915: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252396913: Trying to connect to lobby (13 times, interval 33000 s)
+252417913: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252429916: Trying to connect to lobby (14 times, interval 32000 s)
+252450919: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252461917: Trying to connect to lobby (15 times, interval 30000 s)
+252482917: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252491920: Trying to connect to lobby (16 times, interval 30000 s)
+252512921: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252521921: Trying to connect to lobby (17 times, interval 32000 s)
+252542923: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252553921: Trying to connect to lobby (18 times, interval 31000 s)
+252574921: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252584923: Trying to connect to lobby (19 times, interval 31000 s)
+252605923: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252615925: Trying to connect to lobby (20 times, interval 36000 s)
+252636929: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252651926: Trying to connect to lobby (21 times, interval 33000 s)
+252672925: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252684928: Trying to connect to lobby (22 times, interval 30000 s)
+252705928: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252714929: Trying to connect to lobby (23 times, interval 30000 s)
+252735928: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252744932: Trying to connect to lobby (24 times, interval 30000 s)
+252765931: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252774934: Trying to connect to lobby (25 times, interval 32000 s)
+252795937: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252806935: Trying to connect to lobby (26 times, interval 33000 s)
+252827938: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252839935: Trying to connect to lobby (27 times, interval 33000 s)
+252860935: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252872938: Trying to connect to lobby (28 times, interval 34000 s)
+252893941: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252906940: Trying to connect to lobby (29 times, interval 34000 s)
+252927940: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252940942: Trying to connect to lobby (30 times, interval 31000 s)
+252961942: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+252971945: Trying to connect to lobby (31 times, interval 34000 s)
+252992947: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253005946: Trying to connect to lobby (32 times, interval 33000 s)
+253026947: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253038949: Trying to connect to lobby (33 times, interval 32000 s)
+253059949: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253070950: Trying to connect to lobby (34 times, interval 30000 s)
+253091953: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253100950: Trying to connect to lobby (35 times, interval 34000 s)
+253121950: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253134952: Trying to connect to lobby (36 times, interval 35000 s)
+253155952: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253169953: Trying to connect to lobby (37 times, interval 35000 s)
+253190954: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253204954: Trying to connect to lobby (38 times, interval 33000 s)
+253225955: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253237957: Trying to connect to lobby (39 times, interval 32000 s)
+253258957: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253269959: Trying to connect to lobby (40 times, interval 36000 s)
+253290959: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253305959: Trying to connect to lobby (41 times, interval 35000 s)
+253326958: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253340959: Trying to connect to lobby (42 times, interval 36000 s)
+253361959: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253376959: Trying to connect to lobby (43 times, interval 36000 s)
+253397959: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253412962: Trying to connect to lobby (44 times, interval 33000 s)
+253433965: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253445962: Trying to connect to lobby (45 times, interval 30000 s)
+253466962: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253475963: Trying to connect to lobby (46 times, interval 33000 s)
+253496965: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253508963: Trying to connect to lobby (47 times, interval 31000 s)
+253529966: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253539964: Trying to connect to lobby (48 times, interval 36000 s)
+253560964: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253575967: Trying to connect to lobby (49 times, interval 31000 s)
+253596970: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253606970: Trying to connect to lobby (50 times, interval 35000 s)
+253627969: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253641970: Trying to connect to lobby (51 times, interval 35000 s)
+253662970: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253676971: Trying to connect to lobby (52 times, interval 36000 s)
+253697971: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253712972: Trying to connect to lobby (53 times, interval 36000 s)
+253733971: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253748974: Trying to connect to lobby (54 times, interval 34000 s)
+253769974: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253782976: Trying to connect to lobby (55 times, interval 32000 s)
+253803976: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253814978: Trying to connect to lobby (56 times, interval 31000 s)
+253835980: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253845979: Trying to connect to lobby (57 times, interval 32000 s)
+253866979: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253877980: Trying to connect to lobby (58 times, interval 35000 s)
+253898981: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253912981: Trying to connect to lobby (59 times, interval 30000 s)
+253933984: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253942984: Trying to connect to lobby (60 times, interval 32000 s)
+253963984: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+253974985: Trying to connect to lobby (61 times, interval 30000 s)
+253995985: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254004988: Trying to connect to lobby (62 times, interval 34000 s)
+254025989: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254038990: Trying to connect to lobby (63 times, interval 30000 s)
+254059990: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254068991: Trying to connect to lobby (64 times, interval 30000 s)
+254089991: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254098994: Trying to connect to lobby (65 times, interval 36000 s)
+254119993: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254134994: Trying to connect to lobby (66 times, interval 31000 s)
+254155993: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254165995: Trying to connect to lobby (67 times, interval 31000 s)
+254186995: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254196998: Trying to connect to lobby (68 times, interval 34000 s)
+254218000: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254230999: Trying to connect to lobby (69 times, interval 34000 s)
+254252000: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254265001: Trying to connect to lobby (70 times, interval 35000 s)
+254286004: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254300002: Trying to connect to lobby (71 times, interval 35000 s)
+254321003: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254335003: Trying to connect to lobby (72 times, interval 33000 s)
+254356006: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254368006: Trying to connect to lobby (73 times, interval 31000 s)
+254389009: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254399008: Trying to connect to lobby (74 times, interval 35000 s)
+254420011: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254434009: Trying to connect to lobby (75 times, interval 33000 s)
+254455009: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254467009: Trying to connect to lobby (76 times, interval 33000 s)
+254488009: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254500009: Trying to connect to lobby (77 times, interval 36000 s)
+254521009: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254536012: Trying to connect to lobby (78 times, interval 35000 s)
+254557013: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254571013: Trying to connect to lobby (79 times, interval 30000 s)
+254592013: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254601013: Trying to connect to lobby (80 times, interval 34000 s)
+254622013: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254635015: Trying to connect to lobby (81 times, interval 32000 s)
+254656015: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254667016: Trying to connect to lobby (82 times, interval 35000 s)
+254688016: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254702017: Trying to connect to lobby (83 times, interval 34000 s)
+254723017: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254736019: Trying to connect to lobby (84 times, interval 34000 s)
+254757019: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254770021: Trying to connect to lobby (85 times, interval 32000 s)
+254791021: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254802022: Trying to connect to lobby (86 times, interval 31000 s)
+254823023: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254833024: Trying to connect to lobby (87 times, interval 31000 s)
+254854024: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254864026: Trying to connect to lobby (88 times, interval 32000 s)
+254885026: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254896027: Trying to connect to lobby (89 times, interval 35000 s)
+254917025: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254931029: Trying to connect to lobby (90 times, interval 33000 s)
+254952031: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+254964031: Trying to connect to lobby (91 times, interval 36000 s)
+254985031: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255000031: Trying to connect to lobby (92 times, interval 35000 s)
+255021031: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255035032: Trying to connect to lobby (93 times, interval 32000 s)
+255056032: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255067033: Trying to connect to lobby (94 times, interval 31000 s)
+255088034: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255098035: Trying to connect to lobby (95 times, interval 34000 s)
+255119035: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255132038: Trying to connect to lobby (96 times, interval 33000 s)
+255153040: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255165040: Trying to connect to lobby (97 times, interval 30000 s)
+255186044: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255195041: Trying to connect to lobby (98 times, interval 34000 s)
+255216043: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255229042: Trying to connect to lobby (99 times, interval 33000 s)
+255250043: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255262043: Trying to connect to lobby (100 times, interval 31000 s)
+255283043: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255293044: Trying to connect to lobby (101 times, interval 36000 s)
+255314044: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255329044: Trying to connect to lobby (102 times, interval 30000 s)
+255350047: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255359047: Trying to connect to lobby (103 times, interval 36000 s)
+255380047: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255395048: Trying to connect to lobby (104 times, interval 34000 s)
+255416048: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255429050: Trying to connect to lobby (105 times, interval 32000 s)
+255450052: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255461051: Trying to connect to lobby (106 times, interval 32000 s)
+255482051: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255493052: Trying to connect to lobby (107 times, interval 30000 s)
+255514051: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255523054: Trying to connect to lobby (108 times, interval 36000 s)
+255544057: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255559057: Trying to connect to lobby (109 times, interval 34000 s)
+255580057: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255593059: Trying to connect to lobby (110 times, interval 31000 s)
+255614062: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255624061: Trying to connect to lobby (111 times, interval 36000 s)
+255645064: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255660061: Trying to connect to lobby (112 times, interval 35000 s)
+255681064: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255695063: Trying to connect to lobby (113 times, interval 34000 s)
+255716063: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255729065: Trying to connect to lobby (114 times, interval 31000 s)
+255750067: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255760067: Trying to connect to lobby (115 times, interval 31000 s)
+255781066: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255791068: Trying to connect to lobby (116 times, interval 35000 s)
+255812069: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255826069: Trying to connect to lobby (117 times, interval 33000 s)
+255847069: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255859072: Trying to connect to lobby (118 times, interval 31000 s)
+255880072: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255890074: Trying to connect to lobby (119 times, interval 33000 s)
+255911074: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255923077: Trying to connect to lobby (120 times, interval 35000 s)
+255944080: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255958078: Trying to connect to lobby (121 times, interval 32000 s)
+255979081: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+255990079: Trying to connect to lobby (122 times, interval 31000 s)
+256011082: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256021081: Trying to connect to lobby (123 times, interval 33000 s)
+256042081: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256054084: Trying to connect to lobby (124 times, interval 34000 s)
+256075084: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256088086: Trying to connect to lobby (125 times, interval 35000 s)
+256109086: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256123088: Trying to connect to lobby (126 times, interval 35000 s)
+256144087: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256158088: Trying to connect to lobby (127 times, interval 33000 s)
+256179091: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256191089: Trying to connect to lobby (128 times, interval 30000 s)
+256212089: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256221092: Trying to connect to lobby (129 times, interval 32000 s)
+256242091: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256253092: Trying to connect to lobby (130 times, interval 35000 s)
+256274092: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256288093: Trying to connect to lobby (131 times, interval 30000 s)
+256309094: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256318094: Trying to connect to lobby (132 times, interval 33000 s)
+256339096: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256351096: Trying to connect to lobby (133 times, interval 34000 s)
+256372099: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256385098: Trying to connect to lobby (134 times, interval 32000 s)
+256406101: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256417099: Trying to connect to lobby (135 times, interval 30000 s)
+256438100: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256447102: Trying to connect to lobby (136 times, interval 36000 s)
+256468105: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256483102: Trying to connect to lobby (137 times, interval 36000 s)
+256504106: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256519102: Trying to connect to lobby (138 times, interval 33000 s)
+256540105: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256552102: Trying to connect to lobby (139 times, interval 32000 s)
+256573105: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256584103: Trying to connect to lobby (140 times, interval 33000 s)
+256605104: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256617106: Trying to connect to lobby (141 times, interval 32000 s)
+256638106: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256649107: Trying to connect to lobby (142 times, interval 35000 s)
+256670110: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256684108: Trying to connect to lobby (143 times, interval 32000 s)
+256705111: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256716109: Trying to connect to lobby (144 times, interval 33000 s)
+256737109: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256749109: Trying to connect to lobby (145 times, interval 31000 s)
+256770109: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256780111: Trying to connect to lobby (146 times, interval 36000 s)
+256801111: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256816114: Trying to connect to lobby (147 times, interval 32000 s)
+256837117: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256848115: Trying to connect to lobby (148 times, interval 35000 s)
+256869118: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256883116: Trying to connect to lobby (149 times, interval 33000 s)
+256904119: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256916116: Trying to connect to lobby (150 times, interval 31000 s)
+256937119: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256947119: Trying to connect to lobby (151 times, interval 35000 s)
+256968119: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+256982119: Trying to connect to lobby (152 times, interval 35000 s)
+257003119: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257017120: Trying to connect to lobby (153 times, interval 32000 s)
+257038120: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257049122: Trying to connect to lobby (154 times, interval 33000 s)
+257070121: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257082124: Trying to connect to lobby (155 times, interval 36000 s)
+257103124: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257118125: Trying to connect to lobby (156 times, interval 30000 s)
+257139125: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257148127: Trying to connect to lobby (157 times, interval 36000 s)
+257169127: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257184127: Trying to connect to lobby (158 times, interval 34000 s)
+257205130: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257218129: Trying to connect to lobby (159 times, interval 30000 s)
+257239129: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257248129: Trying to connect to lobby (160 times, interval 33000 s)
+257269130: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257281130: Trying to connect to lobby (161 times, interval 31000 s)
+257302129: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257312131: Trying to connect to lobby (162 times, interval 35000 s)
+257333131: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257347132: Trying to connect to lobby (163 times, interval 34000 s)
+257368135: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257381134: Trying to connect to lobby (164 times, interval 34000 s)
+257402134: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257415136: Trying to connect to lobby (165 times, interval 31000 s)
+257436136: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257446138: Trying to connect to lobby (166 times, interval 35000 s)
+257467141: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257481139: Trying to connect to lobby (167 times, interval 30000 s)
+257502139: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257511139: Trying to connect to lobby (168 times, interval 30000 s)
+257532142: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257541139: Trying to connect to lobby (169 times, interval 35000 s)
+257562139: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257576140: Trying to connect to lobby (170 times, interval 32000 s)
+257597143: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257608142: Trying to connect to lobby (171 times, interval 36000 s)
+257629141: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257644145: Trying to connect to lobby (172 times, interval 32000 s)
+257665144: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257676145: Trying to connect to lobby (173 times, interval 32000 s)
+257697146: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257708146: Trying to connect to lobby (174 times, interval 30000 s)
+257729147: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257738146: Trying to connect to lobby (175 times, interval 35000 s)
+257759146: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257773147: Trying to connect to lobby (176 times, interval 35000 s)
+257794147: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257808148: Trying to connect to lobby (177 times, interval 34000 s)
+257829151: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257842150: Trying to connect to lobby (178 times, interval 34000 s)
+257863153: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257876152: Trying to connect to lobby (179 times, interval 35000 s)
+257897152: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257911153: Trying to connect to lobby (180 times, interval 31000 s)
+257932153: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257942155: Trying to connect to lobby (181 times, interval 31000 s)
+257963156: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+257973157: Trying to connect to lobby (182 times, interval 30000 s)
+257994157: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258003158: Trying to connect to lobby (183 times, interval 30000 s)
+258024158: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258033160: Trying to connect to lobby (184 times, interval 35000 s)
+258054163: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258068161: Trying to connect to lobby (185 times, interval 35000 s)
+258089162: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258103162: Trying to connect to lobby (186 times, interval 31000 s)
+258124162: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258134164: Trying to connect to lobby (187 times, interval 30000 s)
+258155167: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258164165: Trying to connect to lobby (188 times, interval 33000 s)
+258185164: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258197167: Trying to connect to lobby (189 times, interval 30000 s)
+258218167: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258227168: Trying to connect to lobby (190 times, interval 30000 s)
+258248167: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258257170: Trying to connect to lobby (191 times, interval 33000 s)
+258278170: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258290173: Trying to connect to lobby (192 times, interval 35000 s)
+258311174: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258325175: Trying to connect to lobby (193 times, interval 34000 s)
+258346174: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258359176: Trying to connect to lobby (194 times, interval 33000 s)
+258380177: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258392176: Trying to connect to lobby (195 times, interval 30000 s)
+258413179: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258422176: Trying to connect to lobby (196 times, interval 33000 s)
+258443179: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258455179: Trying to connect to lobby (197 times, interval 31000 s)
+258476182: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258486181: Trying to connect to lobby (198 times, interval 34000 s)
+258507184: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258520183: Trying to connect to lobby (199 times, interval 32000 s)
+258541183: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258552184: Trying to connect to lobby (200 times, interval 33000 s)
+258573187: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258585184: Trying to connect to lobby (201 times, interval 31000 s)
+258606185: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258616186: Trying to connect to lobby (202 times, interval 34000 s)
+258637189: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258650188: Trying to connect to lobby (203 times, interval 33000 s)
+258671191: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258683191: Trying to connect to lobby (204 times, interval 34000 s)
+258704191: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258717193: Trying to connect to lobby (205 times, interval 31000 s)
+258738194: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258748195: Trying to connect to lobby (206 times, interval 33000 s)
+258769199: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258781198: Trying to connect to lobby (207 times, interval 36000 s)
+258802201: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258817199: Trying to connect to lobby (208 times, interval 34000 s)
+258838201: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258851201: Trying to connect to lobby (209 times, interval 36000 s)
+258872200: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258887203: Trying to connect to lobby (210 times, interval 31000 s)
+258908204: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258918205: Trying to connect to lobby (211 times, interval 32000 s)
+258939205: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258950206: Trying to connect to lobby (212 times, interval 31000 s)
+258971206: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+258981209: Trying to connect to lobby (213 times, interval 36000 s)
+259002208: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259017212: Trying to connect to lobby (214 times, interval 33000 s)
+259038211: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259050214: Trying to connect to lobby (215 times, interval 36000 s)
+259071214: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259086214: Trying to connect to lobby (216 times, interval 30000 s)
+259107214: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259116214: Trying to connect to lobby (217 times, interval 34000 s)
+259137215: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259150216: Trying to connect to lobby (218 times, interval 30000 s)
+259171216: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259180219: Trying to connect to lobby (219 times, interval 33000 s)
+259201219: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259213219: Trying to connect to lobby (220 times, interval 36000 s)
+259234219: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259249222: Trying to connect to lobby (221 times, interval 30000 s)
+259270226: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259279222: Trying to connect to lobby (222 times, interval 36000 s)
+259300223: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259315223: Trying to connect to lobby (223 times, interval 32000 s)
+259336223: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259347223: Trying to connect to lobby (224 times, interval 31000 s)
+259368223: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259378225: Trying to connect to lobby (225 times, interval 35000 s)
+259399228: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259413226: Trying to connect to lobby (226 times, interval 32000 s)
+259434226: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259445227: Trying to connect to lobby (227 times, interval 31000 s)
+259466230: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259476229: Trying to connect to lobby (228 times, interval 34000 s)
+259497229: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259510232: Trying to connect to lobby (229 times, interval 34000 s)
+259531231: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259544233: Trying to connect to lobby (230 times, interval 33000 s)
+259565233: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259577233: Trying to connect to lobby (231 times, interval 33000 s)
+259598233: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259610233: Trying to connect to lobby (232 times, interval 34000 s)
+259631233: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259644235: Trying to connect to lobby (233 times, interval 34000 s)
+259665238: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259678237: Trying to connect to lobby (234 times, interval 35000 s)
+259699237: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259713238: Trying to connect to lobby (235 times, interval 35000 s)
+259734238: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259748239: Trying to connect to lobby (236 times, interval 34000 s)
+259769243: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259782242: Trying to connect to lobby (237 times, interval 35000 s)
+259803241: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259817243: Trying to connect to lobby (238 times, interval 33000 s)
+259838243: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259850245: Trying to connect to lobby (239 times, interval 32000 s)
+259871249: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259882246: Trying to connect to lobby (240 times, interval 31000 s)
+259903249: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259913249: Trying to connect to lobby (241 times, interval 35000 s)
+259934251: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259948249: Trying to connect to lobby (242 times, interval 33000 s)
+259969252: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+259981253: Trying to connect to lobby (243 times, interval 36000 s)
+260002253: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260017255: Trying to connect to lobby (244 times, interval 31000 s)
+260038255: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260048257: Trying to connect to lobby (245 times, interval 31000 s)
+260069257: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260079259: Trying to connect to lobby (246 times, interval 34000 s)
+260100262: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260113262: Trying to connect to lobby (247 times, interval 34000 s)
+260134265: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260147263: Trying to connect to lobby (248 times, interval 34000 s)
+260168263: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260181265: Trying to connect to lobby (249 times, interval 32000 s)
+260202266: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260213266: Trying to connect to lobby (250 times, interval 33000 s)
+260234267: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260246267: Trying to connect to lobby (251 times, interval 30000 s)
+260267266: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260276269: Trying to connect to lobby (252 times, interval 35000 s)
+260297269: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260311271: Trying to connect to lobby (253 times, interval 34000 s)
+260332273: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260345272: Trying to connect to lobby (254 times, interval 34000 s)
+260366272: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260379274: Trying to connect to lobby (255 times, interval 34000 s)
+260400277: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260413277: Trying to connect to lobby (256 times, interval 35000 s)
+260434276: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260448278: Trying to connect to lobby (257 times, interval 31000 s)
+260469277: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260479280: Trying to connect to lobby (258 times, interval 34000 s)
+260500279: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260513282: Trying to connect to lobby (259 times, interval 36000 s)
+260534282: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260549282: Trying to connect to lobby (260 times, interval 36000 s)
+260570282: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260585284: Trying to connect to lobby (261 times, interval 34000 s)
+260606285: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260619287: Trying to connect to lobby (262 times, interval 35000 s)
+260640290: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260654287: Trying to connect to lobby (263 times, interval 30000 s)
+260675290: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260684287: Trying to connect to lobby (264 times, interval 34000 s)
+260705290: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260718289: Trying to connect to lobby (265 times, interval 36000 s)
+260739292: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260754289: Trying to connect to lobby (266 times, interval 32000 s)
+260775289: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260786291: Trying to connect to lobby (267 times, interval 33000 s)
+260807290: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260819293: Trying to connect to lobby (268 times, interval 32000 s)
+260840294: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260851294: Trying to connect to lobby (269 times, interval 31000 s)
+260872294: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260882296: Trying to connect to lobby (270 times, interval 30000 s)
+260903299: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260912297: Trying to connect to lobby (271 times, interval 36000 s)
+260933296: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260948299: Trying to connect to lobby (272 times, interval 35000 s)
+260969299: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+260983300: Trying to connect to lobby (273 times, interval 35000 s)
+261004300: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261018301: Trying to connect to lobby (274 times, interval 31000 s)
+261039302: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261049303: Trying to connect to lobby (275 times, interval 32000 s)
+261070303: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261081305: Trying to connect to lobby (276 times, interval 30000 s)
+261102305: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261111307: Trying to connect to lobby (277 times, interval 30000 s)
+261132311: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261141307: Trying to connect to lobby (278 times, interval 34000 s)
+261162310: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261175309: Trying to connect to lobby (279 times, interval 35000 s)
+261196310: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261210310: Trying to connect to lobby (280 times, interval 33000 s)
+261231311: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261243313: Trying to connect to lobby (281 times, interval 33000 s)
+261264314: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261276313: Trying to connect to lobby (282 times, interval 32000 s)
+261297316: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261308314: Trying to connect to lobby (283 times, interval 32000 s)
+261329315: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261340315: Trying to connect to lobby (284 times, interval 33000 s)
+261361315: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261373318: Trying to connect to lobby (285 times, interval 33000 s)
+261394318: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261406321: Trying to connect to lobby (286 times, interval 31000 s)
+261427321: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261437323: Trying to connect to lobby (287 times, interval 32000 s)
+261458323: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261469324: Trying to connect to lobby (288 times, interval 35000 s)
+261490327: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261504325: Trying to connect to lobby (289 times, interval 32000 s)
+261525328: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261536326: Trying to connect to lobby (290 times, interval 35000 s)
+261557329: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261571327: Trying to connect to lobby (291 times, interval 36000 s)
+261592330: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261607328: Trying to connect to lobby (292 times, interval 36000 s)
+261628327: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261643330: Trying to connect to lobby (293 times, interval 35000 s)
+261664331: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261678331: Trying to connect to lobby (294 times, interval 32000 s)
+261699332: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261710333: Trying to connect to lobby (295 times, interval 36000 s)
+261731335: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261746336: Trying to connect to lobby (296 times, interval 30000 s)
+261767336: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261776336: Trying to connect to lobby (297 times, interval 30000 s)
+261797338: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261806338: Trying to connect to lobby (298 times, interval 33000 s)
+261827339: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261839338: Trying to connect to lobby (299 times, interval 31000 s)
+261860338: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261870340: Trying to connect to lobby (300 times, interval 35000 s)
+261891340: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261905342: Trying to connect to lobby (301 times, interval 34000 s)
+261926341: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261939344: Trying to connect to lobby (302 times, interval 33000 s)
+261960344: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+261972346: Trying to connect to lobby (303 times, interval 32000 s)
+261993346: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262004347: Trying to connect to lobby (304 times, interval 36000 s)
+262025347: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262040347: Trying to connect to lobby (305 times, interval 35000 s)
+262061347: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262075348: Trying to connect to lobby (306 times, interval 35000 s)
+262096348: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262110349: Trying to connect to lobby (307 times, interval 31000 s)
+262131352: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262141351: Trying to connect to lobby (308 times, interval 36000 s)
+262162351: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262177351: Trying to connect to lobby (309 times, interval 34000 s)
+262198351: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262211353: Trying to connect to lobby (310 times, interval 33000 s)
+262232356: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262244353: Trying to connect to lobby (311 times, interval 32000 s)
+262265353: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262276354: Trying to connect to lobby (312 times, interval 30000 s)
+262297354: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262306357: Trying to connect to lobby (313 times, interval 30000 s)
+262327357: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262336357: Trying to connect to lobby (314 times, interval 32000 s)
+262357357: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262368358: Trying to connect to lobby (315 times, interval 31000 s)
+262389358: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262399360: Trying to connect to lobby (316 times, interval 31000 s)
+262420363: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262430362: Trying to connect to lobby (317 times, interval 36000 s)
+262451362: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262466362: Trying to connect to lobby (318 times, interval 33000 s)
+262487362: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262499365: Trying to connect to lobby (319 times, interval 30000 s)
+262520368: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262529365: Trying to connect to lobby (320 times, interval 30000 s)
+262550366: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262559368: Trying to connect to lobby (321 times, interval 30000 s)
+262580371: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262589371: Trying to connect to lobby (322 times, interval 32000 s)
+262610374: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262621372: Trying to connect to lobby (323 times, interval 30000 s)
+262642375: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262651375: Trying to connect to lobby (324 times, interval 33000 s)
+262672379: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262684375: Trying to connect to lobby (325 times, interval 31000 s)
+262705376: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262715377: Trying to connect to lobby (326 times, interval 35000 s)
+262736378: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262750378: Trying to connect to lobby (327 times, interval 34000 s)
+262771378: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262784380: Trying to connect to lobby (328 times, interval 33000 s)
+262805380: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262817383: Trying to connect to lobby (329 times, interval 32000 s)
+262838386: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262849384: Trying to connect to lobby (330 times, interval 36000 s)
+262870385: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262885387: Trying to connect to lobby (331 times, interval 35000 s)
+262906390: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262920388: Trying to connect to lobby (332 times, interval 35000 s)
+262941391: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262955389: Trying to connect to lobby (333 times, interval 31000 s)
+262976392: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+262986391: Trying to connect to lobby (334 times, interval 36000 s)
+263007391: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263022392: Trying to connect to lobby (335 times, interval 34000 s)
+263043391: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263056393: Trying to connect to lobby (336 times, interval 33000 s)
+263077393: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263089396: Trying to connect to lobby (337 times, interval 32000 s)
+263110397: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263121398: Trying to connect to lobby (338 times, interval 30000 s)
+263142400: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263151400: Trying to connect to lobby (339 times, interval 30000 s)
+263172400: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263181403: Trying to connect to lobby (340 times, interval 32000 s)
+263202403: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263213404: Trying to connect to lobby (341 times, interval 31000 s)
+263234407: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263244406: Trying to connect to lobby (342 times, interval 31000 s)
+263265406: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263275408: Trying to connect to lobby (343 times, interval 36000 s)
+263296409: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263311409: Trying to connect to lobby (344 times, interval 33000 s)
+263332411: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263344411: Trying to connect to lobby (345 times, interval 30000 s)
+263365411: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263374414: Trying to connect to lobby (346 times, interval 30000 s)
+263395414: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263404414: Trying to connect to lobby (347 times, interval 30000 s)
+263425417: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263434414: Trying to connect to lobby (348 times, interval 32000 s)
+263455414: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263466416: Trying to connect to lobby (349 times, interval 33000 s)
+263487415: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263499416: Trying to connect to lobby (350 times, interval 33000 s)
+263520419: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263532418: Trying to connect to lobby (351 times, interval 34000 s)
+263553421: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263566420: Trying to connect to lobby (352 times, interval 34000 s)
+263587423: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263600422: Trying to connect to lobby (353 times, interval 31000 s)
+263621422: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263631424: Trying to connect to lobby (354 times, interval 34000 s)
+263652424: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263665427: Trying to connect to lobby (355 times, interval 33000 s)
+263686426: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263698429: Trying to connect to lobby (356 times, interval 32000 s)
+263719432: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263730431: Trying to connect to lobby (357 times, interval 30000 s)
+263751430: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263760434: Trying to connect to lobby (358 times, interval 34000 s)
+263781433: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263794435: Trying to connect to lobby (359 times, interval 35000 s)
+263815436: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263829437: Trying to connect to lobby (360 times, interval 35000 s)
+263850439: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263864437: Trying to connect to lobby (361 times, interval 33000 s)
+263885437: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263897437: Trying to connect to lobby (362 times, interval 32000 s)
+263918437: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263929438: Trying to connect to lobby (363 times, interval 36000 s)
+263950438: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+263965438: Trying to connect to lobby (364 times, interval 35000 s)
+263986439: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264000439: Trying to connect to lobby (365 times, interval 36000 s)
+264021442: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264036442: Trying to connect to lobby (366 times, interval 36000 s)
+264057443: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264072442: Trying to connect to lobby (367 times, interval 33000 s)
+264093445: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264105443: Trying to connect to lobby (368 times, interval 30000 s)
+264126442: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264135445: Trying to connect to lobby (369 times, interval 33000 s)
+264156446: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264168448: Trying to connect to lobby (370 times, interval 31000 s)
+264189449: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264199450: Trying to connect to lobby (371 times, interval 36000 s)
+264220450: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264235451: Trying to connect to lobby (372 times, interval 31000 s)
+264256450: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264266452: Trying to connect to lobby (373 times, interval 35000 s)
+264287455: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264301453: Trying to connect to lobby (374 times, interval 35000 s)
+264322453: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264336454: Trying to connect to lobby (375 times, interval 36000 s)
+264357454: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264372454: Trying to connect to lobby (376 times, interval 36000 s)
+264393454: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264408454: Trying to connect to lobby (377 times, interval 34000 s)
+264429454: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264442456: Trying to connect to lobby (378 times, interval 32000 s)
+264463456: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264474457: Trying to connect to lobby (379 times, interval 31000 s)
+264495457: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264505459: Trying to connect to lobby (380 times, interval 32000 s)
+264526457: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264537461: Trying to connect to lobby (381 times, interval 35000 s)
+264558461: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264572461: Trying to connect to lobby (382 times, interval 30000 s)
+264593464: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264602464: Trying to connect to lobby (383 times, interval 32000 s)
+264623467: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264634465: Trying to connect to lobby (384 times, interval 30000 s)
+264655469: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264664468: Trying to connect to lobby (385 times, interval 34000 s)
+264685469: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264698470: Trying to connect to lobby (386 times, interval 30000 s)
+264719473: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264728473: Trying to connect to lobby (387 times, interval 30000 s)
+264749477: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264758474: Trying to connect to lobby (388 times, interval 36000 s)
+264779476: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264794476: Trying to connect to lobby (389 times, interval 31000 s)
+264815476: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264825478: Trying to connect to lobby (390 times, interval 30000 s)
+264846478: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264855478: Trying to connect to lobby (391 times, interval 33000 s)
+264876478: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264888481: Trying to connect to lobby (392 times, interval 31000 s)
+264909481: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264919483: Trying to connect to lobby (393 times, interval 35000 s)
+264940483: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264954484: Trying to connect to lobby (394 times, interval 34000 s)
+264975484: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+264988486: Trying to connect to lobby (395 times, interval 33000 s)
+265009486: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265021487: Trying to connect to lobby (396 times, interval 32000 s)
+265042486: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265053487: Trying to connect to lobby (397 times, interval 36000 s)
+265074487: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265089488: Trying to connect to lobby (398 times, interval 35000 s)
+265110487: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265124488: Trying to connect to lobby (399 times, interval 35000 s)
+265145491: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265159489: Trying to connect to lobby (400 times, interval 31000 s)
+265180489: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265190491: Trying to connect to lobby (401 times, interval 36000 s)
+265211491: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265226494: Trying to connect to lobby (402 times, interval 34000 s)
+265247497: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265260496: Trying to connect to lobby (403 times, interval 33000 s)
+265281497: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265293496: Trying to connect to lobby (404 times, interval 32000 s)
+265314496: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265325497: Trying to connect to lobby (405 times, interval 30000 s)
+265346497: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265355500: Trying to connect to lobby (406 times, interval 30000 s)
+265376500: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265385500: Trying to connect to lobby (407 times, interval 32000 s)
+265406503: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265417501: Trying to connect to lobby (408 times, interval 31000 s)
+265438502: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265448503: Trying to connect to lobby (409 times, interval 31000 s)
+265469506: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265479505: Trying to connect to lobby (410 times, interval 36000 s)
+265500508: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265515506: Trying to connect to lobby (411 times, interval 33000 s)
+265536508: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265548509: Trying to connect to lobby (412 times, interval 30000 s)
+265569508: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265578511: Trying to connect to lobby (413 times, interval 30000 s)
+265599512: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265608512: Trying to connect to lobby (414 times, interval 30000 s)
+265629514: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265638514: Trying to connect to lobby (415 times, interval 32000 s)
+265659514: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265670515: Trying to connect to lobby (416 times, interval 33000 s)
+265691518: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265703516: Trying to connect to lobby (417 times, interval 33000 s)
+265724518: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265736518: Trying to connect to lobby (418 times, interval 34000 s)
+265757518: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265770520: Trying to connect to lobby (419 times, interval 34000 s)
+265791520: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265804522: Trying to connect to lobby (420 times, interval 31000 s)
+265825525: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265835524: Trying to connect to lobby (421 times, interval 34000 s)
+265856525: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265869527: Trying to connect to lobby (422 times, interval 33000 s)
+265890526: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265902529: Trying to connect to lobby (423 times, interval 32000 s)
+265923530: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265934531: Trying to connect to lobby (424 times, interval 30000 s)
+265955530: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265964533: Trying to connect to lobby (425 times, interval 34000 s)
+265985536: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+265998535: Trying to connect to lobby (426 times, interval 35000 s)
+266019536: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266033536: Trying to connect to lobby (427 times, interval 35000 s)
+266054536: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266068538: Trying to connect to lobby (428 times, interval 33000 s)
+266089538: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266101540: Trying to connect to lobby (429 times, interval 32000 s)
+266122540: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266133541: Trying to connect to lobby (430 times, interval 36000 s)
+266154544: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266169542: Trying to connect to lobby (431 times, interval 35000 s)
+266190544: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266204542: Trying to connect to lobby (432 times, interval 36000 s)
+266225543: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266240545: Trying to connect to lobby (433 times, interval 36000 s)
+266261545: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266276545: Trying to connect to lobby (434 times, interval 33000 s)
+266297545: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266309548: Trying to connect to lobby (435 times, interval 30000 s)
+266330551: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266339548: Trying to connect to lobby (436 times, interval 33000 s)
+266360551: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266372548: Trying to connect to lobby (437 times, interval 31000 s)
+266393551: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266403550: Trying to connect to lobby (438 times, interval 36000 s)
+266424551: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266439550: Trying to connect to lobby (439 times, interval 31000 s)
+266460550: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266470553: Trying to connect to lobby (440 times, interval 35000 s)
+266491552: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266505553: Trying to connect to lobby (441 times, interval 35000 s)
+266526553: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266540554: Trying to connect to lobby (442 times, interval 36000 s)
+266561554: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266576554: Trying to connect to lobby (443 times, interval 36000 s)
+266597557: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266612557: Trying to connect to lobby (444 times, interval 34000 s)
+266633558: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266646559: Trying to connect to lobby (445 times, interval 32000 s)
+266667559: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266678560: Trying to connect to lobby (446 times, interval 31000 s)
+266699564: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266709562: Trying to connect to lobby (447 times, interval 32000 s)
+266730565: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266741563: Trying to connect to lobby (448 times, interval 35000 s)
+266762563: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266776564: Trying to connect to lobby (449 times, interval 30000 s)
+266797564: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266806567: Trying to connect to lobby (450 times, interval 32000 s)
+266827568: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266838568: Trying to connect to lobby (451 times, interval 30000 s)
+266859569: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266868569: Trying to connect to lobby (452 times, interval 34000 s)
+266889569: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266902570: Trying to connect to lobby (453 times, interval 30000 s)
+266923573: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266932570: Trying to connect to lobby (454 times, interval 30000 s)
+266953570: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266962571: Trying to connect to lobby (455 times, interval 36000 s)
+266983570: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+266998571: Trying to connect to lobby (456 times, interval 31000 s)
+267019573: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267029572: Trying to connect to lobby (457 times, interval 31000 s)
+267050576: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267060574: Trying to connect to lobby (458 times, interval 34000 s)
+267081577: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267094576: Trying to connect to lobby (459 times, interval 34000 s)
+267115576: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267128578: Trying to connect to lobby (460 times, interval 35000 s)
+267149578: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267163579: Trying to connect to lobby (461 times, interval 35000 s)
+267184579: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267198580: Trying to connect to lobby (462 times, interval 33000 s)
+267219580: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267231581: Trying to connect to lobby (463 times, interval 31000 s)
+267252583: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267262582: Trying to connect to lobby (464 times, interval 35000 s)
+267283582: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267297583: Trying to connect to lobby (465 times, interval 33000 s)
+267318583: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267330583: Trying to connect to lobby (466 times, interval 33000 s)
+267351583: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267363586: Trying to connect to lobby (467 times, interval 36000 s)
+267384586: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267399586: Trying to connect to lobby (468 times, interval 35000 s)
+267420586: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267434587: Trying to connect to lobby (469 times, interval 30000 s)
+267455590: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267464587: Trying to connect to lobby (470 times, interval 34000 s)
+267485590: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267498590: Trying to connect to lobby (471 times, interval 32000 s)
+267519592: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267530590: Trying to connect to lobby (472 times, interval 35000 s)
+267551591: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267565591: Trying to connect to lobby (473 times, interval 34000 s)
+267586592: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267599593: Trying to connect to lobby (474 times, interval 34000 s)
+267620593: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267633596: Trying to connect to lobby (475 times, interval 32000 s)
+267654596: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267665596: Trying to connect to lobby (476 times, interval 31000 s)
+267686596: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267696599: Trying to connect to lobby (477 times, interval 31000 s)
+267717601: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267727600: Trying to connect to lobby (478 times, interval 32000 s)
+267748600: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267759602: Trying to connect to lobby (479 times, interval 35000 s)
+267780604: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267794602: Trying to connect to lobby (480 times, interval 33000 s)
+267815605: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267827605: Trying to connect to lobby (481 times, interval 36000 s)
+267848603: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267863605: Trying to connect to lobby (482 times, interval 35000 s)
+267884609: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267898606: Trying to connect to lobby (483 times, interval 32000 s)
+267919607: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267930607: Trying to connect to lobby (484 times, interval 31000 s)
+267951608: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267961610: Trying to connect to lobby (485 times, interval 34000 s)
+267982612: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+267995611: Trying to connect to lobby (486 times, interval 33000 s)
+268016612: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268028611: Trying to connect to lobby (487 times, interval 30000 s)
+268049611: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268058612: Trying to connect to lobby (488 times, interval 34000 s)
+268079612: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268092614: Trying to connect to lobby (489 times, interval 33000 s)
+268113613: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268125616: Trying to connect to lobby (490 times, interval 31000 s)
+268146617: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268156618: Trying to connect to lobby (491 times, interval 36000 s)
+268177621: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268192621: Trying to connect to lobby (492 times, interval 30000 s)
+268213622: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268222624: Trying to connect to lobby (493 times, interval 36000 s)
+268243625: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268258624: Trying to connect to lobby (494 times, interval 34000 s)
+268279627: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268292627: Trying to connect to lobby (495 times, interval 32000 s)
+268313629: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268324627: Trying to connect to lobby (496 times, interval 32000 s)
+268345627: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268356628: Trying to connect to lobby (497 times, interval 30000 s)
+268377628: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268386629: Trying to connect to lobby (498 times, interval 36000 s)
+268407629: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268422631: Trying to connect to lobby (499 times, interval 34000 s)
+268443634: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268456633: Trying to connect to lobby (500 times, interval 31000 s)
+268477636: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268487635: Trying to connect to lobby (501 times, interval 36000 s)
+268508635: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268523635: Trying to connect to lobby (502 times, interval 35000 s)
+268544636: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268558637: Trying to connect to lobby (503 times, interval 34000 s)
+268579637: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268592638: Trying to connect to lobby (504 times, interval 31000 s)
+268613638: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268623641: Trying to connect to lobby (505 times, interval 31000 s)
+268644640: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268654642: Trying to connect to lobby (506 times, interval 35000 s)
+268675645: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268689644: Trying to connect to lobby (507 times, interval 33000 s)
+268710643: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268722646: Trying to connect to lobby (508 times, interval 31000 s)
+268743647: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268753649: Trying to connect to lobby (509 times, interval 33000 s)
+268774648: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268786651: Trying to connect to lobby (510 times, interval 35000 s)
+268807652: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268821652: Trying to connect to lobby (511 times, interval 32000 s)
+268842655: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268853653: Trying to connect to lobby (512 times, interval 31000 s)
+268874653: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268884655: Trying to connect to lobby (513 times, interval 33000 s)
+268905658: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268917656: Trying to connect to lobby (514 times, interval 34000 s)
+268938658: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268951658: Trying to connect to lobby (515 times, interval 35000 s)
+268972657: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+268986658: Trying to connect to lobby (516 times, interval 35000 s)
+269007658: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269021659: Trying to connect to lobby (517 times, interval 33000 s)
+269042660: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269054659: Trying to connect to lobby (518 times, interval 30000 s)
+269075659: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269084662: Trying to connect to lobby (519 times, interval 32000 s)
+269105662: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269116663: Trying to connect to lobby (520 times, interval 35000 s)
+269137666: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269151664: Trying to connect to lobby (521 times, interval 30000 s)
+269172667: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269181667: Trying to connect to lobby (522 times, interval 33000 s)
+269202668: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269214667: Trying to connect to lobby (523 times, interval 34000 s)
+269235670: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269248669: Trying to connect to lobby (524 times, interval 32000 s)
+269269672: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269280670: Trying to connect to lobby (525 times, interval 30000 s)
+269301673: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269310671: Trying to connect to lobby (526 times, interval 36000 s)
+269331670: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269346673: Trying to connect to lobby (527 times, interval 36000 s)
+269367676: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269382676: Trying to connect to lobby (528 times, interval 33000 s)
+269403676: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269415676: Trying to connect to lobby (529 times, interval 32000 s)
+269436679: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269447678: Trying to connect to lobby (530 times, interval 33000 s)
+269468677: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269480680: Trying to connect to lobby (531 times, interval 32000 s)
+269501680: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269512681: Trying to connect to lobby (532 times, interval 35000 s)
+269533681: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269547682: Trying to connect to lobby (533 times, interval 32000 s)
+269568685: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269579683: Trying to connect to lobby (534 times, interval 33000 s)
+269600686: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269612686: Trying to connect to lobby (535 times, interval 31000 s)
+269633690: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269643688: Trying to connect to lobby (536 times, interval 36000 s)
+269664688: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269679688: Trying to connect to lobby (537 times, interval 32000 s)
+269700688: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269711689: Trying to connect to lobby (538 times, interval 35000 s)
+269732692: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269746690: Trying to connect to lobby (539 times, interval 33000 s)
+269767693: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269779693: Trying to connect to lobby (540 times, interval 31000 s)
+269800696: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269810695: Trying to connect to lobby (541 times, interval 35000 s)
+269831698: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269845696: Trying to connect to lobby (542 times, interval 35000 s)
+269866699: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269880698: Trying to connect to lobby (543 times, interval 32000 s)
+269901697: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269912698: Trying to connect to lobby (544 times, interval 33000 s)
+269933699: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269945698: Trying to connect to lobby (545 times, interval 36000 s)
+269966698: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+269981701: Trying to connect to lobby (546 times, interval 30000 s)
+270002704: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270011702: Trying to connect to lobby (547 times, interval 36000 s)
+270032702: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270047704: Trying to connect to lobby (548 times, interval 34000 s)
+270068707: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270081706: Trying to connect to lobby (549 times, interval 30000 s)
+270102706: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270111706: Trying to connect to lobby (550 times, interval 33000 s)
+270132709: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270144707: Trying to connect to lobby (551 times, interval 31000 s)
+270165706: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270175708: Trying to connect to lobby (552 times, interval 35000 s)
+270196708: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270210709: Trying to connect to lobby (553 times, interval 34000 s)
+270231710: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270244711: Trying to connect to lobby (554 times, interval 34000 s)
+270265711: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270278714: Trying to connect to lobby (555 times, interval 31000 s)
+270299714: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270309716: Trying to connect to lobby (556 times, interval 35000 s)
+270330718: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270344717: Trying to connect to lobby (557 times, interval 30000 s)
+270365716: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270374719: Trying to connect to lobby (558 times, interval 30000 s)
+270395719: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270404722: Trying to connect to lobby (559 times, interval 35000 s)
+270425722: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270439723: Trying to connect to lobby (560 times, interval 32000 s)
+270460723: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270471724: Trying to connect to lobby (561 times, interval 36000 s)
+270492724: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270507725: Trying to connect to lobby (562 times, interval 32000 s)
+270528727: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270539726: Trying to connect to lobby (563 times, interval 32000 s)
+270560725: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270571727: Trying to connect to lobby (564 times, interval 30000 s)
+270592726: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270601729: Trying to connect to lobby (565 times, interval 35000 s)
+270622730: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270636730: Trying to connect to lobby (566 times, interval 35000 s)
+270657733: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270671732: Trying to connect to lobby (567 times, interval 34000 s)
+270692731: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270705734: Trying to connect to lobby (568 times, interval 34000 s)
+270726734: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270739736: Trying to connect to lobby (569 times, interval 35000 s)
+270760735: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270774736: Trying to connect to lobby (570 times, interval 31000 s)
+270795737: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270805739: Trying to connect to lobby (571 times, interval 31000 s)
+270826738: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270836740: Trying to connect to lobby (572 times, interval 30000 s)
+270857740: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270866741: Trying to connect to lobby (573 times, interval 33000 s)
+270887741: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270899741: Trying to connect to lobby (574 times, interval 31000 s)
+270920740: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270930742: Trying to connect to lobby (575 times, interval 35000 s)
+270951745: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270965744: Trying to connect to lobby (576 times, interval 34000 s)
+270986744: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+270999745: Trying to connect to lobby (577 times, interval 33000 s)
+271020746: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271032746: Trying to connect to lobby (578 times, interval 32000 s)
+271053745: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271064746: Trying to connect to lobby (579 times, interval 36000 s)
+271085749: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271100746: Trying to connect to lobby (580 times, interval 35000 s)
+271121747: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271135747: Trying to connect to lobby (581 times, interval 35000 s)
+271156750: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271170748: Trying to connect to lobby (582 times, interval 31000 s)
+271191749: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271201750: Trying to connect to lobby (583 times, interval 36000 s)
+271222750: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271237751: Trying to connect to lobby (584 times, interval 34000 s)
+271258751: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271271753: Trying to connect to lobby (585 times, interval 33000 s)
+271292752: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271304755: Trying to connect to lobby (586 times, interval 32000 s)
+271325755: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271336756: Trying to connect to lobby (587 times, interval 30000 s)
+271357756: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271366756: Trying to connect to lobby (588 times, interval 30000 s)
+271387757: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271396757: Trying to connect to lobby (589 times, interval 32000 s)
+271417759: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271428757: Trying to connect to lobby (590 times, interval 31000 s)
+271449760: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271459759: Trying to connect to lobby (591 times, interval 31000 s)
+271480759: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271490761: Trying to connect to lobby (592 times, interval 36000 s)
+271511761: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271526761: Trying to connect to lobby (593 times, interval 33000 s)
+271547764: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271559764: Trying to connect to lobby (594 times, interval 30000 s)
+271580767: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271589764: Trying to connect to lobby (595 times, interval 30000 s)
+271610767: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271619764: Trying to connect to lobby (596 times, interval 30000 s)
+271640764: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271649764: Trying to connect to lobby (597 times, interval 32000 s)
+271670767: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271681765: Trying to connect to lobby (598 times, interval 30000 s)
+271702766: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271711768: Trying to connect to lobby (599 times, interval 33000 s)
+271732768: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271744768: Trying to connect to lobby (600 times, interval 31000 s)
+271765772: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271775771: Trying to connect to lobby (601 times, interval 35000 s)
+271796773: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271810771: Trying to connect to lobby (602 times, interval 34000 s)
+271831772: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271844774: Trying to connect to lobby (603 times, interval 33000 s)
+271865776: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271877774: Trying to connect to lobby (604 times, interval 32000 s)
+271898773: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271909775: Trying to connect to lobby (605 times, interval 36000 s)
+271930774: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271945777: Trying to connect to lobby (606 times, interval 35000 s)
+271966780: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+271980778: Trying to connect to lobby (607 times, interval 35000 s)
+272001781: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272015780: Trying to connect to lobby (608 times, interval 31000 s)
+272036780: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272046782: Trying to connect to lobby (609 times, interval 36000 s)
+272067784: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272082784: Trying to connect to lobby (610 times, interval 34000 s)
+272103784: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272116786: Trying to connect to lobby (611 times, interval 33000 s)
+272137787: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272149786: Trying to connect to lobby (612 times, interval 32000 s)
+272170787: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272181787: Trying to connect to lobby (613 times, interval 30000 s)
+272202790: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272211788: Trying to connect to lobby (614 times, interval 30000 s)
+272232788: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272241790: Trying to connect to lobby (615 times, interval 32000 s)
+272262790: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272273791: Trying to connect to lobby (616 times, interval 31000 s)
+272294791: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272304793: Trying to connect to lobby (617 times, interval 31000 s)
+272325793: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272335795: Trying to connect to lobby (618 times, interval 36000 s)
+272356798: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272371798: Trying to connect to lobby (619 times, interval 33000 s)
+272392801: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272404798: Trying to connect to lobby (620 times, interval 30000 s)
+272425798: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272434799: Trying to connect to lobby (621 times, interval 30000 s)
+272455801: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272464801: Trying to connect to lobby (622 times, interval 30000 s)
+272485801: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272494804: Trying to connect to lobby (623 times, interval 32000 s)
+272515808: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272526805: Trying to connect to lobby (624 times, interval 33000 s)
+272547805: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272559805: Trying to connect to lobby (625 times, interval 33000 s)
+272580805: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272592806: Trying to connect to lobby (626 times, interval 34000 s)
+272613808: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272626807: Trying to connect to lobby (627 times, interval 34000 s)
+272647807: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272660809: Trying to connect to lobby (628 times, interval 31000 s)
+272681809: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272691811: Trying to connect to lobby (629 times, interval 34000 s)
+272712811: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272725813: Trying to connect to lobby (630 times, interval 33000 s)
+272746816: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272758814: Trying to connect to lobby (631 times, interval 32000 s)
+272779816: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272790814: Trying to connect to lobby (632 times, interval 30000 s)
+272811818: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272820814: Trying to connect to lobby (633 times, interval 34000 s)
+272841815: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272854816: Trying to connect to lobby (634 times, interval 35000 s)
+272875816: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272889817: Trying to connect to lobby (635 times, interval 35000 s)
+272910817: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272924818: Trying to connect to lobby (636 times, interval 33000 s)
+272945818: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272957818: Trying to connect to lobby (637 times, interval 32000 s)
+272978819: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+272989819: Trying to connect to lobby (638 times, interval 36000 s)
+273010819: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273025822: Trying to connect to lobby (639 times, interval 35000 s)
+273046822: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273060823: Trying to connect to lobby (640 times, interval 36000 s)
+273081824: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273096824: Trying to connect to lobby (641 times, interval 36000 s)
+273117826: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273132826: Trying to connect to lobby (642 times, interval 33000 s)
+273153826: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273165829: Trying to connect to lobby (643 times, interval 30000 s)
+273186832: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273195832: Trying to connect to lobby (644 times, interval 33000 s)
+273216835: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273228832: Trying to connect to lobby (645 times, interval 31000 s)
+273249835: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273259835: Trying to connect to lobby (646 times, interval 36000 s)
+273280837: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273295837: Trying to connect to lobby (647 times, interval 31000 s)
+273316840: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273326839: Trying to connect to lobby (648 times, interval 35000 s)
+273347842: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273361840: Trying to connect to lobby (649 times, interval 35000 s)
+273382840: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273396842: Trying to connect to lobby (650 times, interval 36000 s)
+273417841: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273432844: Trying to connect to lobby (651 times, interval 36000 s)
+273453845: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273468845: Trying to connect to lobby (652 times, interval 34000 s)
+273489845: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273502847: Trying to connect to lobby (653 times, interval 32000 s)
+273523846: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273534847: Trying to connect to lobby (654 times, interval 31000 s)
+273555847: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273565849: Trying to connect to lobby (655 times, interval 32000 s)
+273586852: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273597850: Trying to connect to lobby (656 times, interval 35000 s)
+273618850: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273632852: Trying to connect to lobby (657 times, interval 30000 s)
+273653852: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273662854: Trying to connect to lobby (658 times, interval 32000 s)
+273683855: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273694855: Trying to connect to lobby (659 times, interval 30000 s)
+273715856: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273724858: Trying to connect to lobby (660 times, interval 34000 s)
+273745861: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273758861: Trying to connect to lobby (661 times, interval 30000 s)
+273779860: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273788863: Trying to connect to lobby (662 times, interval 30000 s)
+273809866: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273818863: Trying to connect to lobby (663 times, interval 36000 s)
+273839866: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273854864: Trying to connect to lobby (664 times, interval 31000 s)
+273875866: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273885865: Trying to connect to lobby (665 times, interval 31000 s)
+273906865: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273916867: Trying to connect to lobby (666 times, interval 34000 s)
+273937867: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273950869: Trying to connect to lobby (667 times, interval 34000 s)
+273971869: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+273984871: Trying to connect to lobby (668 times, interval 35000 s)
+274005874: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274019872: Trying to connect to lobby (669 times, interval 35000 s)
+274040872: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274054873: Trying to connect to lobby (670 times, interval 33000 s)
+274075873: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274087876: Trying to connect to lobby (671 times, interval 31000 s)
+274108877: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274118879: Trying to connect to lobby (672 times, interval 35000 s)
+274139878: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274153879: Trying to connect to lobby (673 times, interval 33000 s)
+274174882: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274186882: Trying to connect to lobby (674 times, interval 33000 s)
+274207882: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274219882: Trying to connect to lobby (675 times, interval 36000 s)
+274240882: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274255885: Trying to connect to lobby (676 times, interval 35000 s)
+274276886: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274290886: Trying to connect to lobby (677 times, interval 30000 s)
+274311889: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274320887: Trying to connect to lobby (678 times, interval 34000 s)
+274341889: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274354888: Trying to connect to lobby (679 times, interval 32000 s)
+274375891: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274386890: Trying to connect to lobby (680 times, interval 35000 s)
+274407892: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274421890: Trying to connect to lobby (681 times, interval 34000 s)
+274442893: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274455892: Trying to connect to lobby (682 times, interval 34000 s)
+274476893: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274489894: Trying to connect to lobby (683 times, interval 30000 s)
+274510894: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274519895: Trying to connect to lobby (684 times, interval 33000 s)
+274540894: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274552897: Trying to connect to lobby (685 times, interval 31000 s)
+274573898: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274583899: Trying to connect to lobby (686 times, interval 35000 s)
+274604902: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274618900: Trying to connect to lobby (687 times, interval 34000 s)
+274639903: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274652902: Trying to connect to lobby (688 times, interval 33000 s)
+274673903: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274685905: Trying to connect to lobby (689 times, interval 32000 s)
+274706905: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274717907: Trying to connect to lobby (690 times, interval 36000 s)
+274738910: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274753910: Trying to connect to lobby (691 times, interval 35000 s)
+274774912: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274788910: Trying to connect to lobby (692 times, interval 35000 s)
+274809913: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274823912: Trying to connect to lobby (693 times, interval 31000 s)
+274844911: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274854913: Trying to connect to lobby (694 times, interval 36000 s)
+274875913: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274890914: Trying to connect to lobby (695 times, interval 34000 s)
+274911917: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274924915: Trying to connect to lobby (696 times, interval 33000 s)
+274945918: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274957915: Trying to connect to lobby (697 times, interval 32000 s)
+274978916: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+274989916: Trying to connect to lobby (698 times, interval 30000 s)
+275010916: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275019919: Trying to connect to lobby (699 times, interval 30000 s)
+275040917: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275049919: Trying to connect to lobby (700 times, interval 32000 s)
+275070919: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275081920: Trying to connect to lobby (701 times, interval 31000 s)
+275102921: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275112922: Trying to connect to lobby (702 times, interval 31000 s)
+275133925: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275143925: Trying to connect to lobby (703 times, interval 36000 s)
+275164924: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275179927: Trying to connect to lobby (704 times, interval 33000 s)
+275200927: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275212930: Trying to connect to lobby (705 times, interval 30000 s)
+275233930: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275242931: Trying to connect to lobby (706 times, interval 30000 s)
+275263933: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275272934: Trying to connect to lobby (707 times, interval 30000 s)
+275293933: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275302936: Trying to connect to lobby (708 times, interval 32000 s)
+275323936: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275334938: Trying to connect to lobby (709 times, interval 33000 s)
+275355938: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275367938: Trying to connect to lobby (710 times, interval 33000 s)
+275388937: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275400940: Trying to connect to lobby (711 times, interval 34000 s)
+275421943: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275434943: Trying to connect to lobby (712 times, interval 34000 s)
+275455942: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275468944: Trying to connect to lobby (713 times, interval 31000 s)
+275489945: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275499946: Trying to connect to lobby (714 times, interval 34000 s)
+275520947: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275533948: Trying to connect to lobby (715 times, interval 33000 s)
+275554951: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275566951: Trying to connect to lobby (716 times, interval 32000 s)
+275587954: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275598953: Trying to connect to lobby (717 times, interval 30000 s)
+275619953: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275628956: Trying to connect to lobby (718 times, interval 34000 s)
+275649955: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275662957: Trying to connect to lobby (719 times, interval 35000 s)
+275683957: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275697958: Trying to connect to lobby (720 times, interval 35000 s)
+275718959: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275732959: Trying to connect to lobby (721 times, interval 33000 s)
+275753959: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275765962: Trying to connect to lobby (722 times, interval 32000 s)
+275786965: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275797963: Trying to connect to lobby (723 times, interval 36000 s)
+275818963: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275833963: Trying to connect to lobby (724 times, interval 35000 s)
+275854966: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275868964: Trying to connect to lobby (725 times, interval 36000 s)
+275889967: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275904964: Trying to connect to lobby (726 times, interval 36000 s)
+275925967: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275940964: Trying to connect to lobby (727 times, interval 33000 s)
+275961967: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+275973967: Trying to connect to lobby (728 times, interval 30000 s)
+275994968: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276003967: Trying to connect to lobby (729 times, interval 33000 s)
+276024967: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276036967: Trying to connect to lobby (730 times, interval 31000 s)
+276057971: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276067969: Trying to connect to lobby (731 times, interval 36000 s)
+276088972: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276103969: Trying to connect to lobby (732 times, interval 31000 s)
+276124970: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276134971: Trying to connect to lobby (733 times, interval 35000 s)
+276155974: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276169972: Trying to connect to lobby (734 times, interval 35000 s)
+276190972: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276204973: Trying to connect to lobby (735 times, interval 36000 s)
+276225976: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276240974: Trying to connect to lobby (736 times, interval 36000 s)
+276261976: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276276977: Trying to connect to lobby (737 times, interval 34000 s)
+276297976: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276310978: Trying to connect to lobby (738 times, interval 32000 s)
+276331979: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276342980: Trying to connect to lobby (739 times, interval 31000 s)
+276363982: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276373981: Trying to connect to lobby (740 times, interval 32000 s)
+276394984: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276405982: Trying to connect to lobby (741 times, interval 35000 s)
+276426982: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276440983: Trying to connect to lobby (742 times, interval 30000 s)
+276461983: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276470986: Trying to connect to lobby (743 times, interval 32000 s)
+276491986: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276502987: Trying to connect to lobby (744 times, interval 30000 s)
+276523988: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276532990: Trying to connect to lobby (745 times, interval 34000 s)
+276553990: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276566992: Trying to connect to lobby (746 times, interval 30000 s)
+276587992: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276596995: Trying to connect to lobby (747 times, interval 30000 s)
+276617996: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276626996: Trying to connect to lobby (748 times, interval 36000 s)
+276647998: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276662998: Trying to connect to lobby (749 times, interval 31000 s)
+276683998: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276694000: Trying to connect to lobby (750 times, interval 31000 s)
+276715003: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276725002: Trying to connect to lobby (751 times, interval 34000 s)
+276746002: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276759005: Trying to connect to lobby (752 times, interval 34000 s)
+276780004: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276793006: Trying to connect to lobby (753 times, interval 35000 s)
+276814006: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276828007: Trying to connect to lobby (754 times, interval 35000 s)
+276849010: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276863008: Trying to connect to lobby (755 times, interval 33000 s)
+276884009: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276896011: Trying to connect to lobby (756 times, interval 31000 s)
+276917012: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276927013: Trying to connect to lobby (757 times, interval 35000 s)
+276948014: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276962014: Trying to connect to lobby (758 times, interval 33000 s)
+276983018: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+276995017: Trying to connect to lobby (759 times, interval 33000 s)
+277016017: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277028018: Trying to connect to lobby (760 times, interval 36000 s)
+277049017: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277064021: Trying to connect to lobby (761 times, interval 35000 s)
+277085020: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277099022: Trying to connect to lobby (762 times, interval 30000 s)
+277120021: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277129025: Trying to connect to lobby (763 times, interval 34000 s)
+277150024: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277163026: Trying to connect to lobby (764 times, interval 32000 s)
+277184026: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277195028: Trying to connect to lobby (765 times, interval 35000 s)
+277216027: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277230028: Trying to connect to lobby (766 times, interval 34000 s)
+277251028: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277264031: Trying to connect to lobby (767 times, interval 34000 s)
+277285030: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277298032: Trying to connect to lobby (768 times, interval 32000 s)
+277319032: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277330033: Trying to connect to lobby (769 times, interval 31000 s)
+277351033: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277361036: Trying to connect to lobby (770 times, interval 31000 s)
+277382036: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277392038: Trying to connect to lobby (771 times, interval 32000 s)
+277413037: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277424039: Trying to connect to lobby (772 times, interval 35000 s)
+277445038: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277459039: Trying to connect to lobby (773 times, interval 33000 s)
+277480042: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277492042: Trying to connect to lobby (774 times, interval 36000 s)
+277513045: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277528042: Trying to connect to lobby (775 times, interval 35000 s)
+277549042: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277563043: Trying to connect to lobby (776 times, interval 32000 s)
+277584044: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277595044: Trying to connect to lobby (777 times, interval 31000 s)
+277616044: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277626046: Trying to connect to lobby (778 times, interval 34000 s)
+277647046: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277660048: Trying to connect to lobby (779 times, interval 33000 s)
+277681051: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277693051: Trying to connect to lobby (780 times, interval 30000 s)
+277714051: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277723051: Trying to connect to lobby (781 times, interval 34000 s)
+277744051: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277757053: Trying to connect to lobby (782 times, interval 33000 s)
+277778053: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277790056: Trying to connect to lobby (783 times, interval 31000 s)
+277811059: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277821058: Trying to connect to lobby (784 times, interval 36000 s)
+277842061: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277857061: Trying to connect to lobby (785 times, interval 30000 s)
+277878061: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277887064: Trying to connect to lobby (786 times, interval 36000 s)
+277908064: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277923064: Trying to connect to lobby (787 times, interval 34000 s)
+277944064: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277957066: Trying to connect to lobby (788 times, interval 32000 s)
+277978069: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+277989067: Trying to connect to lobby (789 times, interval 32000 s)
+278010068: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278021068: Trying to connect to lobby (790 times, interval 30000 s)
+278042068: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278051069: Trying to connect to lobby (791 times, interval 36000 s)
+278072068: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278087071: Trying to connect to lobby (792 times, interval 34000 s)
+278108074: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278121073: Trying to connect to lobby (793 times, interval 31000 s)
+278142073: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278152075: Trying to connect to lobby (794 times, interval 36000 s)
+278173075: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278188075: Trying to connect to lobby (795 times, interval 35000 s)
+278209076: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278223077: Trying to connect to lobby (796 times, interval 34000 s)
+278244076: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278257078: Trying to connect to lobby (797 times, interval 31000 s)
+278278081: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278288081: Trying to connect to lobby (798 times, interval 31000 s)
+278309080: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278319083: Trying to connect to lobby (799 times, interval 35000 s)
+278340085: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278354083: Trying to connect to lobby (800 times, interval 33000 s)
+278375086: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278387083: Trying to connect to lobby (801 times, interval 31000 s)
+278408086: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278418085: Trying to connect to lobby (802 times, interval 33000 s)
+278439089: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278451088: Trying to connect to lobby (803 times, interval 35000 s)
+278472089: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278486089: Trying to connect to lobby (804 times, interval 32000 s)
+278507092: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278518091: Trying to connect to lobby (805 times, interval 31000 s)
+278539090: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278549092: Trying to connect to lobby (806 times, interval 33000 s)
+278570092: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278582092: Trying to connect to lobby (807 times, interval 34000 s)
+278603096: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278616094: Trying to connect to lobby (808 times, interval 35000 s)
+278637098: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278651096: Trying to connect to lobby (809 times, interval 35000 s)
+278672095: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278686096: Trying to connect to lobby (810 times, interval 33000 s)
+278707099: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278719096: Trying to connect to lobby (811 times, interval 30000 s)
+278740099: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278749096: Trying to connect to lobby (812 times, interval 32000 s)
+278770096: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278781097: Trying to connect to lobby (813 times, interval 35000 s)
+278802098: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278816099: Trying to connect to lobby (814 times, interval 30000 s)
+278837098: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278846101: Trying to connect to lobby (815 times, interval 33000 s)
+278867101: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278879101: Trying to connect to lobby (816 times, interval 34000 s)
+278900104: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278913104: Trying to connect to lobby (817 times, interval 32000 s)
+278934103: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278945105: Trying to connect to lobby (818 times, interval 30000 s)
+278966105: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+278975107: Trying to connect to lobby (819 times, interval 36000 s)
+278996108: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279011107: Trying to connect to lobby (820 times, interval 36000 s)
+279032107: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279047108: Trying to connect to lobby (821 times, interval 33000 s)
+279068110: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279080110: Trying to connect to lobby (822 times, interval 32000 s)
+279101113: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279112111: Trying to connect to lobby (823 times, interval 33000 s)
+279133111: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279145114: Trying to connect to lobby (824 times, interval 32000 s)
+279166114: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279177115: Trying to connect to lobby (825 times, interval 35000 s)
+279198118: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279212116: Trying to connect to lobby (826 times, interval 32000 s)
+279233117: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279244117: Trying to connect to lobby (827 times, interval 33000 s)
+279265117: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279277118: Trying to connect to lobby (828 times, interval 31000 s)
+279298120: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279308119: Trying to connect to lobby (829 times, interval 36000 s)
+279329123: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279344122: Trying to connect to lobby (830 times, interval 32000 s)
+279365122: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279376123: Trying to connect to lobby (831 times, interval 35000 s)
+279397123: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279411124: Trying to connect to lobby (832 times, interval 33000 s)
+279432124: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279444124: Trying to connect to lobby (833 times, interval 31000 s)
+279465124: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279475126: Trying to connect to lobby (834 times, interval 35000 s)
+279496126: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279510128: Trying to connect to lobby (835 times, interval 35000 s)
+279531127: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279545128: Trying to connect to lobby (836 times, interval 32000 s)
+279566129: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279577129: Trying to connect to lobby (837 times, interval 33000 s)
+279598129: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279610129: Trying to connect to lobby (838 times, interval 36000 s)
+279631129: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279646132: Trying to connect to lobby (839 times, interval 30000 s)
+279667132: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279676135: Trying to connect to lobby (840 times, interval 36000 s)
+279697138: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279712135: Trying to connect to lobby (841 times, interval 34000 s)
+279733135: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279746137: Trying to connect to lobby (842 times, interval 30000 s)
+279767137: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279776140: Trying to connect to lobby (843 times, interval 33000 s)
+279797140: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279809140: Trying to connect to lobby (844 times, interval 31000 s)
+279830143: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279840142: Trying to connect to lobby (845 times, interval 35000 s)
+279861142: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279875143: Trying to connect to lobby (846 times, interval 34000 s)
+279896143: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279909145: Trying to connect to lobby (847 times, interval 34000 s)
+279930145: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279943148: Trying to connect to lobby (848 times, interval 31000 s)
+279964150: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+279974149: Trying to connect to lobby (849 times, interval 35000 s)
+279995152: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280009150: Trying to connect to lobby (850 times, interval 30000 s)
+280030150: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280039153: Trying to connect to lobby (851 times, interval 30000 s)
+280060157: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280069154: Trying to connect to lobby (852 times, interval 35000 s)
+280090153: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280104154: Trying to connect to lobby (853 times, interval 32000 s)
+280125154: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280136156: Trying to connect to lobby (854 times, interval 36000 s)
+280157155: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280172158: Trying to connect to lobby (855 times, interval 32000 s)
+280193159: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280204159: Trying to connect to lobby (856 times, interval 32000 s)
+280225159: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280236160: Trying to connect to lobby (857 times, interval 30000 s)
+280257160: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280266163: Trying to connect to lobby (858 times, interval 35000 s)
+280287163: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280301164: Trying to connect to lobby (859 times, interval 35000 s)
+280322167: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280336165: Trying to connect to lobby (860 times, interval 34000 s)
+280357168: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280370167: Trying to connect to lobby (861 times, interval 34000 s)
+280391167: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280404170: Trying to connect to lobby (862 times, interval 35000 s)
+280425172: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280439170: Trying to connect to lobby (863 times, interval 31000 s)
+280460173: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280470173: Trying to connect to lobby (864 times, interval 31000 s)
+280491172: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280501174: Trying to connect to lobby (865 times, interval 30000 s)
+280522177: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280531174: Trying to connect to lobby (866 times, interval 30000 s)
+280552177: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280561174: Trying to connect to lobby (867 times, interval 35000 s)
+280582177: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280596176: Trying to connect to lobby (868 times, interval 35000 s)
+280617175: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280631176: Trying to connect to lobby (869 times, interval 31000 s)
+280652179: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280662178: Trying to connect to lobby (870 times, interval 30000 s)
+280683179: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280692179: Trying to connect to lobby (871 times, interval 33000 s)
+280713179: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280725181: Trying to connect to lobby (872 times, interval 30000 s)
+280746182: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280755181: Trying to connect to lobby (873 times, interval 30000 s)
+280776184: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280785182: Trying to connect to lobby (874 times, interval 33000 s)
+280806184: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280818184: Trying to connect to lobby (875 times, interval 35000 s)
+280839187: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280853185: Trying to connect to lobby (876 times, interval 34000 s)
+280874186: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280887187: Trying to connect to lobby (877 times, interval 33000 s)
+280908187: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280920190: Trying to connect to lobby (878 times, interval 30000 s)
+280941190: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280950190: Trying to connect to lobby (879 times, interval 33000 s)
+280971190: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+280983191: Trying to connect to lobby (880 times, interval 31000 s)
+281004190: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281014192: Trying to connect to lobby (881 times, interval 34000 s)
+281035192: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281048194: Trying to connect to lobby (882 times, interval 32000 s)
+281069197: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281080196: Trying to connect to lobby (883 times, interval 33000 s)
+281101195: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281113198: Trying to connect to lobby (884 times, interval 31000 s)
+281134198: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281144200: Trying to connect to lobby (885 times, interval 34000 s)
+281165203: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281178202: Trying to connect to lobby (886 times, interval 33000 s)
+281199205: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281211202: Trying to connect to lobby (887 times, interval 34000 s)
+281232205: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281245204: Trying to connect to lobby (888 times, interval 31000 s)
+281266207: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281276206: Trying to connect to lobby (889 times, interval 33000 s)
+281297209: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281309206: Trying to connect to lobby (890 times, interval 36000 s)
+281330206: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281345206: Trying to connect to lobby (891 times, interval 34000 s)
+281366209: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281379208: Trying to connect to lobby (892 times, interval 36000 s)
+281400211: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281415211: Trying to connect to lobby (893 times, interval 31000 s)
+281436212: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281446213: Trying to connect to lobby (894 times, interval 32000 s)
+281467213: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281478214: Trying to connect to lobby (895 times, interval 31000 s)
+281499214: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281509216: Trying to connect to lobby (896 times, interval 36000 s)
+281530216: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281545216: Trying to connect to lobby (897 times, interval 33000 s)
+281566219: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281578216: Trying to connect to lobby (898 times, interval 36000 s)
+281599217: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+281614219: Trying to connect to lobby (899 times, interval 30000 s)
+281615483: RegisterToLobby succeeded
+281615486: Sent lobby registration request for laguna_seca
+281615750: TCPQueue now: 4
+281615750: New TCP incoming pakSizeMax, 0 => 2
+281615750: Updated lobby with 0 drivers
+298315478: Udp message count (0 clients): 23=2, 
+299457757: Udp message count (0 clients): 23=1, 
+300539918: Udp message count (0 clients): 23=1, 
+301321477: Udp message count (0 clients): 23=1, 
+303666154: Udp message count (0 clients): 23=1, 
+305770354: Udp message count (0 clients): 23=1, 
+306491788: Udp message count (0 clients): 23=1, 
+308776345: Udp message count (0 clients): 23=1, 
+309918625: Udp message count (0 clients): 23=1, 
+311121025: Udp message count (0 clients): 23=1, 
+311722225: Udp message count (0 clients): 23=1, 
+316110979: Udp message count (0 clients): 23=1, 
+317253256: Udp message count (0 clients): 23=1, 
+317373497: Udp message count (0 clients): 23=2, 
+317794336: Udp message count (0 clients): 23=1, 
+318515777: Udp message count (0 clients): 23=1, 
+318936616: Udp message count (0 clients): 23=1, 
+319718176: Udp message count (0 clients): 23=1, 
+319898536: Udp message count (0 clients): 23=3, 
+320860453: Udp message count (0 clients): 23=1, 
+320920573: Udp message count (0 clients): 23=1, 
+321822374: Udp message count (0 clients): 23=1, 
+322664050: Udp message count (0 clients): 23=1, 
+323024770: Udp message count (0 clients): 23=1, 
+324527770: Udp message count (0 clients): 23=1, 
+325008730: Udp message count (0 clients): 23=1, 
+325850410: Udp message count (0 clients): 23=1, 
+325910531: Udp message count (0 clients): 23=1, 
+326090890: Udp message count (0 clients): 23=1, 
+327173053: Udp message count (0 clients): 23=1, 
+327293293: Udp message count (0 clients): 23=1, 
+327413533: Udp message count (0 clients): 23=1, 
+327473653: Udp message count (0 clients): 23=2, 
+329036776: Udp message count (0 clients): 23=1, 
+329157016: Udp message count (0 clients): 23=1, 
+329217136: Udp message count (0 clients): 23=1, 
+330599897: Udp message count (0 clients): 23=1, 
+331381456: Udp message count (0 clients): 23=1, 
+331922536: Udp message count (0 clients): 23=1, 
+333004696: Udp message count (0 clients): 23=1, 
+333305296: Udp message count (0 clients): 23=1, 
+334267216: Udp message count (0 clients): 23=1, 
+335649976: Udp message count (0 clients): 23=1, 
+336010696: Udp message count (0 clients): 23=1, 
+336191057: Udp message count (0 clients): 23=1, 
+336311296: Udp message count (0 clients): 23=2, 
+336672016: Udp message count (0 clients): 23=1, 
+340158991: Udp message count (0 clients): 23=1, 
+340579831: Udp message count (0 clients): 23=2, 
+341301280: Udp message count (0 clients): 23=1, 
+341662015: Udp message count (0 clients): 23=3, 
+341962616: Udp message count (0 clients): 23=1, 
+342984682: Udp message count (0 clients): 23=1, 
+343766242: Udp message count (0 clients): 23=1, 
+344126963: Udp message count (0 clients): 23=1, 
+344247202: Udp message count (0 clients): 23=1, 
+344367442: Udp message count (0 clients): 23=1, 
+344607922: Udp message count (0 clients): 23=1, 
+345930562: Udp message count (0 clients): 23=1, 
+347253203: Udp message count (0 clients): 23=1, 
+348395482: Udp message count (0 clients): 23=1, 
+348756202: Udp message count (0 clients): 23=1, 
+348816322: Udp message count (0 clients): 23=1, 
+348876442: Udp message count (0 clients): 23=1, 
+348996683: Udp message count (0 clients): 23=1, 
+349177042: Udp message count (0 clients): 23=1, 
+349357402: Udp message count (0 clients): 23=1, 
+350090188: New connection received 444
+350090188: 1 client(s) online
+350090437: TCPQueue now: 243
+350091937: ==ERR: TCP socket error detected 10054 
 
-54439800: Client 0 closed the connection (10053)
-54439803: Removing dead connection 0  (last lastUdpPaketReceived 2933)
-54439803: Alive connections: 0
-54439803: car 1001 has no driving connection anymore, will remove it
-54439803: Updated lobby with 0 drivers
-54439803: Alive cars: 0
-54439803: 0 client(s) online
-54439803: No drivers around, resetting session
-54439803: Resetting race weekend
-54439803: Resetting weekend to friday night
-54439803: Reset time to friday night: 226978 -> 0
-54439803: Reset time to first session: 0 -> 226800
-54439803: SessionManager::randomizeGreenFlagTriggers: s:0.045404 e:0.060588 r:0.057684
-54439803: Detected sessionPhase <session> -> <waiting for drivers> (Qualifying)
-54439803: Sent session update to lobby
-54468459: Udp message count (0 clients): 22=28, 23=1, 30=529, 
-54528588: Udp message count (0 clients): 23=1, 
-54769066: Udp message count (0 clients): 23=1, 
-55129794: Udp message count (0 clients): 23=1, 
-55670873: Udp message count (0 clients): 23=1, 
-55681415: Server was running late for 1 step(s), not enough CPU power
-56428877: Server was running late for 1 step(s), not enough CPU power
-57594697: Udp message count (0 clients): 23=1, 
-59390168: Server was running late for 1 step(s), not enough CPU power
-64568562: Udp message count (0 clients): 23=1, 
-65891184: Udp message count (0 clients): 23=1, 
-65951301: Udp message count (0 clients): 23=1, 
-66432261: Udp message count (0 clients): 23=1, 
-68016248: Server was running late for 1 step(s), not enough CPU power
-69378122: Udp message count (0 clients): 23=1, 
-69678714: Udp message count (0 clients): 23=1, 
-72083483: Udp message count (0 clients): 23=1, 
-72738249: Server was running late for 1 step(s), not enough CPU power
-75810909: Udp message count (0 clients): 23=1, 
-76893060: Udp message count (0 clients): 23=1, 
-82965111: Udp message count (0 clients): 23=1, 
-84772178: Server was running late for 1 step(s), not enough CPU power
-84856694: Server was running late for 1 step(s), not enough CPU power
-84952115: Server was running late for 1 step(s), not enough CPU power
-85117055: Server was running late for 1 step(s), not enough CPU power
-85971099: Udp message count (0 clients): 23=1, 
-87474096: Udp message count (0 clients): 23=1, 
-87834810: Udp message count (0 clients): 23=1, 
-89878872: Udp message count (0 clients): 23=1, 
-90720546: Udp message count (0 clients): 23=1, 
-90780666: Udp message count (0 clients): 23=1, 
-90961026: Udp message count (0 clients): 23=1, 
-91141380: Udp message count (0 clients): 23=1, 
-91622340: Udp message count (0 clients): 23=1, 
-91802703: Udp message count (0 clients): 23=1, 
-95590253: Udp message count (0 clients): 23=1, 
-96612273: Udp message count (0 clients): 23=1, 
-97033110: Udp message count (0 clients): 23=1, 
-97093230: Udp message count (0 clients): 23=1, 
-97814669: Udp message count (0 clients): 23=1, 
-98295632: Udp message count (0 clients): 23=1, 
-98355752: Udp message count (0 clients): 23=1, 
-98716472: Udp message count (0 clients): 23=1, 
-99437907: Udp message count (0 clients): 23=2, 
-101902707: Udp message count (0 clients): 23=1, 
-102203307: Udp message count (0 clients): 23=1, 
-103586067: Udp message count (0 clients): 23=1, 
-109237137: Udp message count (0 clients): 23=2, 
-110800247: Udp message count (0 clients): 23=1, 
-110822030: Server was running late for 1 step(s), not enough CPU power
-112363361: Udp message count (0 clients): 23=2, 
-114527670: Udp message count (0 clients): 23=1, 
-116509095: Server was running late for 1 step(s), not enough CPU power
-117954501: Udp message count (0 clients): 23=1, 
-118774641: Server was running late for 1 step(s), not enough CPU power
-120058629: Udp message count (0 clients): 23=1, 
-120539585: Udp message count (0 clients): 23=1, 
-121161519: Server was running late for 1 step(s), not enough CPU power
-121321133: Udp message count (0 clients): 23=1, 
-121381254: Udp message count (0 clients): 23=2, 
-122884248: Udp message count (0 clients): 23=1, 
-123004488: Udp message count (0 clients): 23=1, 
-123184845: Udp message count (0 clients): 23=1, 
-123244962: Udp message count (0 clients): 23=1, 
-123365201: Udp message count (0 clients): 23=1, 
-123725919: Udp message count (0 clients): 23=1, 
-124507470: Udp message count (0 clients): 23=1, 
-124627706: Udp message count (0 clients): 23=1, 
-124747946: Udp message count (0 clients): 23=1, 
-125285039: Server was running late for 1 step(s), not enough CPU power
-125830082: Udp message count (0 clients): 23=1, 
-125890202: Udp message count (0 clients): 23=1, 
-127730528: Server was running late for 1 step(s), not enough CPU power
-128337782: ==ERR: TCP socket error detected 10054 
+350091937: Client 0 closed the connection (10054)
+350091940: Removing dead connection 0  (last lastUdpPaketReceived 350091940)
+350091940: Alive connections: 0
+350091940: 0 client(s) online
+350102330: New connection received 444
+350102330: 1 client(s) online
+350102330: TCPQueue now: 83
+350103832: ==ERR: TCP socket error detected 10054 
 
-128337782: ==ERR: Lost tcp connection to lobby
-128337785: Trying to connect to lobby (0 times, interval 10000 s)
-128358785: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
-128358788: Trying to connect to lobby (1 times, interval 10000 s)
-128379791: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
-128379794: Trying to connect to lobby (2 times, interval 13000 s)
-128400794: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
-128412794: Trying to connect to lobby (3 times, interval 33000 s)
-128433797: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
-128445797: Trying to connect to lobby (4 times, interval 31000 s)
-128466800: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
-128476799: Trying to connect to lobby (5 times, interval 31000 s)
-128478068: RegisterToLobby succeeded
-128478071: Sent lobby registration request for cota
-128478341: TCPQueue now: 4
-128478341: New TCP incoming pakSizeMax, 0 => 2
-128478341: Updated lobby with 0 drivers
-128715783: Udp message count (0 clients): 23=1, 
-128836023: Udp message count (0 clients): 23=2, 
-128896143: Udp message count (0 clients): 23=1, 
-130459255: Udp message count (0 clients): 23=1, 
-131781904: Udp message count (0 clients): 23=1, 
-132142617: Udp message count (0 clients): 23=1, 
-132322980: Udp message count (0 clients): 23=3, 
-132503337: Udp message count (0 clients): 23=1, 
-136651533
+350103832: Client 1 closed the connection (10054)
+350103835: Removing dead connection 1  (last lastUdpPaketReceived 350103835)
+350103835: Alive connections: 0
+350103835: 0 client(s) online
+350114251: New connection received 424
+350114251: 1 client(s) online
+350114251: TCPQueue now: 19
+350114251: New TCP incoming pakSizeMax, 0 => 3
+350114254: Removing dead connection 2  (last lastUdpPaketReceived 350114254)
+350114254: Alive connections: 0
+350114254: 0 client(s) online
+350138962: Udp message count (0 clients): 23=1, 
+353144960: Udp message count (0 clients): 23=1, 
+353265202: Udp message count (0 clients): 23=3, 
+355008683: Udp message count (0 clients): 23=1, 
+355970602: Udp message count (0 clients): 23=1, 
+356451562: Udp message count (0 clients): 23=1, 
+356571802: Udp message count (0 clients): 23=1, 
+360058762: Udp message count (0 clients): 23=1, 
+360179002: Udp message count (0 clients): 23=1, 
+372509548: ==ERR: TCP socket error detected 10054 
+
+372509548: ==ERR: Lost tcp connection to lobby
+372509551: Trying to connect to lobby (0 times, interval 10000 s)
+372530551: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+372530554: Trying to connect to lobby (1 times, interval 13000 s)
+372551554: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+372551557: Trying to connect to lobby (2 times, interval 11000 s)
+372572560: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+372582559: Trying to connect to lobby (3 times, interval 35000 s)
+372603563: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+372617560: Trying to connect to lobby (4 times, interval 34000 s)
+372638560: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+372651562: Trying to connect to lobby (5 times, interval 33000 s)
+372672562: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+372684565: Trying to connect to lobby (6 times, interval 32000 s)
+372705568: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+372716566: Trying to connect to lobby (7 times, interval 36000 s)
+372717835: RegisterToLobby succeeded
+372717838: Sent lobby registration request for laguna_seca
+372718109: TCPQueue now: 4
+372718109: New TCP incoming pakSizeMax, 0 => 2
+372718109: Updated lobby with 0 drivers
+387653836: Udp message count (0 clients): 23=1, 
+388074676: Udp message count (0 clients): 23=1, 
+389096716: Udp message count (0 clients): 23=2, 
+390058637: Udp message count (0 clients): 23=2, 
+390780076: Udp message count (0 clients): 23=3, 
+397393276: Udp message count (0 clients): 23=1, 
+397693876: Udp message count (0 clients): 23=1, 
+398054596: Udp message count (0 clients): 23=1, 
+398114716: Udp message count (0 clients): 23=1, 
+399016516: Udp message count (0 clients): 23=1, 
+404547557: Udp message count (0 clients): 23=1, 
+404727916: Udp message count (0 clients): 23=1, 
+404848156: Udp message count (0 clients): 23=1, 
+405268996: Udp message count (0 clients): 23=1, 
+406711876: Udp message count (0 clients): 23=2, 
+406952356: Udp message count (0 clients): 23=1, 
+407914276: Udp message count (0 clients): 23=1, 
+408335117: Udp message count (0 clients): 23=1, 
+408575596: Udp message count (0 clients): 23=1, 
+409477396: Udp message count (0 clients): 23=1, 
+409537517: Udp message count (0 clients): 23=1, 
+410198836: Udp message count (0 clients): 23=1, 
+410258956: Udp message count (0 clients): 23=1, 
+410679797: Udp message count (0 clients): 23=1, 
+411160756: Udp message count (0 clients): 23=1, 
+411581596: Udp message count (0 clients): 23=1, 
+411701836: Udp message count (0 clients): 23=1, 
+416932276: Udp message count (0 clients): 23=1, 
+416992396: Udp message count (0 clients): 23=1, 
+417593597: Udp message count (0 clients): 23=1, 
+418435276: Udp message count (0 clients): 23=1, 
+418856116: Udp message count (0 clients): 23=1, 
+419337076: Udp message count (0 clients): 23=1, 
+421260916: Udp message count (0 clients): 23=1, 
+421381156: Udp message count (0 clients): 23=1, 
+421501396: Udp message count (0 clients): 23=1, 
+422463316: Udp message count (0 clients): 23=1, 
+422583556: Udp message count (0 clients): 23=1, 
+422763916: Udp message count (0 clients): 23=1, 
+424868116: Udp message count (0 clients): 23=1, 
+425890156: Udp message count (0 clients): 23=1, 
+427513396: Udp message count (0 clients): 23=1, 
+427573516: Udp message count (0 clients): 23=1, 
+427633637: Udp message count (0 clients): 23=1, 
+428054476: Udp message count (0 clients): 23=1, 
+428174716: Udp message count (0 clients): 23=1, 
+428355077: Udp message count (0 clients): 23=1, 
+428595556: Udp message count (0 clients): 23=1, 
+429377116: Udp message count (0 clients): 23=1, 
+429497357: Udp message count (0 clients): 23=1, 
+429918196: Udp message count (0 clients): 23=1, 
+430098556: Udp message count (0 clients): 23=1, 
+430579600: Udp message count (0 clients): 23=1, 
+430820081: Udp message count (0 clients): 23=1, 
+431000441: Udp message count (0 clients): 23=1, 
+431301040: Udp message count (0 clients): 23=1, 
+431361160: Udp message count (0 clients): 23=1, 
+431421280: Udp message count (0 clients): 23=1, 
+432804040: Udp message count (0 clients): 23=1, 
+432864163: Udp message count (0 clients): 23=4, 
+433405243: Udp message count (0 clients): 23=1, 
+433465363: Udp message count (0 clients): 23=4, 
+433525483: Udp message count (0 clients): 23=1, 
+433585603: Udp message count (0 clients): 23=2, 
+433826083: Udp message count (0 clients): 23=3, 
+433886203: Udp message count (0 clients): 23=1, 
+434066563: Udp message count (0 clients): 23=2, 
+434607653: Udp message count (0 clients): 23=1, 
+434667772: Udp message count (0 clients): 23=6, 
+434727893: Udp message cou

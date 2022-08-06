@@ -1,10 +1,10 @@
 {
-    "track": "watkins_glen",
+    "track": "laguna_seca",
     "preRaceWaitingTimeSeconds": 300,
     "postQualySeconds": 15,
     "postRaceSeconds": 15,
     "sessionOverTimeSeconds": 150,
-    "ambientTemp": 22,
+    "ambientTemp": 24,
     "cloudLevel": 0.0,
     "rain": 0.0,
     "weatherRandomness": 1,
