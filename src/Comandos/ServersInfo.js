@@ -30,8 +30,8 @@ module.exports = {
             .setDescription(`${json.settings.serverName}`)
             .addFields(
                 { name: 'Grupo', value: `${json.settings.carGroup}`, inline: true },
-                { name: 'Pista', value: `${json.settings.track}`, inline: true },
-                { name: 'Temperatura', value: `${json.event.track}`, inline: true },
+                { name: 'Pista', value: `${json.event.track}`, inline: true },
+                { name: 'Temperatura', value: `${json.event.ambientTemp} *C`, inline: true },
                 { name: 'Password', value: `${json.settings.password}`, inline: true },
                 { name: 'Slots', value: `${json.settings.maxCarSlots}`, inline: true },
                 { name: 'Track Medals Requirement', value: `${json.settings.trackMedalsRequirement}`, inline: true },
