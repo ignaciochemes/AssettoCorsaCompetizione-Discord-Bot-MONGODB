@@ -11,33 +11,34 @@ module.exports = {
             .setDescription('Número del servidor')
             .setRequired(true)),
     async execute(interaction) {
-        const response = new EmbedBuilder();
-        console.log(interaction);
-        return interaction.reply('test');
-        // let ruta = await RutasFolder.rutasFolder(args[0]);
-        // let res = await LeerJson.readJson(ruta);
+        const number = interaction.options._hoistedOptions[0].value;
+        const route = await RutasFolder.rutasFolder(number);
+        const json = await LeerJson.readJson(route);
 
-        // if(res.settings.trackMedalsRequirement === 0) {
-        //     res.settings.trackMedalsRequirement = "Ninguna"
-        // }
-        // if(res.settings.safetyRatingRequirement === -1) {
-        //     res.settings.safetyRatingRequirement = "Sin restriccion"
-        // }
-        // if(res.settings.carGroup === "FreeForAll") {
-        //     res.settings.carGroup = "Mixto"
-        // }
+        if(json.settings.trackMedalsRequirement === 0) {
+            json.settings.trackMedalsRequirement = "Ninguna"
+        }
+        if(json.settings.safetyRatingRequirement === -1) {
+            json.settings.safetyRatingRequirement = "Sin restriccion"
+        }
+        if(json.settings.carGroup === "FreeForAll") {
+            json.settings.carGroup = "Mixto"
+        }
 
-        // enviarMensaje.setTitle(`La informacion solicitada del servidor seleccionado es:`)
-        //     .addField(`Nombre:`, `${res.settings.serverName}`, true)
-        //     .addField(`Grupo:`, `${res.settings.carGroup}`, true)
-        //     .addField(`Pista:`, `${res.event.track}`, true)
-        //     .addField(`Temperatura:`, `${res.event.ambientTemp} C`, true)
-        //     .addField(`Password:`, `${res.settings.password}`, true)
-        //     .addField(`Slots:`, `${res.settings.maxCarSlots}`, true)
-        //     .addField(`Track Medals Requirement:`, `${res.settings.trackMedalsRequirement}`, true)
-        //     .addField(`Safety Rating Requirement:`, `${res.settings.safetyRatingRequirement}`, true)
-        //     .addField(`Udp & Tcp port`, `${res.config.udpPort}`, true)
-        //     .addField(`Max Connections`, `${res.config.maxConnections}`, true)
-        // return message.channel.send(enviarMensaje);
+        const response = new EmbedBuilder()
+            .setTitle(`Información del servidor ${number}`)
+            .setDescription(`${json.settings.serverName}`)
+            .addFields(
+                { name: 'Grupo', value: `${json.settings.carGroup}`, inline: true },
+                { name: 'Pista', value: `${json.settings.track}`, inline: true },
+                { name: 'Temperatura', value: `${json.event.track}`, inline: true },
+                { name: 'Password', value: `${json.settings.password}`, inline: true },
+                { name: 'Slots', value: `${json.settings.maxCarSlots}`, inline: true },
+                { name: 'Track Medals Requirement', value: `${json.settings.trackMedalsRequirement}`, inline: true },
+                { name: 'Safety Rating Requirement', value: `${json.settings.safetyRatingRequirement}`, inline: true },
+                { name: 'Udp & Tcp Port', value: `${json.config.udpPort}`, inline: true },
+                { name: 'Max Connections', value: `${json.config.maxConnections}`, inline: true },
+            )
+        return interaction.reply({ embeds: [response] });
     }
 }

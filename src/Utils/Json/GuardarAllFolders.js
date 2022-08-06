@@ -7,6 +7,9 @@ class GuardarAllFolders {
     static async guardarAllFolders(data) {
         for(let i = 0; i < data.length; i++) {
             let archivos = [];
+            if (!fs.existsSync(GeneralConstants.DEFAULT_SERVER_FOLDER + `/${data[i]}/results`)) {
+                fs.mkdirSync(GeneralConstants.DEFAULT_SERVER_FOLDER + `/${data[i]}/results`);
+            }
             let res = fs.readdirSync(GeneralConstants.DEFAULT_SERVER_FOLDER + `/${data[i]}/results`, (err, files) => {
                 if(err) throw new Error('Error al obtener las carpetas');
                 return files;
