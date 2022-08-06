@@ -13,9 +13,9 @@ class GetServers {
             const leerJsonNombre = await LeerJson.readJson(obtenerRuta);
             await find('port', leerJson.udpPort).then(async (resultado) => {
                 if (!resultado[0]) {
-                    servers.push(`${i} - ${leerJsonNombre.settings.serverName} \`OFF\``);
+                    servers.push({ numero: i, nombre: leerJsonNombre.settings.serverName, status: 'offline' });
                 } else {
-                    servers.push(`${i} - ${leerJsonNombre.settings.serverName} \`ON\` - Ping: \`${await this.getPing()} Ms\``);
+                    servers.push({ numero: i, nombre: leerJsonNombre.settings.serverName, status: 'online', ping: await this.getPing() });
                 }
             });
         }
