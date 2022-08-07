@@ -15,13 +15,13 @@ module.exports = {
         const route = await RutasFolder.rutasFolder(number);
         const json = await LeerJson.readJson(route);
 
-        if(json.settings.trackMedalsRequirement === 0) {
+        if (json.settings.trackMedalsRequirement === 0) {
             json.settings.trackMedalsRequirement = "Ninguna"
         }
-        if(json.settings.safetyRatingRequirement === -1) {
+        if (json.settings.safetyRatingRequirement === -1) {
             json.settings.safetyRatingRequirement = "Sin restriccion"
         }
-        if(json.settings.carGroup === "FreeForAll") {
+        if (json.settings.carGroup === "FreeForAll") {
             json.settings.carGroup = "Mixto"
         }
 
