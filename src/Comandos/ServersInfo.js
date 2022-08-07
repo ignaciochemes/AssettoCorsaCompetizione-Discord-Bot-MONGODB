@@ -1,7 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { LeerJson } = require('../Complementos/LeerJson');
 const { RutasFolder } = require('../Constants/RutasConstants');
-const { TextConstants } = require('../Constants/TextConstants');
 
 module.exports = {
     data: new SlashCommandBuilder()
