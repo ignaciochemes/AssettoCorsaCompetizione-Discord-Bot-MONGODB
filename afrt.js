@@ -1,6 +1,7 @@
-const fs = require('fs');
+const fs = require('node:fs');
+const path = require('node:path');
 const cron = require('node-cron');
-const { Client, Collection } = require('discord.js');
+const { Client, REST, Routes, GatewayIntentBits, Collection } = require('discord.js');
 const { LeerJsonDb } = require('./src/Utils/Json/LeerJsonDb');
 const { DatabaseConnection } = require('./src/Database/DbConnection');
 const { LeerAllFolders } = require('./src/Utils/Json/LeerAllFolders');
@@ -26,39 +27,50 @@ cron.schedule('*/45 * * * *', () => {
     main();
 });
 
-const client = new Client();
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
 client.commands = new Collection();
-client.aliases = new Collection();
-client.categories = fs.readdirSync("./src/Comandos/");
+const commandsPath = path.join(__dirname, './src/Comandos');
+const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
+const commands = [];
 
-//Indice
-["Indice"].forEach(indice => {
-    require(`./src/Indice/${indice}`)(client);
-});
+for (const file of commandFiles) {
+	const filePath = path.join(commandsPath, file);
+	const command = require(filePath);
+	client.commands.set(command.data.name, command);
+    commands.push(command.data.toJSON());
+}
+
+const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
+
+(async () => {
+	try {
+		console.log('Started refreshing application (/) commands.');
+		await rest.put(
+			Routes.applicationCommands(process.env.CLIENT_ID),
+			{ body: commands },
+		);
+		console.log('Successfully reloaded application (/) commands.');
+	} catch (error) {
+		console.error(error);
+	}
+})();
 
 client.on('ready', () => {
     console.log(`Logeado como ${client.user.tag}`);
     client.user.setActivity(`!afrt ayuda`, { type: "COMPETING" });
 });
 
-//Message configuration - Listener
-client.on("message", async message => {
-    const prefix = process.env.PREFIX;
-    if (message.author.bot) return;
-    if (!message.guild) return;
-    if (!message.content.startsWith(prefix)) return;
-    if (!message.member) message.member = await message.guild.member(message);
+client.on('interactionCreate', async interaction => {
+	if (!interaction.isChatInputCommand()) return;
+	const command = client.commands.get(interaction.commandName);
+	if (!command) return;
 
-    const args = message.content.slice(prefix.length).trim().split(/ +/g);
-    const cmd = args.shift().toLowerCase();
-
-    if (cmd.lenght === 0) return;
-
-    let command = client.commands.get(cmd);
-    if (!command) command = client.commands.get(client.aliases.get(cmd));
-
-    if (command)
-        command.run(client, message, args);
+	try {
+		await command.execute(interaction);
+	} catch (error) {
+		console.error(error);
+		await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+	}
 });
 
 client.login(process.env.TOKEN);

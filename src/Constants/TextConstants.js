@@ -9,6 +9,9 @@ class TextConstants {
     static APAGAR_DONE = 'El servidor seleccionado se apagara en 15 segundos';
     static SERVER_INFO_NO_ARGS = 'Por favor ingresa algun servidor para buscar informacion. Por ejemplo: \`!afrt informacion 3\`.';
     static HELP_LIST_COMMANDS = 'Lista de comandos \nPrefijo \`!afrt\`\nEj: \`!afrt servers\`';
+    static SERVER_ALREADY_RUNNING = 'El servidor ya esta en funcionamiento';
+    static SERVER_STARTED = 'El servidor se ha iniciado correctamente';
+    static SERVER_NOT_STARTED = 'El servidor no se ha iniciado correctamente';
 }
 
 module.exports = { TextConstants };
