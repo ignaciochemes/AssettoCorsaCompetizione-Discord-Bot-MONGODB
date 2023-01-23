@@ -4,7 +4,7 @@ const { TextConstants } = require("../Constants/TextConstants");
 const { GeneralConstants } = require("../Constants/GeneralConstants");
 const { PathFolderConstants } = require("../Constants/PathFolderConstants");
 const { PathServices } = require("./PathServices");
-const { ConfigurationServer } = require("../Utils/Json/ConfigurationServer");
+const { ConfigurationServerUtils } = require("../Utils/Json/ConfigurationServer");
 const { JsonServices } = require("./JsonServices");
 const { PingServices } = require("./PingServices");
 
@@ -21,7 +21,7 @@ class ServerServices {
         const buscar = await JsonServices.readConfigJson(getFolder);
         const getStartBash = await PathServices.checkStartPath(number);
         const getStopBash = await PathServices.checkStopPath(number);
-        ConfigurationServer.editSessionDuration(minutes, getFolder);
+        ConfigurationServerUtils.editSessionDuration(minutes, getFolder);
         const findServersOn = await find('port', buscar.udpPort);
         if (findServersOn.length) {
             return interaction.reply(TextConstants.SERVER_ALREADY_RUNNING);

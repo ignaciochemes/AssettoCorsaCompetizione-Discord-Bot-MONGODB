@@ -2,7 +2,6 @@ const folderSchema = require("../Database/Schemas/FolderSchema");
 const resultSchema = require("../Database/Schemas/ResultsSchema");
 
 class JsonDao {
-    
     static async chequearCarpetaDao(data) {
         let result = await folderSchema.findOne(data);
         return result;

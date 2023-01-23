@@ -2,11 +2,11 @@ const fs = require('node:fs');
 const path = require('node:path');
 const cron = require('node-cron');
 const { Client, REST, Routes, GatewayIntentBits, Collection } = require('discord.js');
-const { LeerJsonDb } = require('./src/Utils/Json/LeerJsonDb');
+const { ReadJsonDbUtils } = require('./src/Utils/Json/ReadJsonDbUtil');
 const { DatabaseConnection } = require('./src/Database/DbConnection');
-const { LeerAllFolders } = require('./src/Utils/Json/LeerAllFolders');
-const { MejoresVueltas } = require('./src/Utils/Results/MejoresVueltas');
-const { GuardarAllFolders } = require('./src/Utils/Json/GuardarAllFolders');
+const { ReadAllFolderUtils } = require('./src/Utils/Json/ReadAllFoldersUtil');
+const { BestLapsUtils } = require('./src/Utils/Results/BestLapsUtil');
+const { SaveAllFolderUtils } = require('./src/Utils/Json/SaveAllFolderUtil');
 const { TotalLaps } = require('./src/Utils/Results/TotalLaps');
 const { getEnvironment } = require('./src/Configs/Environment');
 
@@ -14,11 +14,11 @@ getEnvironment()
 DatabaseConnection.getInstancia();
 
 async function main() {
-	let carpetas = await LeerAllFolders.leerJson();
-	await GuardarAllFolders.guardarAllFolders(carpetas);
-	await LeerJsonDb.leerJson(carpetas);
-	let vueltas = await MejoresVueltas.getMejoresVueltas(carpetas);
-	await MejoresVueltas.getDataMejorVuelta(vueltas);
+	let folders = await ReadAllFolderUtils.readJson();
+	await SaveAllFolderUtils.saveAllFolders(folders);
+	await ReadAllFolderUtils.readJson(folders);
+	let laps = await BestLapsUtils.getBestLaps(folders);
+	await BestLapsUtils.getBestLapsData(laps);
 	//await TotalLaps.setTotalLaps(vueltas);
 }
 

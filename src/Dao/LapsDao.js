@@ -2,7 +2,6 @@ const lapsSchema = require('../Database/Schemas/LapsSchema');
 const folderLapsSchema = require('../Database/Schemas/FolderLapsSchema');
 
 class LapsDao {
-
     static async getFolders() {
         const result = await folderLapsSchema.find();
         return result;

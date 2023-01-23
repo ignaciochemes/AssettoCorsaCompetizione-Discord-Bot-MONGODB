@@ -1,17 +1,17 @@
-const { MsToSegundos, MsToSeconds } = require("./MsToSegundos");
+const { MsToSeconds } = require("./MsToSegundos");
 const { CarsConstants } = require("../../Constants/CarsConstants");
-const { MejoresVueltasDao } = require("../../Dao/MejorVueltaDao");
+const { BestLapsDao } = require("../../Dao/BestLapDao");
 
-class BestLapsUtil {
+class BestLapsUtils {
     static async getBestLaps(folder) {
         let result = [];
         for (let i = 0; i < folder.length; i++) {
             const data = { nombre: folder[i] };
-            const res = await MejoresVueltasDao.getMejoresVueltasDao(data);
+            const res = await BestLapsDao.getBestLaps(data);
             if (!res.archivos) break;
             for (let x in res.archivos) {
                 const data = { id: res.archivos[x] };
-                const findBestTimes = await MejoresVueltasDao.findBestTimes(data);
+                const findBestTimes = await BestLapsDao.findBestTimes(data);
                 const track = findBestTimes.trackName;
                 const resultado = {
                     pista: track,
@@ -56,7 +56,7 @@ class BestLapsUtil {
                     coche: await CarsConstants.getCar(searchClass)
                 }
                 if (!searchDriver) {
-                    await MejoresVueltasDao.guardarUsuarios(data);
+                    await BestLapsDao.saveDrivers(data);
                 } else if (rest[x].timing.bestLap < searchDriver.bestLapNum) {
                     let dataUpdate = {
                         bestLap: calculateMsNumber,
@@ -70,11 +70,11 @@ class BestLapsUtil {
                         fecha: Date.now(),
                         coche: await CarsConstants.getCar(searchClass)
                     }
-                    await MejoresVueltasDao.updatearUsuarios(searchDriverData, dataUpdate);
+                    await BestLapsDao.updateDrivers(searchDriverData, dataUpdate);
                 }
             };
         }
     }
 }
 
-module.exports = { BestLapsUtil };
+module.exports = { BestLapsUtils };
