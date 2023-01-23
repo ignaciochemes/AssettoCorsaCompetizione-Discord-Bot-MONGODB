@@ -1,5 +1,5 @@
-class Pistas {
-    static pistas = [
+class TracksConstants {
+    static tracks = [
         "monza",
         "zolder",
         "brands_hatch",
@@ -25,4 +25,4 @@ class Pistas {
     ]
 }
 
-module.exports = { Pistas };
+module.exports = { TracksConstants };

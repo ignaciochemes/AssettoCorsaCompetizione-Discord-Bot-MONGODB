@@ -9,6 +9,7 @@
     "start": "AFRT_ENV=production node afrt.js",
     "start:pm2": "AFRT_ENV=production pm2 start afrt.js --name afrtbot --interpreter node",
     "start:dev:win": "set AFRT_ENV=development&&nodemon afrt.js",
+    "start:dev:win:node": "set AFRT_ENV=development&&node afrt.js",
     "start:dev": "AFRT_ENV=development nodemon afrt.js"
   },
   "keywords": [],

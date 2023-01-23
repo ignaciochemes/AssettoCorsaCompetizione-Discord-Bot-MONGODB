@@ -1,6 +1,5 @@
-class MsToSegundos {
-
-    static msToSegundos(milliseconds) {
+class MsToSeconds {
+    static msToSeconds(milliseconds) {
         let minutes = milliseconds / (1000 * 60);
         let absoluteMinutes = Math.floor(minutes);
         let min = absoluteMinutes > 9 ? absoluteMinutes : '0' + absoluteMinutes;
@@ -10,9 +9,8 @@ class MsToSegundos {
         let mili = Math.floor((seconds - absoluteSeconds) * 1000);
         mili = mili > 9 ? mili : '0' + mili;
         mili = mili > 99 ? mili : '0' + mili;
-
         return min + ':' + sec + '.' + mili;
     }
 }
 
-module.exports = { MsToSegundos };
+module.exports = { MsToSeconds };
