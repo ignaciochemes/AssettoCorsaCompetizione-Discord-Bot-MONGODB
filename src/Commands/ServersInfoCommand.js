@@ -25,8 +25,8 @@ module.exports = {
         }
 
         const response = new EmbedBuilder()
-            .setTitle(`Información del servidor ${number}`)
-            .setDescription(`${json.settings.serverName}`)
+            .setTitle(`Información del servidor ${serverNumber}`)
+            .setDescription(`${serverConfiguration.settings.serverName}`)
             .addFields(
                 { name: 'Grupo', value: `${serverConfiguration.settings.carGroup}`, inline: true },
                 { name: 'Pista', value: `${serverConfiguration.event.track}`, inline: true },
