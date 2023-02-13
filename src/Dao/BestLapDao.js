@@ -2,9 +2,8 @@ const folderSchema = require('../Database/Schemas/FolderSchema');
 const resultSchema = require('../Database/Schemas/ResultsSchema');
 const usuariosSchema = require('../Database/Schemas/UsuariosSchema');
 
-class MejoresVueltasDao {
-
-    static async getMejoresVueltasDao(data) {
+class BestLapsDao {
+    static async getBestLaps(data) {
         const result = await folderSchema.findOne(data);
         return result;
     }
@@ -19,15 +18,15 @@ class MejoresVueltasDao {
         return result;
     }
 
-    static async guardarUsuarios(data) {
+    static async saveDrivers(data) {
         const result = new usuariosSchema(data);
         await result.save();
     }
 
-    static async updatearUsuarios(filter, data) {
+    static async updateDrivers(filter, data) {
         const result = await usuariosSchema.findOneAndUpdate(filter, data);
         return result;
     }
 }
 
-module.exports = { MejoresVueltasDao };
+module.exports = { BestLapsDao };

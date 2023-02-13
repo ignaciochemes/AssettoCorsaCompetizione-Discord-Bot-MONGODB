@@ -1,9 +1,9 @@
 const path = require('path');
 
-class RutasFolder {
+class PathFolderConstants {
 
-    static rutasFolder(ruta) {
-        const RUTAS_FOLDER = {
+    static pathFolder(folder) {
+        const PATH_FOLDER = {
             '0': path.join(__dirname, '../../ServidoresAFRT/Server-Barcelona-Mixto'),
             '1': path.join(__dirname, '../../ServidoresAFRT/Server-Brands-Hatch-Mixto'),
             '2': path.join(__dirname, '../../ServidoresAFRT/Server-Hungaroring-Mixto'),
@@ -27,8 +27,8 @@ class RutasFolder {
             '20': path.join(__dirname, '../../ServidoresAFRT/Server-Indianapolis-Mixto'),
             '21': path.join(__dirname, '../../ServidoresAFRT/Server-WatkinsGlen-Mixto'),
         }
-        return RUTAS_FOLDER[ruta]
+        return PATH_FOLDER[folder]
     }
 }
 
-module.exports = { RutasFolder };
+module.exports = { PathFolderConstants };

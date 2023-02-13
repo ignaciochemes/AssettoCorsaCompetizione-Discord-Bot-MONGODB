@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js");
-const { PrenderServer } = require("../complementos/prenderServer");
+const { ServerServices } = require("../Services/ServerServices");
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -12,6 +12,6 @@ module.exports = {
             .setDescription('Número de minutos')
             .setRequired(true)),
     async execute(interaction) {
-        await PrenderServer.prenderServer(interaction);
+        return await ServerServices.startServer(interaction);
     }
 }

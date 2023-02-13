@@ -1,7 +1,6 @@
-class Coches {
-
-    static getCoche(id) {
-        const COCHES = {
+class CarsConstants {
+    static getCar(id) {
+        const CARS = {
             '12': "Aston Martin Vantage V12 GT3",
             '20': "Aston Martin Vantage V8 2019",
             '3': "Audi R8 GT3 2015",
@@ -41,11 +40,11 @@ class Coches {
             '18': "Lamborghini Huracan SuperTrofeo",
             '9': "Porsche 991 II GT3 Cup",
         };
-        return COCHES[id]
+        return CARS[id]
     };
 
-    static getClase(id) {
-        const CLASE = {
+    static getClass(id) {
+        const CLASS = {
             '12': "GT3",
             '20': "GT3",
             '3': "GT3",
@@ -85,8 +84,8 @@ class Coches {
             '18': "ST",
             '9': "CUP",
         };
-        return CLASE[id]
+        return CLASS[id]
     };
 }
 
-module.exports = { Coches };
+module.exports = { CarsConstants };
