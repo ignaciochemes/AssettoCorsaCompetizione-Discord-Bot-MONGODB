@@ -7,19 +7,19 @@ const { TracksConstants } = require('../Constants/TrackConstants');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('tiempos')
-        .setDescription('Muestra los tiempos de los jugadores de la pista seleccionada')
+        .setName('times')
+        .setDescription('Shows the times of the players on the selected court')
         .addStringOption(option =>
-            option.setName('categoria')
-                .setDescription('Gt3 o Gt4')
+            option.setName('category')
+                .setDescription('Gt3 or Gt4')
                 .setRequired(true)
                 .addChoices(
                     { name: 'GT3', value: 'gt3' },
                     { name: 'GT4', value: 'gt4' },
                 ))
         .addStringOption(option =>
-            option.setName('pista')
-                .setDescription('Pista a mostrar')
+            option.setName('track')
+                .setDescription('Track to filte')
                 .setRequired(true)
                 .addChoices(
                     ...TracksConstants.tracks.map(track => ({ name: track, value: track })),
@@ -41,10 +41,10 @@ module.exports = {
             embed.addFields(
                 {
                     name: `${time.nombre} ${time.apellido}`,
-                    value: `- Tiempo: \`${time.bestLap}\` || Gap: \`+ ${MsToSeconds.msToSeconds(time.bestLapNum - bestLapForTrack)}\`
+                    value: `- Time: \`${time.bestLap}\` || Gap: \`+ ${MsToSeconds.msToSeconds(time.bestLapNum - bestLapForTrack)}\`
                         - S1 \`${time.splitUno}\` S2 \`${time.splitDos}\` S3 \`${time.splitTres}\`
-                        - Coche: \`${time.coche}\`
-                        - Fecha: \`${time.fecha}\``
+                        - Car: \`${time.coche}\`
+                        - Date: \`${time.fecha}\``
                 },
             )
         })

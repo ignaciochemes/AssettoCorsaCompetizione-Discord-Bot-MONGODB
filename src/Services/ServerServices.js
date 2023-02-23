@@ -35,7 +35,7 @@ class ServerServices {
         }
         let mcs1r = Math.floor(this._minutes * 60000);
         let cincoM = Math.floor(5 * 60000);
-        setTimeout(() => { return interaction.reply('El servidor se apagara en \`5 minutos\`') }, Math.floor(mcs1r - cincoM));
+        setTimeout(() => { return interaction.reply('The server will shut down in \`5 minutes\`') }, Math.floor(mcs1r - cincoM));
         setTimeout(() => {
             const stopServer = spawn(getStopBash, ['-lh', '/usr']);
             stopServer.stdout.on('data', (data) => {

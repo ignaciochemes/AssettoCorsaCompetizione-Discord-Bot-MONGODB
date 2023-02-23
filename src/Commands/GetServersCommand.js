@@ -4,12 +4,12 @@ const { ServerServices } = require('../Services/ServerServices');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('servers')
-        .setDescription('Muestra todos los servidores disponibles'),
+        .setDescription('Show all available servers'),
     async execute(interaction) {
         const servers = await ServerServices.getServers();
         const response = new EmbedBuilder()
-            .setTitle('Servidores')
-            .setDescription('Lista de servidores disponibles')
+            .setTitle('Servers')
+            .setDescription('List of available servers')
             .setColor('#0099ff')
         servers.forEach(server => {
             response.addFields({ name: `${server.numero} - ${server.nombre}`, value: server.status, inline: true });

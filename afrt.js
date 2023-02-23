@@ -56,7 +56,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
 })();
 
 client.on('ready', () => {
-	console.log(`Logeado como ${client.user.tag}`);
+	console.log(`Logged as ${client.user.tag}`);
 	client.user.setActivity(`!afrt ayuda`, { type: "COMPETING" });
 });
 

@@ -4,10 +4,10 @@ const { JsonServices } = require('../Services/JsonServices');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('informacion')
-        .setDescription('Muestra información del servidor')
-        .addNumberOption(option => option.setName('numero')
-            .setDescription('Número del servidor')
+        .setName('information')
+        .setDescription('Show server information')
+        .addNumberOption(option => option.setName('number')
+            .setDescription('Server number')
             .setRequired(true)),
     async execute(interaction) {
         const serverNumber = interaction.options._hoistedOptions[0].value;
@@ -15,22 +15,22 @@ module.exports = {
         const serverConfiguration = await JsonServices.readJson(getFolder);
 
         if (serverConfiguration.settings.trackMedalsRequirement === 0) {
-            serverConfiguration.settings.trackMedalsRequirement = "Ninguna"
+            serverConfiguration.settings.trackMedalsRequirement = "None"
         }
         if (serverConfiguration.settings.safetyRatingRequirement === -1) {
-            serverConfiguration.settings.safetyRatingRequirement = "Sin restriccion"
+            serverConfiguration.settings.safetyRatingRequirement = "No restriction"
         }
         if (serverConfiguration.settings.carGroup === "FreeForAll") {
-            serverConfiguration.settings.carGroup = "Mixto"
+            serverConfiguration.settings.carGroup = "Mixed"
         }
 
         const response = new EmbedBuilder()
-            .setTitle(`Información del servidor ${serverNumber}`)
+            .setTitle(`Server information ${serverNumber}`)
             .setDescription(`${serverConfiguration.settings.serverName}`)
             .addFields(
-                { name: 'Grupo', value: `${serverConfiguration.settings.carGroup}`, inline: true },
-                { name: 'Pista', value: `${serverConfiguration.event.track}`, inline: true },
-                { name: 'Temperatura', value: `${serverConfiguration.event.ambientTemp} *C`, inline: true },
+                { name: 'Group', value: `${serverConfiguration.settings.carGroup}`, inline: true },
+                { name: 'Track', value: `${serverConfiguration.event.track}`, inline: true },
+                { name: 'Temperature', value: `${serverConfiguration.event.ambientTemp} *C`, inline: true },
                 { name: 'Password', value: `${serverConfiguration.settings.password}`, inline: true },
                 { name: 'Slots', value: `${serverConfiguration.settings.maxCarSlots}`, inline: true },
                 { name: 'Track Medals Requirement', value: `${serverConfiguration.settings.trackMedalsRequirement}`, inline: true },
