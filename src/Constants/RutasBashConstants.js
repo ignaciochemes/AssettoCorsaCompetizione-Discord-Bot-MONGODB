@@ -23,6 +23,7 @@ class RutasBash {
     static START_RUTA_SERVER_19 = path.join(__dirname, '../../ServidoresAFRT/Server-Cota-Mixto/startServer19.bat');
     static START_RUTA_SERVER_20 = path.join(__dirname, '../../ServidoresAFRT/Server-Indianapolis-Mixto/startServer20.bat');
     static START_RUTA_SERVER_21 = path.join(__dirname, '../../ServidoresAFRT/Server-WatkinsGlen-Mixto/startServer21.bat');
+    static START_RUTA_SERVER_22 = path.join(__dirname, '../../ServidoresAFRT/Server-Valencia-Mixto/startServer22.bat');
     static STOP_RUTA_SERVER_0 = path.join(__dirname + '../../ServidoresAFRT/Server-Barcelona-Mixto/stopServer0.bat');
     static STOP_RUTA_SERVER_1 = path.join(__dirname, '../../ServidoresAFRT/Server-Brands-Hatch-Mixto/stopServer1.bat');
     static STOP_RUTA_SERVER_2 = path.join(__dirname, '../../ServidoresAFRT/Server-Hungaroring-Mixto/stopServer2.bat');
@@ -45,7 +46,7 @@ class RutasBash {
     static STOP_RUTA_SERVER_19 = path.join(__dirname, '../../ServidoresAFRT/Server-Cota-Mixto/stopServer19.bat');
     static STOP_RUTA_SERVER_20 = path.join(__dirname, '../../ServidoresAFRT/Server-Indianapolis-Mixto/stopServer20.bat');
     static STOP_RUTA_SERVER_21 = path.join(__dirname, '../../ServidoresAFRT/Server-WatkinsGlen-Mixto/stopServer21.bat');
-
+    static STOP_RUTA_SERVER_22 = path.join(__dirname, '../../ServidoresAFRT/Server-Valencia-Mixto/stopServer22.bat');
 }
 
 module.exports = { RutasBash }

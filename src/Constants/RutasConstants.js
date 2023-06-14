@@ -26,6 +26,7 @@ class RutasFolder {
             '19': path.join(__dirname, '../../ServidoresAFRT/Server-Cota-Mixto'),
             '20': path.join(__dirname, '../../ServidoresAFRT/Server-Indianapolis-Mixto'),
             '21': path.join(__dirname, '../../ServidoresAFRT/Server-WatkinsGlen-Mixto'),
+            '22': path.join(__dirname, '../../ServidoresAFRT/Server-Valencia-Mixto'),
         }
         return RUTAS_FOLDER[ruta]
     }

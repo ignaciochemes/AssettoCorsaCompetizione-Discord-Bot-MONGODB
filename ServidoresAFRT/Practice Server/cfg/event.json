@@ -1,5 +1,5 @@
 {
-    "track": "laguna_seca",
+    "track": "valencia",
     "preRaceWaitingTimeSeconds": 300,
     "postQualySeconds": 15,
     "postRaceSeconds": 15,
@@ -11,7 +11,7 @@
 	"simracerWeatherConditions": 1,
     "sessions": [
         {
-            "hourOfDay": 15,
+            "hourOfDay": 22,
             "dayOfWeekend": 3,
             "timeMultiplier": 1,
             "sessionType": "Q",

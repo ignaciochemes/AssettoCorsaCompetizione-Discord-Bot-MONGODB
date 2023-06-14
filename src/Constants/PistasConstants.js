@@ -21,7 +21,8 @@ class Pistas {
         "laguna_seca",
         "cota",
         "indianapolis",
-        "watkins_glen"
+        "watkins_glen",
+        "valencia"
     ]
 }
 

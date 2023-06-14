@@ -1,17 +1,17 @@
 {
-    "track": "laguna_seca",
+    "track": "watkins_glen",
     "preRaceWaitingTimeSeconds": 300,
     "postQualySeconds": 15,
     "postRaceSeconds": 15,
-    "sessionOverTimeSeconds": 150,
-    "ambientTemp": 24,
-    "cloudLevel": 0.0,
+    "sessionOverTimeSeconds": 180,
+    "ambientTemp": 26,
+    "cloudLevel": 0.2,
     "rain": 0.0,
     "weatherRandomness": 1,
 	"simracerWeatherConditions": 1,
     "sessions": [
-        {
-            "hourOfDay": 15,
+		{
+            "hourOfDay": 7,
             "dayOfWeekend": 3,
             "timeMultiplier": 1,
             "sessionType": "Q",

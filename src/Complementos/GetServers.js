@@ -7,7 +7,7 @@ class GetServers {
     
     static async getServers() {
         let servers = [];
-        for (let i = 0; i < 22; i++) {
+        for (let i = 0; i < 23; i++) {
             const obtenerRuta = await RutasFolder.rutasFolder(i);
             const leerJson = await LeerJson.readConfigJson(obtenerRuta);
             const leerJsonNombre = await LeerJson.readJson(obtenerRuta);

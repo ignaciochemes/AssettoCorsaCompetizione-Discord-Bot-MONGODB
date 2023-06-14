@@ -26,6 +26,7 @@ class ChequeoRuta {
             '19': RutasBash.START_RUTA_SERVER_19,
             '20': RutasBash.START_RUTA_SERVER_20,
             '21': RutasBash.START_RUTA_SERVER_21,
+            '22': RutasBash.START_RUTA_SERVER_22,
         }
         return RUTAS_BASH_START[ruta]
     }
@@ -54,6 +55,7 @@ class ChequeoRuta {
             '19': RutasBash.STOP_RUTA_SERVER_19,
             '20': RutasBash.STOP_RUTA_SERVER_20,
             '21': RutasBash.STOP_RUTA_SERVER_21,
+            '22': RutasBash.STOP_RUTA_SERVER_22,
         }
         return RUTAS_BASH_STOP[ruta]
     }
